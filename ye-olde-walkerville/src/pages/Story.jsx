@@ -34,7 +34,6 @@ const Story = () => {
     <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
     <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
     <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-
     </div>
 </div>
     </>
