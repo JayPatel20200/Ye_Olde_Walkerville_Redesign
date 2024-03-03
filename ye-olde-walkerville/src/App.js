@@ -7,6 +7,7 @@ import Reviews from './components/Reviews';
 import Explore from './components/Explore';
 import Maps from './components/Maps';
 import Footer from './components/Footer';
+import Rooms from './components/Rooms';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Feature />
       <Aminities />
+      <Rooms />
       <Reviews />
       <Explore />
       <Maps />
