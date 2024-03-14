@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 export const Contact = () => {
   return (
     <>
+    
     <Maps />
     <Footer />
     </>

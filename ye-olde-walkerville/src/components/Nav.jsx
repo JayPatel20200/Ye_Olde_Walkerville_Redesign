@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
+import Logo from "../assests/img/Logo_YeOlde.png";
 const navigation = [
     { name: 'Book a Room', href: '/room' },
     { name: 'Wedding & Events', href: '/wedding' },
@@ -14,14 +15,14 @@ export default function Nav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return (
         <>
-             <header className="absolute inset-x-0 top-0 z-50">
+             <header className="absolute inset-x-0 top-0 z-50 bg-white">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                className="h-16 w-auto"
+                src={Logo}
                 alt=""
               />
             </Link>
@@ -44,7 +45,7 @@ export default function Nav() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#" className="text-sm hidden font-semibold leading-6 text-gray-900">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -57,7 +58,7 @@ export default function Nav() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src={Logo}
                   alt=""
                 />
               </a>
@@ -86,7 +87,7 @@ export default function Nav() {
                 <div className="py-6">
                   <a
                     href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 rounded-lg px-3 py-2.5 text-base font-semibold hidden leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
                   </a>

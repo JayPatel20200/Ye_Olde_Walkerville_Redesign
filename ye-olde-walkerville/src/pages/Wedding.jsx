@@ -1,5 +1,5 @@
 import React from 'react'
-
+import  WeddingHero  from "../assests/img/wedding_00.jpg";
 export const Wedding = () => {
   return (
    <>
@@ -8,59 +8,47 @@ export const Wedding = () => {
   Wedding & Events
 </div>
 
-<div class="grid grid-cols-2 gap-2 bg-slate-200">
-  <div class="image bg-slate-400 flex justify-center content-center p-2">
-    <img src="https://www.searchenginejournal.com/wp-content/uploads/2022/06/image-search-1600-x-840-px-62c6dc4ff1eee-sej.png" alt="" />
+<div class="grid grid-cols-2 gap-2">
+  <div class="image flex justify-center content-center p-2">
+    <img src={WeddingHero} alt="" />
   </div>
   <div class="p-4">
-    <p class="mt-2">Lorem ipsum dolor sit amet, eu pro possim regione pertinacia, vel id feugait volumus disputationi. Labores aliquando ei vis, assum vidisse et per, essent perfecto praesent no vix. Dicat laudem ne eum, usu solum commodo splendide at. No laoreet oporteat suscipiantur usu, cum id quod latine docendi, in eam error labores deserunt. Alienum detracto cum cu.
+  <p class="mt-2">“Escape to the past” at Ye Olde Walkerville Bed & Breakfast
 </p>
-<p class="mt-2">Voluptua consectetuer usu ei. Eu lorem soluta cotidieque est. Ubique nemore sententiae at quo, ex delectus gloriatur intellegat mea. Eos quem nominavi ne, his ei unum nullam honestatis. Sed tale sint fierent at, eu sea illud fabulas.
+<p class="mt-2">For a unique and intimate wedding or special event, choose Ye Olde Walkerville B & B. This 100 year-old Victorian Manor can accommodate up to 20 guests in a cozy and elegant setting. You can enjoy the exclusive use of the rear gazebo or the exquisite dining room, followed by a gourmet buffet dinner and a warm guest reception.
 </p>
-<p class="mt-2">Eu quo cetero oblique, no cum prima dicant mediocritatem. Recteque pertinacia necessitatibus mel in, nam cu commodo aperiri, facer ubique civibus eu per. </p>
+<p class="mt-2"></p>
   </div>
 </div>
 <div class="flex justify-center flex-col content-center p-12 text-center mb-5">
   <h2 class="text-2xl/[29px] mb-4">Wedding & Events Enquiry Form</h2>
-  <p>Lorem ipsum dolor sit amet, eu pro possim regione pertinacia, vel id feugait volumus disputationi. Labores aliquando ei vis, assum vidisse et per, essent perfecto praesent no </p>
+  <p>Please fill out your enquiry here for more information. </p>
 </div>
-<div class="form mt-5">
-  <form action="">
-    <div class="grid grid-cols-2 gap-2 bg-slate-200 p-7">
-  <div class="sm:col-span-4">
-          <label for="username" class="block text-sm font-medium leading-6 text-gray-900">First Name</label>
+<div class="form mt-5 p-20">
+  <form action="" className='p-24'>
+    <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+    <div class="col-span-3">
+          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
           <div class="mt-2">
-            <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-              <span class="flex select-none items-center pl-3 text-gray-500 sm:text-sm">Required</span>
-              <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder=""/>
-            </div>
+            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
-  <div class="sm:col-span-4">
-          <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Last Name</label>
+        <div class="col-span-3">
+          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
           <div class="mt-2">
-            <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-              <span class="flex select-none items-center pl-3 text-gray-500 sm:text-sm">Required</span>
-              <input type="text" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="" />
-            </div>
+            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
-  <div class="sm:col-span-4">
-          <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Mobile Phone</label>
+        <div class="col-span-3">
+          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Mobile Phone</label>
           <div class="mt-2">
-            <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-              <span class="flex select-none items-center pl-3 text-gray-500 sm:text-sm">Required</span>
-              <input type="tel" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="" />
-            </div>
+            <input type="tel" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
-  <div class="sm:col-span-4">
-          <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Email Address</label>
+        <div class="col-span-3">
+          <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
           <div class="mt-2">
-            <div class="flex rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md">
-              <span class="flex select-none items-center pl-3 text-gray-500 sm:text-sm">Required</span>
-              <input type="email" name="username" id="username" autocomplete="username" class="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="" />
-            </div>
+            <input type="email" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
         <div class="col-span-full">
@@ -70,10 +58,46 @@ export const Wedding = () => {
           </div>
           <p class="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p>
         </div>
-    <button type="submit" class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button>
+        <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
     </div>
   </form>
 </div>
+{/* This is the footer section */}
+<div className="footer my-2">
+        <div class="flex gap-4 justify-center items-center">
+  <div class="flex flex-col justify-center items-center bg-zinc-50 w-60"><img src="https://cdn5.vectorstock.com/i/1000x1000/33/44/location-icon-vector-24263344.jpg" class="ustify-center content-center"alt="" height="100px" width="100px"/>
+            <p class='text-center my-2'>1104 Monmouth Rd,
+Windsor, ON N8Y 3L8</p></div>
+  <div class="w-60">
+    <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1708783200&semt=ais" alt="" />
+  </div>
+  <div class="w-60 flex flex-col gap-6 justify-center">
+    <div class="first-line flex gap-2">
+      <img src="https://png.pngtree.com/png-clipart/20191120/original/pngtree-phone-icon-png-image_5065646.jpg" alt="" height="30px" width="30px" />
+      <p>(519) 254-1507</p>
+    </div>
+    <div class="first-line flex gap-2">
+      <img src="https://i.etsystatic.com/26743355/r/il/69fb44/3074704892/il_570xN.3074704892_qh7k.jpg" alt="" height="30px" width="30px" />
+      <p>yeolde@walkervillebb.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="flex my-3 items-center flex-col bg-slate-100 p-10">
+  <div class="menu flex gap-2">
+    <p>BOOK A ROOM</p>
+    <p>WEDDING & EVENTS</p>
+    <p>OUR STORY</p>
+    <p>EXPLORING WINDSOR</p>
+    <p>CONTACT</p>
+  </div>
+  <div class="copy text-center my-5">
+    <p>© 1997-2024 </p>
+    <p>Ye Olde Walkerville Bed & Breakfast.</p>
+    <p>All rights reserved.</p>
+  </div>
+</div>
+    </div>
 </div>
    </>
   )
