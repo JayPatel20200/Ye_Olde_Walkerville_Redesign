@@ -3,7 +3,7 @@ import React from 'react'
 const ExploringWindsor = () => {
   return (
     <div>
-        <div class="bg-gray-400 p-44 flex justify-center content-center text-3xl">
+        <div className="bg-gray-400 p-44 flex justify-center content-center text-3xl">
   Exploring Windsor
 </div>
 <div class="p-24">
@@ -75,4 +75,4 @@ const ExploringWindsor = () => {
   )
 }
 
-export default ExploringWindsor
+export default ExploringWindsor;

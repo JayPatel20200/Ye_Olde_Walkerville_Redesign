@@ -1,8 +1,10 @@
 import React from 'react'
 
-const RoomType = () => {
+export const RoomType = () => {
   return (
-    <>
+    <div>
+      <span className='bg-gray-400 p-44 flex justify-center content-center text-3xl'>Rooms </span>
+      <div className='p-10'>
     <div class="grid grid-cols-2 gap-2 mt-3">
     <div class="image bg-slate-400">
       <img src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/09/instagram-image-size.jpg" alt="" width="200px" height="200px" />
@@ -213,13 +215,9 @@ const RoomType = () => {
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-2 mt-3">
-    <div class="image bg-slate-400">
-      <img src="https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/09/instagram-image-size.jpg" alt="" width="200px" height="200px" />
-    </div>
-  </div>
-</>  
+</div>
+</div>  
   )
 }
 
-export default RoomType
+// export default RoomType

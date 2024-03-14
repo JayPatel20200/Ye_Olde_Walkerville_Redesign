@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Wedding = () => {
+export const Wedding = () => {
   return (
    <>
    <div>
-<div class="flex flex-row justify-center content-center p-10 bg-slate-300 h-1/2">
+<div class="bg-gray-400 p-44 flex justify-center content-center text-3xl">
   Wedding & Events
 </div>
 
@@ -79,4 +79,4 @@ const Wedding = () => {
   )
 }
 
-export default Wedding
+// export default Wedding

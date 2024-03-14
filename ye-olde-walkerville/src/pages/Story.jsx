@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Story = () => {
+export const Story = () => {
   return (
     <>
-    <div class="flex flex-row justify-center content-center p-10 bg-slate-300 h-1/2">
-  Wedding & Events
+    <div class="bg-gray-400 p-44 flex justify-center content-center text-3xl">
+  Our story
 </div>
 
 <div class="grid grid-cols-2 gap-2 bg-slate-200">
@@ -40,4 +40,4 @@ const Story = () => {
   )
 }
 
-export default Story
+// export default Story
