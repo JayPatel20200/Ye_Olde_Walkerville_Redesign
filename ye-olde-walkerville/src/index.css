@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#home_hero {
+    background-image: url("./assests/img/home_hero.webp");
+    /* Additional styling properties */
+    background-size: cover; /* Adjust based on your needs */
+    background-position: center; /* Adjust based on your needs */
+    background-attachment: fixed;
+    /* Other styling properties as needed */
+}
+#hero_heading{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 10px;
+    border-radius: 10px;
+}

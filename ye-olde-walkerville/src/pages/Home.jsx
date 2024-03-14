@@ -9,19 +9,30 @@ import React from 'react'
 // import Maps from '../components/Maps';
 // import Footer from '../components/Footer';
 // import Rooms from '../components/Rooms';
+import logoBooking from '../assests/img/BookingAward.png';
+import logoTWE from '../assests/img/tourismWindsorEssex.png';
+import home_welcome from '../assests/img/home_welcome.jpg';
+import R1 from '../assests/Rooms/R1.jpeg';
+import R2 from '../assests/Rooms/R2.jpeg';
+import R3 from '../assests/Rooms/R3.jpeg';
+import home_exploringWindsor from '../assests/img/home_exploringWindsor.jpg';
+import special_price from "../assests/img/special_price.jpg";
+import quick_and_secure from "../assests/img/quick_and_secure.jpg";
+import free_cancel from "../assests/img/free_cancel.jpg";
+import tourismWindsorEssex from "../assests/img/tourismWindsorEssex.png";
 const posts = [
   {
     id: 1,
-    title: 'Boost your conversion rate',
+    title: '"Wonderful hospitality – great food and friendly host and staff. A good place to stay."',
     href: '#',
-    description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
+    // description:
+    //   'Wonderful hospitality – great food and friendly host and staff. A good place to stay.',
+    date: '2023',
     datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+    category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'Dan & Joyce',
+      role: 'Quebec',
       href: '#',
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -29,16 +40,16 @@ const posts = [
   },
   {
     id: 2,
-    title: 'Boost your conversion rate',
+    title: '"Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊"',
     href: '#',
-    description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
+    // description:
+    //   'Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊',
+    date: '2023',
     datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+    category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'Talin A.',
+      role: ' - ',
       href: '#',
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -46,16 +57,16 @@ const posts = [
   },
   {
     id: 3,
-    title: 'Boost your conversion rate',
+    title: '"Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic."',
     href: '#',
-    description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
+    // description:
+    //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
+    date: '2023',
     datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+    category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
+      name: 'Mike & Cathy',
+      role: '-',
       href: '#',
       imageUrl:
         'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
@@ -75,7 +86,7 @@ export const Home = () => {
       <>
       {/* This is the Hero section */}
       <div className="bg-white">
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div id = "home_hero" className="relative isolate px-6 pt-14 lg:px-8">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -89,14 +100,11 @@ export const Home = () => {
           />
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="text-center">
+          <div id="hero_heading" className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Data to enrich your online business
+            Welcome to Ye Olde Walkerville Bed & Breakfast
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
-            </p>
+            
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
@@ -131,39 +139,25 @@ export const Home = () => {
             <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
               Trusted by the world’s most innovative teams
             </h2>
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+                src={logoBooking}
                 alt="Transistor"
                 width={158}
                 height={48}
               />
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
+                src={logoTWE}
                 alt="Reform"
                 width={158}
                 height={48}
               />
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+                src={tourismWindsorEssex}
                 alt="Tuple"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                alt="SavvyCal"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-                alt="Statamic"
                 width={158}
                 height={48}
               />
@@ -180,15 +174,25 @@ export const Home = () => {
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to 
 Ye Olde Walkerville
 Bed & Breakfast</p>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                iste dolor cupiditate blanditiis ratione.
+<p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
+              We aim to make your stay with us a delightful experience. 
+              Whether you are here for business, leisure, or a romantic getaway,
+              we offer you a cozy, friendly, and relaxing environment that respects
+              your personal needs and preferences.</p>
+              
+              
+
+              <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">At <strong>Ye Olde Walkerville Bed & Breakfast</strong>, we uphold the highest 
+              standards of cleanliness, comfort, and quality in our facilities
+              and equipment. We serve delicious and nutritious food and drinks,
+              and we create a charming and elegant ambiance in our Bed & Breakfast facility. 
+              Don’t wait, book your room today!  
               </p>
           
             </div>
           </div>
           <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src={home_welcome}
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
@@ -218,44 +222,32 @@ Bed & Breakfast</p>
     <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
-            Unlock Exclusive Benefits:Book directly through our website
+            Unlock Exclusive Benefits:<br />Book directly through our website
             </h2>
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
+                src={special_price}
                 alt="Transistor"
-                width={158}
-                height={48}
+                width={316}
+                height={96}
               />
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg"
+                src={free_cancel}
                 alt="Reform"
-                width={158}
-                height={48}
+                width={316}
+                height={96}
               />
               <img
                 className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
+                src={quick_and_secure}
                 alt="Tuple"
-                width={158}
-                height={48}
+                width={316}
+                height={96}
               />
-              <img
-                className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg"
-                alt="SavvyCal"
-                width={158}
-                height={48}
-              />
-              <img
-                className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg"
-                alt="Statamic"
-                width={158}
-                height={48}
-              />
+             
+              
             </div>
           </div>
         </div>
@@ -269,7 +261,7 @@ Bed & Breakfast</p>
           <p class="text-sm font-medium leading-4 text-white">Room #1</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
-          <img src="/beach-house.jpg" alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
+          <img src={R1} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
@@ -280,7 +272,7 @@ Bed & Breakfast</p>
                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                   <use xlinkHref="#image0_711_61" transform="scale(0.00195312)" />
                 </pattern>
-                <image
+                <img
                   id="image0_711_61"
                   width="512"
                   height="512"
@@ -341,7 +333,7 @@ Bed & Breakfast</p>
           <p class="text-sm font-medium leading-4 text-white">Room #2</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
-          <img src="/beach-house.jpg" alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
+          <img src={R2} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
@@ -413,7 +405,7 @@ Bed & Breakfast</p>
           <p class="text-sm font-medium leading-4 text-white">Room #3</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
-          <img src="/beach-house.jpg" alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
+          <img src={R3} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
@@ -534,15 +526,26 @@ Bed & Breakfast</p>
               <div className="lg:pr-8 lg:pt-4">
                 <div className="lg:max-w-lg">
                   <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Exploring Windsor</p>
-                  <p className="mt-6 text-lg leading-8 text-gray-600">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque,
-                    iste dolor cupiditate blanditiis ratione.
+                  <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
+                  If you love history and architecture, you will be amazed by the Walker mansion, Willistead Manor, 
+                  which is just a block away from our B&B. This stunning park and venue hosts many special events throughout
+                  the year. You can also admire the other grand homes in the neighborhood as you stroll around the “Olde Walkerville”.
+                  </p>
+
+                  <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
+                  For a more urban experience, you can visit Ottawa Street, where you will find a variety of upscale shops,
+                  cafes, bars, and restaurants to suit your taste and budget..
+                  </p>
+
+                  <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
+                  Whatever you are looking for, we are here to help you discover the best of Windsor. Click here to view
+                  a list of helpful links to attractions in and around the Windsor, Ontario area.
                   </p>
               
                 </div>
               </div>
               <img
-                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+                src={home_exploringWindsor}
                 alt="Product screenshot"
                 className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
                 width={2432}
