@@ -1,5 +1,8 @@
 import React from 'react'
 import RoomOne from "../assests/Rooms/Room#1/R1-1.jpeg";
+import specialPrice from "../assests/img/Special-price.png";
+import freeCanceled from "../assests/img/Free-Canceled.png";
+import quickSecure from "../assests/img/Quick&Secure.png";
 const RoomDetailsOne = () => {
   return (
     <div><div class="p-5 mt-36">
@@ -24,7 +27,7 @@ Elevate your getaway by reserving Samantha's Suite today – where luxury meets 
             <h2>Room with breakfast</h2>
             <p>from $196</p>
           </div>
-          <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button>
+        
         </div>
       </div>
     </div>
@@ -58,9 +61,37 @@ Elevate your getaway by reserving Samantha's Suite today – where luxury meets 
     </div>
   
     <div id="forThe"></div>
-    <div class="border-b border-gray-900/10 pb-12 lg:px-40">
-      <h2 class="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
-      <p class="mt-1 text-sm leading-6 text-gray-600">Use a permanent address where you can receive mail.</p>
+    <div class="border-b border-gray-900/10 pb-12 my-12 lg:px-40">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
+            Unlock Exclusive Benefits:<br />Book directly through our website
+            </h2>
+            <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <img
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={specialPrice}
+                alt="Transistor"
+                width={474}
+                height={144}
+              />
+              <img
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={freeCanceled}
+                alt="Reform"
+                width={474}
+                height={144}
+              />
+              <img
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={quickSecure}
+                alt="Tuple"
+                width={474}
+                height={144}
+              /> 
+            </div>
+          </div>
+      <h2 class="text-2xl font-semibold leading-7 text-gray-900 text-center mt-10">Room Reservation Form</h2>
+      <p class="mt-4 text-base leading-6 text-gray-600">Please complete the room reservation form. Once your request is processed, we will contact you via phone or email to confirm your reservation. A credit card will be required at that time to secure your booking.</p>
   
       <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-3">
@@ -103,7 +134,7 @@ Elevate your getaway by reserving Samantha's Suite today – where luxury meets 
         </div>
   
         <div class="col-span-full">
-          <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Country</label>
+          <label for="BreakfastOption" class="block text-sm font-medium leading-6 text-gray-900">Breakfast Option</label>
           <div class="mt-2">
             <select id="price" name="price" autocomplete="room-price" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
               <option>Room Only - from $150</option>
@@ -144,7 +175,7 @@ Elevate your getaway by reserving Samantha's Suite today – where luxury meets 
       </div>
       <div class="mt-6 flex items-center justify-end gap-x-6">
       <button type="button" class="text-sm font-semibold leading-6 text-gray-900">Cancel</button>
-      <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+      <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
     </div>
     </div>
   </div>

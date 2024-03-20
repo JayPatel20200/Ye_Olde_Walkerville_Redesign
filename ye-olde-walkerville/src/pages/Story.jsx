@@ -3,12 +3,12 @@ import StoryHero from "../assests/img/Story_00.jpg";
 export const Story = () => {
   return (
     <>
-    <div class="bg-gray-400 p-44 flex justify-center content-center text-3xl">
+    <div class="storyHero bg-gray-400 p-44 flex justify-center content-center text-3xl text-white">
   Our story
 </div>
 
-<div class="grid grid-cols-2 gap-2 bg-slate-200">
-  <div class="image bg-slate-400 flex justify-center content-center p-2">
+<div class="grid grid-cols-2 gap-2 ">
+  <div class="image flex justify-center content-center p-2">
     <img src={StoryHero} alt="" />
   </div>
   <div class="p-4">

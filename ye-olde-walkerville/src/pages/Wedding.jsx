@@ -1,16 +1,16 @@
 import React from 'react'
-import  WeddingHero  from "../assests/img/wedding_00.jpg";
+import  WeddingTwo  from "../assests/img/wedding_00.jpg";
 export const Wedding = () => {
   return (
    <>
    <div>
-<div class="bg-gray-400 p-44 flex justify-center content-center text-3xl">
+<div class="weddingHero bg-gray-400 p-44 flex justify-center content-center text-3xl">
   Wedding & Events
 </div>
 
 <div class="grid grid-cols-2 gap-2">
-  <div class="image flex justify-center content-center p-2">
-    <img src={WeddingHero} alt="" />
+  <div class="image flex justify-center content-center p-2 max-h-96 max-w-96">
+    <img src={WeddingTwo} alt="" />
   </div>
   <div class="p-4">
   <p class="mt-2">“Escape to the past” at Ye Olde Walkerville Bed & Breakfast
@@ -58,7 +58,7 @@ export const Wedding = () => {
           </div>
           <p class="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p>
         </div>
-        <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
+        <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
     </div>
   </form>
 </div>

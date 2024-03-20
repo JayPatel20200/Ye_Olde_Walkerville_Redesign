@@ -7,39 +7,40 @@ import R2 from '../assests/Rooms/R2.jpeg';
 import R3 from '../assests/Rooms/R3.jpeg';
 import R4 from '../assests/Rooms/R4.jpg';
 import R5 from '../assests/Rooms/R5.jpg';
+import specialPrice from "../assests/img/Special-price.png";
+import freeCanceled from "../assests/img/Free-Canceled.png";
+import quickSecure from "../assests/img/Quick&Secure.png";
 import { Link } from 'react-router-dom';
 export const RoomType = () => {
   return (
     <div>
-      <span className='bg-gray-400 p-44 flex justify-center content-center text-3xl'>
+      <span className="roomHero bg-gray-400 p-44 flex justify-center content-center text-3xl">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
             Unlock Exclusive Benefits:<br />Book directly through our website
             </h2>
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-              <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src={special_price}
+            <img
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={specialPrice}
                 alt="Transistor"
-                width={316}
-                height={96}
+                width={474}
+                height={144}
               />
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src={free_cancel}
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={freeCanceled}
                 alt="Reform"
-                width={316}
-                height={96}
+                width={474}
+                height={144}
               />
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src={quick_and_secure}
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={quickSecure}
                 alt="Tuple"
-                width={316}
-                height={96}
-              />
-             
-              
+                width={474}
+                height={144}
+              /> 
             </div>
           </div>
       </span>

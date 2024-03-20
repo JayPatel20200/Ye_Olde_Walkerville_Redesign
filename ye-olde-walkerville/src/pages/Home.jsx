@@ -16,10 +16,15 @@ import R1 from '../assests/Rooms/R1.jpeg';
 import R2 from '../assests/Rooms/R2.jpeg';
 import R3 from '../assests/Rooms/R3.jpeg';
 import home_exploringWindsor from '../assests/img/home_exploringWindsor.jpg';
-import special_price from "../assests/img/special_price.jpg";
 import quick_and_secure from "../assests/img/quick_and_secure.jpg";
 import free_cancel from "../assests/img/free_cancel.jpg";
 import tourismWindsorEssex from "../assests/img/tourismWindsorEssex.png";
+import Logo from "../assests/img/Logo_YeOlde.png";
+import addressIcon from "../assests/img/address-location-icon.png";
+import specialPrice from "../assests/img/Special-price.png";
+import freeCanceled from "../assests/img/Free-Canceled.png";
+import quickSecure from "../assests/img/Quick&Secure.png"; 
+import { Link } from 'react-router-dom';
 const posts = [
   {
     id: 1,
@@ -106,15 +111,13 @@ export const Home = () => {
             </h1>
             
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
+              <Link
+                to="/room"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                Book A Room
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                Learn more <span aria-hidden="true">→</span>
-              </a>
+              </Link>
+             
             </div>
           </div>
         </div>
@@ -141,21 +144,21 @@ export const Home = () => {
             </h2>
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
                 src={logoBooking}
                 alt="Transistor"
                 width={158}
                 height={48}
               />
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
                 src={logoTWE}
                 alt="Reform"
                 width={158}
                 height={48}
               />
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
                 src={tourismWindsorEssex}
                 alt="Tuple"
                 width={158}
@@ -205,7 +208,7 @@ Bed & Breakfast</p>
     {/* This is the start of the Feature Section */}
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 ">
+        {/* <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 ">
           {stats.map((stat) => (
             <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
               <dt className="text-base leading-7 text-gray-600">{stat.name}</dt>
@@ -214,7 +217,27 @@ Bed & Breakfast</p>
               </dd>
             </div>
           ))}
-        </dl>
+        </dl> */}
+      <div className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+        <div className="featureOne mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
+          <p className="text-base leading-7 text-white">
+          Indulge in a nutrient-rich morning with our wholesome breakfast options.
+          </p>
+          <p className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Morning delight</p>
+        </div>
+        <div className="featureTwo mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
+          <p className="text-base leading-7 text-white">
+          Enjoy our warm hospitality and friendly service throughout your stay.
+          </p>
+          <p className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Feel Like Home</p>
+        </div>
+        <div className="featureThree mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
+          <p className="text-base leading-7 text-white">
+          Make your wedding or  special occasion extraordinary.
+          </p>
+          <p className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Signature Celebrations</p>
+        </div>
+      </div>
       </div>
     </div>
     {/* This is the end of the Feature Section */}
@@ -226,28 +249,26 @@ Bed & Breakfast</p>
             </h2>
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src={special_price}
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={specialPrice}
                 alt="Transistor"
-                width={316}
-                height={96}
+                width={474}
+                height={144}
               />
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src={free_cancel}
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={freeCanceled}
                 alt="Reform"
-                width={316}
-                height={96}
+                width={474}
+                height={144}
               />
               <img
-                className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src={quick_and_secure}
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={quickSecure}
                 alt="Tuple"
-                width={316}
-                height={96}
-              />
-             
-              
+                width={474}
+                height={144}
+              /> 
             </div>
           </div>
         </div>
@@ -570,14 +591,14 @@ Bed & Breakfast</p>
 </div>
 
     {/* This is the end of Maps Section */}
-    {/* This is the start of Footer Section */}
+    {/* This is the start of Footer Section */}``
     <div className="footer my-2">
         <div class="flex gap-4 justify-center items-center">
-  <div class="flex flex-col justify-center items-center bg-zinc-50 w-60"><img src="https://cdn5.vectorstock.com/i/1000x1000/33/44/location-icon-vector-24263344.jpg" class="ustify-center content-center"alt="" height="100px" width="100px"/>
+  <div class="flex flex-col justify-center items-center w-60"><img src={addressIcon} class="ustify-center content-center"alt="" height="100px" width="100px"/>
             <p class='text-center my-2'>1104 Monmouth Rd,
 Windsor, ON N8Y 3L8</p></div>
   <div class="w-60">
-    <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1708783200&semt=ais" alt="" />
+    <img src={Logo} alt="" />
   </div>
   <div class="w-60 flex flex-col gap-6 justify-center">
     <div class="first-line flex gap-2">

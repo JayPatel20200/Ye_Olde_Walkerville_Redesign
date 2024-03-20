@@ -15,3 +15,33 @@
     padding: 20px 10px;
     border-radius: 10px;
 }
+.featureOne{
+    background-image: url("./assests/img/home_01breakfast.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.featureTwo{
+    background-image: url("./assests/img/home_02guestbook.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.featureThree{
+    background-image: url("./assests/img/home_03wedding.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.roomHero{
+    background-image: url("./assests/Rooms/Room_hero.webp");
+    background-size: cover;
+    background-position: center;  
+}
+.weddingHero{
+    background-image: url("./assests/img/wedding_hero.jpeg");
+    background-size: cover;
+    background-position: center; 
+}
+.storyHero{
+    background-image: url("./assests/img/story_hero.jpg");
+    background-size: cover;
+    background-position: center; 
+}

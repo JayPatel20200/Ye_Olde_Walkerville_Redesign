@@ -5,11 +5,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
 import Logo from "../assests/img/Logo_YeOlde.png";
 const navigation = [
-    { name: 'Book a Room', href: '/room' },
-    { name: 'Wedding & Events', href: '/wedding' },
-    { name: 'Our Story', href: '/story' },
-    { name: 'Explore Windsor', href: '/explore' },
-    { name: 'Contact', href: '/contact' }
+    { name: 'BOOK A ROOM', href: '/room' },
+    { name: 'WEDDING & EVENTS', href: '/wedding' },
+    { name: 'OUR STORY', href: '/story' },
+    { name: 'EXPLORE WINDSOR', href: '/explore' },
+    { name: 'CONTACT', href: '/contact' }
   ]
 export default function Nav() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
