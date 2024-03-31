@@ -1,5 +1,5 @@
 import React from 'react'
-import RoomOne from "../assests/Rooms/Room#1/R1-1.jpeg";
+import RoomOne from "../assests/Rooms/Room1/R1-1.jpeg";
 import specialPrice from "../assests/img/Special-price.png";
 import freeCanceled from "../assests/img/Free-Canceled.png";
 import quickSecure from "../assests/img/Quick&Secure.png";

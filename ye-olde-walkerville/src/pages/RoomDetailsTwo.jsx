@@ -1,5 +1,5 @@
 import React from 'react'
-import RoomTwo from "../assests/Rooms/Room#2/R2-1.jpeg";
+import RoomTwo from "../assests/Rooms/Room2/R2-1.jpeg";
 const RoomDetailsTwo = () => {
   return (
     <div><div class="p-5 mt-36">
