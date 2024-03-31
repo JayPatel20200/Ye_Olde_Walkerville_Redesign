@@ -14,9 +14,9 @@ import { Link } from 'react-router-dom';
 export const RoomType = () => {
   return (
     <div>
-      <span className="roomHero bg-gray-400 p-44 flex justify-center content-center text-3xl">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
+      <span className="roomHero bg-gray-400 p-36 sm:p-44 flex justify-center content-center text-3xl">
+      <div className="mx-auto max-w-7xl px-8 lg:px-6">
+            <h2 className="text-center text-lg sm:text-4xl font-semibold leading-8 text-gray-900">
             Unlock Exclusive Benefits:<br />Book directly through our website
             </h2>
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -45,7 +45,7 @@ export const RoomType = () => {
           </div>
       </span>
       <div className='p-10'>
-    <div class="grid grid-cols-2 gap-2 mt-3">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
     <div class="image bg-slate-400 rounded-lg">
       <img src={R1} alt="" className="rounded-lg"/>
     </div>
@@ -79,7 +79,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -87,7 +87,7 @@ export const RoomType = () => {
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-2 mt-3">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
     <div class="image">
       <img src={R2} alt="" className="rounded-lg"/>
     </div>
@@ -121,7 +121,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -129,7 +129,7 @@ export const RoomType = () => {
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-2 mt-3">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
     <div class="image rounded-lg">
       <img src={R3} alt=""/>
     </div>
@@ -163,7 +163,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -171,7 +171,7 @@ export const RoomType = () => {
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-2 mt-3">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
     <div class="image rounded-lg">
       <img src={R4} alt="" />
     </div>
@@ -205,7 +205,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -213,7 +213,7 @@ export const RoomType = () => {
       </div>
     </div>
   </div>
-  <div class="grid grid-cols-2 gap-2 mt-3">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
     <div class="image rounded-lg">
       <img src={R5} alt="" />
     </div>
@@ -247,7 +247,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -258,7 +258,7 @@ export const RoomType = () => {
 </div>
 {/* This is the footer section */}
 <div className="footer my-2">
-        <div class="flex gap-4 justify-center items-center">
+        <div class="flex gap-4 justify-center items-center flex-wrap">
   <div class="flex flex-col justify-center items-center bg-zinc-50 w-60"><img src="https://cdn5.vectorstock.com/i/1000x1000/33/44/location-icon-vector-24263344.jpg" class="ustify-center content-center"alt="" height="100px" width="100px"/>
             <p class='text-center my-2'>1104 Monmouth Rd,
 Windsor, ON N8Y 3L8</p></div>

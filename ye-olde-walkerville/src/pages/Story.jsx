@@ -7,7 +7,7 @@ export const Story = () => {
   Our story
 </div>
 
-<div class="grid grid-cols-2 gap-2 ">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 ">
   <div class="image flex justify-center content-center p-2">
     <img src={StoryHero} alt="" />
   </div>
@@ -21,7 +21,7 @@ export const Story = () => {
 </div>
 <div class="gallery">
   <h2 class="text-2xl text-center mt-10">Gallery</h2>
-  <div class="grid grid-cols-4 gap-3 p-10">
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 p-10">
     <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
     <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
     <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
@@ -37,7 +37,7 @@ export const Story = () => {
     </div>
     {/* This is the footer section */}
     <div className="footer my-2">
-        <div class="flex gap-4 justify-center items-center">
+        <div class="flex gap-4 justify-center items-center flex-wrap">
   <div class="flex flex-col justify-center items-center bg-zinc-50 w-60"><img src="https://cdn5.vectorstock.com/i/1000x1000/33/44/location-icon-vector-24263344.jpg" class="ustify-center content-center"alt="" height="100px" width="100px"/>
             <p class='text-center my-2'>1104 Monmouth Rd,
 Windsor, ON N8Y 3L8</p></div>
