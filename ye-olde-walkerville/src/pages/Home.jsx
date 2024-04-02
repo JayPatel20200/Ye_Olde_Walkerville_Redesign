@@ -274,7 +274,7 @@ Bed & Breakfast</p>
         </div>
     {/* This is the end of Aminities Section */}
     {/* This is the start of Room Section */}
-    <div id="continer" class="flex flex-row content-center justify-center px-20">
+    <div id="continer" class="flex sm:flex-row flex-col content-center justify-center px-10">
     <div class="px-4 py-6">
       <div class="mx-auto grid max-w-4xl grid-cols-1">
         <div class="relative col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 p-3">
