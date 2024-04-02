@@ -10,6 +10,8 @@ import R5 from '../assests/Rooms/R5.jpg';
 import specialPrice from "../assests/img/Special-price.png";
 import freeCanceled from "../assests/img/Free-Canceled.png";
 import quickSecure from "../assests/img/Quick&Secure.png";
+import Logo from "../assests/img/Logo_YeOlde.png";
+import addressIcon from "../assests/img/address-location-icon.png";
 import { Link } from 'react-router-dom';
 export const RoomType = () => {
   return (
@@ -259,11 +261,11 @@ export const RoomType = () => {
 {/* This is the footer section */}
 <div className="footer my-2">
         <div class="flex gap-4 justify-center items-center flex-wrap">
-  <div class="flex flex-col justify-center items-center bg-zinc-50 w-60"><img src="https://cdn5.vectorstock.com/i/1000x1000/33/44/location-icon-vector-24263344.jpg" class="ustify-center content-center"alt="" height="100px" width="100px"/>
+  <div class="flex flex-col justify-center items-center w-60"><img src={addressIcon} class="ustify-center content-center"alt="" height="100px" width="100px"/>
             <p class='text-center my-2'>1104 Monmouth Rd,
 Windsor, ON N8Y 3L8</p></div>
   <div class="w-60">
-    <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1708783200&semt=ais" alt="" />
+    <img src={Logo} alt="" />
   </div>
   <div class="w-60 flex flex-col gap-6 justify-center">
     <div class="first-line flex gap-2">

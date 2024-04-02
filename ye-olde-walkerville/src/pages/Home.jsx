@@ -174,9 +174,9 @@ export const Home = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to 
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Welcome to 
 Ye Olde Walkerville
-Bed & Breakfast</p>
+Bed & Breakfast</h1>
 <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
               We aim to make your stay with us a delightful experience. 
               Whether you are here for business, leisure, or a romantic getaway,
@@ -223,19 +223,19 @@ Bed & Breakfast</p>
           <p className="text-base leading-7 text-white">
           Indulge in a nutrient-rich morning with our wholesome breakfast options.
           </p>
-          <p className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Morning delight</p>
+          <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Morning delight</h2>
         </div>
         <div className="featureTwo mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
           Enjoy our warm hospitality and friendly service throughout your stay.
           </p>
-          <p className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Feel Like Home</p>
+          <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Feel Like Home</h2>
         </div>
         <div className="featureThree mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
           Make your wedding or  special occasion extraordinary.
           </p>
-          <p className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Signature Celebrations</p>
+          <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Signature Celebrations</h2>
         </div>
       </div>
       </div>
@@ -546,7 +546,7 @@ Bed & Breakfast</p>
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div className="lg:pr-8 lg:pt-4">
                 <div className="lg:max-w-lg">
-                  <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Exploring Windsor</p>
+                  <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Exploring Windsor</h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
                   If you love history and architecture, you will be amazed by the Walker mansion, Willistead Manor, 
                   which is just a block away from our B&B. This stunning park and venue hosts many special events throughout
@@ -593,7 +593,7 @@ Bed & Breakfast</p>
     {/* This is the end of Maps Section */}
     {/* This is the start of Footer Section */}``
     <div className="footer my-2">
-        <div class="flex gap-4 justify-center items-center">
+        <div class="flex gap-4 justify-center items-center flex-wrap">
   <div class="flex flex-col justify-center items-center w-60"><img src={addressIcon} class="ustify-center content-center"alt="" height="100px" width="100px"/>
             <p class='text-center my-2'>1104 Monmouth Rd,
 Windsor, ON N8Y 3L8</p></div>

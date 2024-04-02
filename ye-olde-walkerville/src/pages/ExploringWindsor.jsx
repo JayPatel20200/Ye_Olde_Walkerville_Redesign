@@ -1,81 +1,83 @@
 import React from 'react';
-
+import Logo from "../assests/img/Logo_YeOlde.png";
+import addressIcon from "../assests/img/address-location-icon.png";
 const ExploringWindsor = () => {
   return (
     <div>
-      <div id="Exploring" className="bg-gray-400 p-36 lg:p-40 flex justify-center content-center text-2xl">
+      <h1 id="Exploring" className="bg-gray-400 p-36 lg:p-40 flex justify-center content-center text-2xl">
         Exploring Windsor
-      </div>
+      </h1>
       <div className="p-5 lg:p-10">
         <h1 className="m-5 text-2xl">Local Area</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Transit Windsor</h2>
+            <p className="mb-0 mt-11">Transit Windsor</p>
             <p>Find your next bus in real-time.</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">VIA Rail</h2>
+            <p className="mb-0 mt-11">VIA Rail</p>
             <p>Windsor Train Station</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Tunnel Bus</h2>
+            <p className="mb-0 mt-11">Tunnel Bus</p>
             <p>Downtown Windsor to/from Downtown Detroit</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Transit Windsor</h2>
+            <p className="mb-0 mt-11">Transit Windsor</p>
             <p>Find your next bus in real-time.</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">VIA Rail</h2>
+            <p className="mb-0 mt-11">VIA Rail</p>
             <p>Windsor Train Station</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">VIA Rail</h2>
+            <p className="mb-0 mt-11">VIA Rail</p>
             <p>Windsor Train Station</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">VIA Rail</h2>
+            <p className="mb-0 mt-11">VIA Rail</p>
             <p>Windsor Train Station</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">VIA Rail</h2>
+            <p className="mb-0 mt-11">VIA Rail</p>
             <p>Windsor Train Station</p>
           </div>
         </div>
         <h1 className="m-5 mt-10 text-2xl"> Surrounding Area</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Transit Windsor</h2>
+            <p className="mb-0 mt-11">Transit Windsor</p>
             <p>Find your next bus in real-time.</p>
           </div>
         </div>
         <h1 className="m-5 mt-10 text-2xl">Transportation</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Transit Windsor</h2>
+            <p className="mb-0 mt-11">Transit Windsor</p>
             <p>Find your next bus in real-time.</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Transit Windsor</h2>
+            <p className="mb-0 mt-11">Transit Windsor</p>
             <p>Find your next bus in real-time.</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Transit Windsor</h2>
+            <p className="mb-0 mt-11">Transit Windsor</p>
             <p>Find your next bus in real-time.</p>
           </div>
           <div className="rounded-2xl border-2 p-2 text-xl">
-            <h2 className="mb-0 mt-11">Transit Windsor</h2>
+            <p className="mb-0 mt-11">Transit Windsor</p>
             <p>Find your next bus in real-time.</p>
           </div>
         </div>
       </div>
+      {/* this is the footer section */}
       <div className="footer my-2">
-        <div class="flex gap-4 justify-center items-center">
-  <div class="flex flex-col justify-center items-center bg-zinc-50 w-60"><img src="https://cdn5.vectorstock.com/i/1000x1000/33/44/location-icon-vector-24263344.jpg" class="ustify-center content-center"alt="" height="100px" width="100px"/>
+        <div class="flex gap-4 justify-center items-center flex-wrap">
+  <div class="flex flex-col justify-center items-center w-60"><img src={addressIcon} class="ustify-center content-center"alt="" height="100px" width="100px"/>
             <p class='text-center my-2'>1104 Monmouth Rd,
 Windsor, ON N8Y 3L8</p></div>
   <div class="w-60">
-    <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1708783200&semt=ais" alt="" />
+    <img src={Logo} alt="" />
   </div>
   <div class="w-60 flex flex-col gap-6 justify-center">
     <div class="first-line flex gap-2">
