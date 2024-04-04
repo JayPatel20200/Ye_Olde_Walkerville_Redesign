@@ -23,11 +23,12 @@ const RoomDetailsFive = () => {
             <h2>Room only</h2>
             <p>from $134</p>
           </div>
+          <div className='line-between'></div>
           <div class="price flex justify-between">
             <h2>Room with breakfast</h2>
             <p>from $144</p>
           </div>
-          <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button>
+          
         </div>
       </div>
     </div>

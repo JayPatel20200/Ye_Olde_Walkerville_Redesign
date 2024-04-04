@@ -26,6 +26,7 @@ Elevate your getaway by reserving Samantha's Suite today - where luxury meets li
             <h2>Room only</h2>
             <p>from $186</p>
           </div>
+          <div className='line-between'></div>
           <div class="price flex justify-between">
             <h2>Room with breakfast</h2>
             <p>from $196</p>
