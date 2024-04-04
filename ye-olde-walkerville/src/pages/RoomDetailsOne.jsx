@@ -13,7 +13,7 @@ const RoomDetailsOne = () => {
         <img src={RoomOne}/>
       </div>
       <div class="content p-3">
-        <h2 class="">Samantha's Suite</h2>
+        <h2 class="singleRoomFontSize">Samantha's Suite</h2>
         <p>Room #1</p>
         <p class="mt-7">Whether you're a business traveler looking for a comfortable and productive space or a couple seeking a romantic weekend escape, Samantha's Suite caters to all. The combination of sophistication, comfort, and thoughtful amenities ensures an exceptional stay.
         <br/>

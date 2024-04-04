@@ -10,7 +10,7 @@ const RoomDetailsThree = () => {
         <img src={RoomThree}/>
       </div>
       <div class="content p-3">
-        <h2 class="">Tyler's Chamber</h2>
+        <h2 class="singleRoomFontSize">Tyler's Chamber</h2>
         <p>Room #3</p>
         <p class="mt-7">Escape to Tyler's Chamber, where affordability meets elegance. This is not merely a room; it's an invitation to an elevated experience where luxury is a promise, and comfort is non-negotiable. 
         <br/>

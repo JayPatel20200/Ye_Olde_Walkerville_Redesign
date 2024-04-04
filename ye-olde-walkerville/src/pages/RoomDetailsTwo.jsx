@@ -10,7 +10,7 @@ const RoomDetailsTwo = () => {
         <img src={RoomTwo}/>
       </div>
       <div class="content p-3">
-        <h2 class="">Corrina's Chamber</h2>
+        <h2 class="singleRoomFontSize">Corrina's Chamber</h2>
         <p>Room #2</p>
         <p class="mt-7">Embark on a journey of unmatched comfort and sophistication by reserving Corrina's Chamber. This is not just accommodation; it's an invitation to a world where every detail is crafted for your pleasure. Unwind, rejuvenate, and make your stay truly memorable. 
 <br/>

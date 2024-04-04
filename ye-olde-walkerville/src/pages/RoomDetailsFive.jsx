@@ -10,7 +10,7 @@ const RoomDetailsFive = () => {
         <img src={RoomFive}/>
       </div>
       <div class="content p-3">
-        <h2 class="">Deanna's Room</h2>
+        <h2 class="singleRoomFontSize">Deanna's Room</h2>
         <p>Room #5</p>
         <p class="mt-7">Reserve Deanna's Room today and step into an environment where affordability meets elegance. This isn't just a room; it's an invitation to a refined experience where every detail is curated for your pleasure. 
         <br/>

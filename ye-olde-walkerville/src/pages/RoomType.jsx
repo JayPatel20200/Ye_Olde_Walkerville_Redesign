@@ -52,7 +52,7 @@ export const RoomType = () => {
       <img src={R1} alt="" className="rounded-lg"/>
     </div>
     <div class="content flex flex-col content-center justify-center p-3 rounded-lg">
-      <h2 class="text-2xl">Samantha's Suite</h2>
+      <h2 class="roomTypeFontSize">Samantha's Suite</h2>
       <p>Room #1</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -95,7 +95,7 @@ export const RoomType = () => {
       <img src={R2} alt="" className="rounded-lg"/>
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Corrina's Chamber</h2>
+      <h2 class="roomTypeFontSize">Corrina's Chamber</h2>
       <p>Room #2</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -138,7 +138,7 @@ export const RoomType = () => {
       <img src={R3} alt="" className="rounded-lg"/>
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Tyler's Chamber</h2>
+      <h2 class="roomTypeFontSize">Tyler's Chamber</h2>
       <p>Room #3</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -181,7 +181,7 @@ export const RoomType = () => {
       <img src={R4} alt="" className="rounded-lg"/>
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Bethany's Room</h2>
+      <h2 class="roomTypeFontSize">Bethany's Room</h2>
       <p>Room #4</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -224,7 +224,7 @@ export const RoomType = () => {
       <img src={R5} alt="" className="rounded-lg"/>
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Deanna's Room</h2>
+      <h2 class="roomTypeFontSize">Deanna's Room</h2>
       <p>Room #5</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>

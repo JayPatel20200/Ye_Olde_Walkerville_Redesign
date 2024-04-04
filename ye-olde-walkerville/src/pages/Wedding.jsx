@@ -84,4 +84,5 @@ Windsor, ON N8Y 3L8</p></div>
  </div>
   )
 }
+
 export default Wedding

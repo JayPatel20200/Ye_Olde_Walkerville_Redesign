@@ -69,3 +69,10 @@ p{
     background-color: #333;
     border-radius: 2px;
 }
+
+.roomTypeFontSize{
+    font-size: 38px;
+}
+.singleRoomFontSize{
+    font-size: 44px;
+}
