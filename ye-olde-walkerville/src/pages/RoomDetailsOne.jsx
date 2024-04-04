@@ -16,16 +16,17 @@ const RoomDetailsOne = () => {
         <h2 class="">Samantha's Suite</h2>
         <p>Room #1</p>
         <p class="mt-7">Whether you're a business traveler looking for a comfortable and productive space or a couple seeking a romantic weekend escape, Samantha's Suite caters to all. The combination of sophistication, comfort, and thoughtful amenities ensures an exceptional stay.
+        <br/>
 Lavish, large LOFT with vaulted ceiling, cable TV, VCR, couch / sitting area, king size custom 7ft by 6ft bed, large working desk, Private washroom and Jacuzzi tub with shower. Samantha's Suite also offers a bar fridge and a CD player system with "mood disks".
 
-Elevate your getaway by reserving Samantha's Suite today – where luxury meets lifestyle. Your escape to indulgence begins here.
+Elevate your getaway by reserving Samantha's Suite today - where luxury meets lifestyle. Your escape to indulgence begins here.
 </p>
         <div class="mt-10">
           <div class="price flex justify-between">
             <h2>Room only</h2>
             <p>from $186</p>
           </div>
-          <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+          <div class="price flex justify-between">
             <h2>Room with breakfast</h2>
             <p>from $196</p>
           </div>

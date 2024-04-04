@@ -13,8 +13,8 @@ const RoomDetailsFive = () => {
         <h2 class="">Deanna's Room</h2>
         <p>Room #5</p>
         <p class="mt-7">Reserve Deanna's Room today and step into an environment where affordability meets elegance. This isn't just a room; it's an invitation to a refined experience where every detail is curated for your pleasure. 
-Large well appointed room with cable TV, queen size bed, private bath with shower. This is great B&B atmosphere at a very low cost. A great room for long term occupancy with special low weekly and monthly rates.
-Discover the allure of Deanna's Retreat and make it your haven of comfort and sophistication.
+        <br/>
+        Looking to make Deanna's Room your long-term abode? Embrace the opportunity with special low weekly and monthly rates, making it a perfect choice for extended stays without compromising on comfort.
 
 
 </p>
@@ -23,7 +23,7 @@ Discover the allure of Deanna's Retreat and make it your haven of comfort and so
             <h2>Room only</h2>
             <p>from $134</p>
           </div>
-          <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+          <div class="price flex justify-between">
             <h2>Room with breakfast</h2>
             <p>from $144</p>
           </div>

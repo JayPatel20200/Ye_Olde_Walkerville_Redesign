@@ -13,17 +13,15 @@ const RoomDetailsFour = () => {
         <h2 class="">Bethany's Room</h2>
         <p>Room #4</p>
         <p class="mt-7">Reserve Bethany's Room today and step into an environment where affordability meets elegance. This is not just accommodation; it's a promise of comfort and sophistication at a price that fits your budget. 
-Large well appointed room with cable TV, queen size bed, private bath with shower. This is great B&B atmosphere at a very low cost. A great room for long term occupancy with special low weekly and monthly rates.
-Embrace the charm of Bethany's Room and make it your home away from home.
-
-
+        <br/>
+        Looking for a long-term sanctuary? Bethany's Room extends an invitation for extended stays with special low weekly and monthly rates. Revel in the blend of comfort and cost-effectiveness that sets this room apart.
 </p>
         <div class="mt-10">
           <div class="price flex justify-between">
             <h2>Room only</h2>
             <p>from $136</p>
           </div>
-          <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+          <div class="price flex justify-between">
             <h2>Room with breakfast</h2>
             <p>from $146</p>
           </div>

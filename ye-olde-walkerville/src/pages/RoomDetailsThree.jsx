@@ -13,8 +13,10 @@ const RoomDetailsThree = () => {
         <h2 class="">Tyler's Chamber</h2>
         <p>Room #3</p>
         <p class="mt-7">Escape to Tyler's Chamber, where affordability meets elegance. This is not merely a room; it's an invitation to an elevated experience where luxury is a promise, and comfort is non-negotiable. 
-Large, well appointed room with cable TV, queen size bed, PRIVATE 4 piece bath with regular Jacuzzi tub. This room provides individual luxury and privacy with a relaxing atmosphere at an affordable price.
-Book now and step into a world where relaxation and sophistication converge seamlessly.
+        <br/>
+        Tyler's Chamber offers a retreat where every detail speaks of luxury, yet the overall experience is crafted to be accessible to those with an eye for value.
+
+
 
 
 </p>
@@ -23,7 +25,7 @@ Book now and step into a world where relaxation and sophistication converge seam
             <h2>Room only</h2>
             <p>from $148</p>
           </div>
-          <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+          <div class="price flex justify-between ">
             <h2>Room with breakfast</h2>
             <p>from $158</p>
           </div>

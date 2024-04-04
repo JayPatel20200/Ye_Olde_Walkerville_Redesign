@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 export const RoomType = () => {
   return (
     <div>
-      <span className="roomHero bg-gray-400 p-36 sm:p-44 flex justify-center content-center text-3xl">
+      <span className="roomHero bg-gray-400 p-36 flex justify-center content-center text-3xl">
       <div className="mx-auto max-w-7xl px-8 lg:px-6">
             <h2 className="text-center text-lg sm:text-4xl font-semibold leading-8 text-gray-900">
             Unlock Exclusive Benefits:<br />Book directly through our website
@@ -51,7 +51,7 @@ export const RoomType = () => {
     <div class="image bg-slate-400 rounded-lg">
       <img src={R1} alt="" className="rounded-lg"/>
     </div>
-    <div class="content flex flex-col content-center justify-cente p-3 rounded-lg">
+    <div class="content flex flex-col content-center justify-center p-3 rounded-lg">
       <h2 class="text-2xl">Samantha's Suite</h2>
       <p>Room #1</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
@@ -81,7 +81,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between after:absolute after:inline-block after:h-px after: after:bg-slate-600 after:content-['']">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -94,7 +94,7 @@ export const RoomType = () => {
       <img src={R2} alt="" className="rounded-lg"/>
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Corrina’s Chamber</h2>
+      <h2 class="text-2xl">Corrina's Chamber</h2>
       <p>Room #2</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -123,7 +123,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -136,7 +136,7 @@ export const RoomType = () => {
       <img src={R3} alt=""/>
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Tyler’s Chamber</h2>
+      <h2 class="text-2xl">Tyler's Chamber</h2>
       <p>Room #3</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -165,7 +165,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -178,7 +178,7 @@ export const RoomType = () => {
       <img src={R4} alt="" />
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Bethany’s Room</h2>
+      <h2 class="text-2xl">Bethany's Room</h2>
       <p>Room #4</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -207,7 +207,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
@@ -220,7 +220,7 @@ export const RoomType = () => {
       <img src={R5} alt="" />
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
-      <h2 class="text-2xl">Deanna’s Room</h2>
+      <h2 class="text-2xl">Deanna's Room</h2>
       <p>Room #5</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
@@ -249,7 +249,7 @@ export const RoomType = () => {
           <h2>Room only</h2>
           <p>from $150</p>
         </div>
-        <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-10/12 after:bg-slate-600 after:content-['']">
+        <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>

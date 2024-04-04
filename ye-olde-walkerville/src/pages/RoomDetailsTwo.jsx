@@ -13,17 +13,15 @@ const RoomDetailsTwo = () => {
         <h2 class="">Corrina's Chamber</h2>
         <p>Room #2</p>
         <p class="mt-7">Embark on a journey of unmatched comfort and sophistication by reserving Corrina's Chamber. This is not just accommodation; it's an invitation to a world where every detail is crafted for your pleasure. Unwind, rejuvenate, and make your stay truly memorable. 
-
-Large, well appointed room with cable TV, queen size bed PRIVATE 4 piece bath with large Jacuzzi tub and shower. This room provides individual luxury and privacy with relaxing amenities all at a reasonable price.
-Book now and elevate your experience at a price that speaks to both luxury and affordability.
-
+<br/>
+        Corrina's Chamber offers a combination of lavish features and relaxing amenities at a reasonable price, providing a seamless blend of value and luxury.
 </p>
         <div class="mt-10">
           <div class="price flex justify-between">
             <h2>Room only</h2>
             <p>from $148</p>
           </div>
-          <div class="price flex justify-between after:absolute after:inline-block after:h-px after:w-full after:bg-slate-600 after:content-['']">
+          <div class="price flex justify-between">
             <h2>Room with breakfast</h2>
             <p>from $158</p>
           </div>
