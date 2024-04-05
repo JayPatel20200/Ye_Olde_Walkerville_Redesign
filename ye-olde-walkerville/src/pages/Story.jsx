@@ -5,15 +5,16 @@ import addressIcon from "../assests/img/address-location-icon.png";
 export const Story = () => {
   return (
     <>
-    <h2 class="storyHero bg-gray-400 p-44 flex justify-center content-center text-3xl text-white">
-  Our story
-</h2>
-
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 ">
-  <div class="image flex justify-center content-center p-2">
-    <img src={StoryHero} alt="" />
+    <div className='storyHero p-44 flex justify-center content-center text-3xl'>
+    <h2 id='hero_heading'>
+      Our story
+    </h2>
+</div>
+<div className="flex justify-center content-center flex-wrap sm:flex-nowrap p-10">
+  <div className="w-full h-auto">
+    <img src={StoryHero} alt="" className='rounded-lg'/>
   </div>
-  <div class="p-4">
+  <div class="p-4 px-10">
   <p class="mt-2">Our property was part of the Hiram Walker Distillery Estates, a whiskey producer that founded Walkerville in 1858. Robert Leishman, a machinist, bought the land in 1903 and built this Manor for his nine children. His family lived in the Manor until 1935, when Windsor annexed Walkerville. 
 </p>
 <p class="mt-2">The Manor was restored and renovated, keeping its charm and character, while adding modern amenities for our guests. We named it Ye Olde Walkerville Bed & Breakfast, to honor the area’s history and heritage, and to offer a cozy and friendly atmosphere.

@@ -4,9 +4,11 @@ import addressIcon from "../assests/img/address-location-icon.png";
 const ExploringWindsor = () => {
   return (
     <div>
-      <h1 id="Exploring" className="bg-gray-400 p-36 lg:p-40 flex justify-center content-center text-2xl">
+      <div id="Exploring" className='bg-gray-400 p-36 lg:p-40 flex justify-center content-center text-2xl'>
+      <h1 id="hero_heading">
         Exploring Windsor
       </h1>
+      </div>
       <div className="p-5 lg:p-10">
         <h1 className="m-5 text-2xl">Local Area</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-10">

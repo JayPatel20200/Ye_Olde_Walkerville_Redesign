@@ -6,25 +6,31 @@ export const Wedding = () => {
   return (
    <div>
 <div class="weddingHero bg-gray-400 p-44 flex justify-center content-center text-3xl">
-  <h2>Wedding & Events</h2>
+  <h2 id='hero_heading'>Wedding & Events</h2>
 </div>
 
-<div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-5">
-          <div className="image flex justify-center items-center p-2 max-h-96 max-w-96">
-            <img src={WeddingTwo} alt="Wedding" />
-          </div>
-          <div className="p-4">
-            <p className="mt-2">“Escape to the past” at Ye Olde Walkerville Bed & Breakfast</p>
-            <p className="mt-2">For a unique and intimate wedding or special event, choose Ye Olde Walkerville B & B. This 100-year-old Victorian Manor can accommodate up to 20 guests in a cozy and elegant setting. You can enjoy the exclusive use of the rear gazebo or the exquisite dining room, followed by a gourmet buffet dinner and a warm guest reception.</p>
+<div className="flex justify-center content-center flex-wrap sm:flex-nowrap">
+         <div className="p-10">
+          <img src={WeddingTwo} alt="" className="rounded-lg"/>
+         </div>
+
+          <div className="p-10 m-auto" >
+            <p className="mt-2 text-2xl">“Escape to the past” at Ye Olde Walkerville Bed & Breakfast</p>
+            <p className="mt-2">
+Experience the charm of a bygone era with Ye Olde Walkerville B & B, where timeless elegance meets modern romance. Say "I do" in style with our exclusive wedding package, designed for couples seeking a unique and intimate celebration.</p>
+            <p className="mt-2">Step into the enchanting ambiance of our 100-year-old Victorian Manor, exclusively reserved for you and your 50 cherished guests. Choose between the picturesque rear gazebo or our exquisite dining room for your official wedding ceremony, setting the stage for unforgettable moments.Indulge in culinary delights with an elegant gourmet buffet dinner, crafted to perfection, followed by a cozy and intimate reception among your nearest and dearest.</p>
+            <p className="mt-2">As the celebration winds down, retreat to the opulent Samantha's Suite for your honeymoon night, with additional guest rooms available for family and friends to share in the joyous occasion.</p>
+            <p className="mt-2">Awaken to a new chapter of your love story with an intimate, romantic made-to-order breakfast for up to 10 people, setting the tone for a life filled with love, laughter, and cherished memories.</p>
+            <p className="mt-2">At Ye Olde Walkerville B & B, we transform weddings into timeless affairs, where every detail is carefully curated to ensure your special day is nothing short of magical.</p>
           </div>
         </div>
-<div class="flex justify-center flex-col content-center p-12 text-center mb-5">
-  <h2 class="text-2xl/[29px] mb-4">Wedding & Events Enquiry Form</h2>
+<div class="flex justify-center flex-col content-center px-12 text-center">
+  <h2 class="text-2xl/[29px] mb-2">Wedding & Events Enquiry Form</h2>
   <p>Please fill out your enquiry here for more information. </p>
 </div>
-<div className="form mt-5 p-5 lg:p-20">
-          <form action="" className="p-5 lg:p-24">
-            <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+<div className="form p-5 lg:p-20">
+          <form action="" className="p-5 lg:px-24">
+            <div className="mt-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               <div className="col-span-full">
                 <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">First name</label>
                 <input type="text" name="first-name" id="first-name" autoComplete="given-name" className="block w-full rounded-md border py-2 text-gray-900 shadow-sm focus:ring-2 focus:ring-indigo-600 sm:text-sm" />
