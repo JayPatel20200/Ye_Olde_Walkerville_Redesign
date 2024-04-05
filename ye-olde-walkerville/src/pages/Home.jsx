@@ -221,19 +221,19 @@ Bed & Breakfast</h1>
       <div className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
         <div className="featureOne mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
-          {/* Indulge in a nutrient-rich morning with our wholesome breakfast options. */}
+          Indulge in a nutrient-rich morning with our wholesome breakfast options.
           </p>
           <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Morning delight</h2>
         </div>
         <div className="featureTwo mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
-          {/* Enjoy our warm hospitality and friendly service throughout your stay. */}
+          Enjoy our warm hospitality and friendly service throughout your stay.
           </p>
           <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Feel Like Home</h2>
         </div>
         <div className="featureThree mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
-          {/* Make your wedding or  special occasion extraordinary. */}
+          Make your wedding or  special occasion extraordinary.
           </p>
           <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Signature Celebrations</h2>
         </div>
