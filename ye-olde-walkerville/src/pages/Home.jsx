@@ -168,8 +168,8 @@ export const Home = () => {
           </div>
         </div>
     {/* This is the end of the Awards Section */}
-    {/* This is the start of the About Section */}
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    {/* This is the start of the About Section --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
+    <div className="overflow-hidden bg-white py-10 sm:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -205,8 +205,8 @@ Bed & Breakfast</h1>
       </div>
     </div>
     {/* This is the end of the About Section */}
-    {/* This is the start of the Feature Section */}
-    <div className="bg-white py-24 sm:py-32">
+    {/* This is the start of the Feature Section --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
+    <div className="bg-white py-10 sm:py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 ">
           {stats.map((stat) => (
@@ -241,8 +241,8 @@ Bed & Breakfast</h1>
       </div>
     </div>
     {/* This is the end of the Feature Section */}
-    {/* This is the start of the Aminities Section */}
-    <div className="bg-white py-24 sm:py-32">
+    {/* This is the start of the Aminities Section --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
+    <div className="bg-white py-10 sm:py-10">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
             Unlock Exclusive Benefits:<br />Book directly through our website
@@ -493,8 +493,8 @@ Bed & Breakfast</h1>
     </div>
   </div>
     {/* This is the end of Room Section */}
-    {/* This is the start of Reviews Section */}
-    <div className="bg-white py-24 sm:py-32">
+    {/* This is the start of Reviews Section --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
+    <div className="bg-white py-10 sm:py-10">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-full lg:mx-0 w-full">
         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Reviews</h2> 
@@ -540,8 +540,8 @@ Bed & Breakfast</h1>
     </div>
   </div>
     {/* This is the end of Reviews Section */}
-    {/* This is the start of Explore Sectino */}
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    {/* This is the start of Explore Sectino --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
+    <div className="overflow-hidden bg-white py-10 sm:py-10">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div className="lg:pr-8 lg:pt-4">
