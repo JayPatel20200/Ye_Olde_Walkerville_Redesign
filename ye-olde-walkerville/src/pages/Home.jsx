@@ -136,8 +136,8 @@ export const Home = () => {
       </div>
     </div>
     {/* This is the end of the Hero section */}
-    {/* This is the start of the Awards Section */}
-    <div className="bg-white py-24 sm:py-32">
+    {/* This is the start of the Awards Section  --------------------- test change py from 24 to 18*/}
+    <div className="bg-white py-18 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
               
