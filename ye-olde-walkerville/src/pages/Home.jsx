@@ -241,8 +241,8 @@ Bed & Breakfast</h1>
       </div>
     </div>
     {/* This is the end of the Feature Section */}
-    {/* This is the start of the Aminities Section --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
-    <div className="bg-white py-10 sm:py-10">
+    {/* This is the start of the Aminities Section */}
+    <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
             Unlock Exclusive Benefits:<br />Book directly through our website
