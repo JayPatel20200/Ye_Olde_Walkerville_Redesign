@@ -31,7 +31,7 @@ const posts = [
     title: '"Wonderful hospitality – great food and friendly host and staff. A good place to stay."',
     href: '#',
     // description:
-    //   'Wonderful hospitality – great food and friendly host and staff. A good place to stay.',
+      'Wonderful hospitality – great food and friendly host and staff. A good place to stay.',
     date: '2023',
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
@@ -48,7 +48,7 @@ const posts = [
     title: '"Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊"',
     href: '#',
     // description:
-    //   'Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊',
+      'Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊',
     date: '2023',
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
@@ -65,7 +65,7 @@ const posts = [
     title: '"Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic."',
     href: '#',
     // description:
-    //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
+     'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
     date: '2023',
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
