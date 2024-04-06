@@ -18,18 +18,24 @@
 }
 .featureOne{
     background-image: url("./assests/img/home_01breakfast.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
+    filter: saturate(50%);
 }
 .featureTwo{
     background-image: url("./assests/img/home_02guestbook.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
+    filter: saturate(50%);
 }
 .featureThree{
     background-image: url("./assests/img/home_03wedding.jpg");
+    background-color: rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
+    filter: saturate(50%);
 }
 .roomHero{
     background-image: url("./assests/Rooms/Room_hero.webp");

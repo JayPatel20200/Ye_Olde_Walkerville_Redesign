@@ -48,7 +48,7 @@ Experience the charm of a bygone era with Ye Olde Walkerville B & B, where timel
               <textarea id="about" name="about" rows="3" className="block w-full rounded-md border py-2 text-gray-900 shadow-sm focus:ring-2 focus:ring-indigo-600 sm:text-sm"></textarea>
               <p className="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p>
             </div>
-            <button type="submit" className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">Submit</button>
+            <button type="submit" className="rounded-md bg-red-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">Submit</button>
           </form>
         </div>
 {/* This is the footer section */}

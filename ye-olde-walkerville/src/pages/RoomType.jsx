@@ -86,7 +86,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
-       <Link to="/roomone" ><button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
     </div>
   </div>
@@ -129,7 +129,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
-       <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
     </div>
   </div>
@@ -172,7 +172,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
-      <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button></Link>
+      <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
     </div>
   </div>
@@ -215,7 +215,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
-       <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
     </div>
   </div>
@@ -258,13 +258,13 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <p>from $150</p>
         </div>
-       <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-black p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
     </div>
   </div>
 </div>
 {/* This is the footer section */}
-<div className="footer my-2">
+<div className="footer my-2 py-10">
         <div class="flex gap-4 justify-center items-center flex-wrap">
   <div class="flex flex-col justify-center items-center w-60"><img src={addressIcon} class="ustify-center content-center"alt="" height="100px" width="100px"/>
             <p class='text-center my-2'>1104 Monmouth Rd,
