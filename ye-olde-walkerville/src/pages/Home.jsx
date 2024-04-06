@@ -24,7 +24,7 @@ import addressIcon from "../assests/img/address-location-icon.png";
 import specialPrice from "../assests/img/Special-price.png";
 import freeCanceled from "../assests/img/Free-Canceled.png";
 import quickSecure from "../assests/img/Quick&Secure.png"; 
-import user_review from "../assests/img/user_review"
+// import user_review from "../assests/img/user_review"
 import { Link } from 'react-router-dom';
 const posts = [
   {
@@ -40,8 +40,6 @@ const posts = [
       name: 'Dan & Joyce',
       role: 'Quebec',
       href: '#',
-      imageUrl:
-      {user_review},
         // 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   },
@@ -58,8 +56,7 @@ const posts = [
       name: 'Talin A.',
       role: '',
       href: '#',
-      imageUrl:
-      {user_review},
+     
         // 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   },
@@ -76,8 +73,7 @@ const posts = [
       name: 'Mike & Cathy',
       role: '',
       href: '#',
-      imageUrl:
-      {user_review},
+      
         // 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   }
