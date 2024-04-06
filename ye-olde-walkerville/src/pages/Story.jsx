@@ -2,6 +2,18 @@ import React from 'react'
 import StoryHero from "../assests/img/Story_00.jpg";
 import Logo from "../assests/img/Logo_YeOlde.png";
 import addressIcon from "../assests/img/address-location-icon.png";
+import s01 from "../assests/img/Square/Story_01.jpeg";
+import s02 from "../assests/img/Square/Story_02.jpeg";
+import s03 from "../assests/img/Square/Story_03.jpeg";
+import s04 from "../assests/img/Square/Story_04.jpeg";
+import s05 from "../assests/img/Square/Story_05.jpg";
+import s06 from "../assests/img/Square/Story_06.jpg";
+import s07 from "../assests/img/Square/Story_07.jpg";
+import s08 from "../assests/img/Square/Story_08.jpg";
+import s09 from "../assests/img/Square/Story_09.jpg";
+import s10 from "../assests/img/Square/Story_10.jpeg";
+import s11 from "../assests/img/Square/Story_11.jpeg";
+import s12 from "../assests/img/Square/Story_12.jpg";
 export const Story = () => {
   return (
     <>
@@ -14,29 +26,54 @@ export const Story = () => {
   <div className="w-full h-auto">
     <img src={StoryHero} alt="" className='rounded-lg'/>
   </div>
-  <div class="p-4 px-10">
+  <div class="p-4 px-10
+  ">
   <p class="mt-2">Our property was part of the Hiram Walker Distillery Estates, a whiskey producer that founded Walkerville in 1858. Robert Leishman, a machinist, bought the land in 1903 and built this Manor for his nine children. His family lived in the Manor until 1935, when Windsor annexed Walkerville. 
 </p>
 <p class="mt-2">The Manor was restored and renovated, keeping its charm and character, while adding modern amenities for our guests. We named it Ye Olde Walkerville Bed & Breakfast, to honor the area’s history and heritage, and to offer a cozy and friendly atmosphere.
 </p>
-<p class="mt-2">We welcome you to our lovely Bed & Breakfast, where you will enjoy a relaxing and memorable stay. You will appreciate the Manor’s beauty and elegance, the delicious homemade breakfast, the quiet and peaceful environment, and the personal and attentive service. You will also experience the culture and attractions of Windsor, a lively and diverse city that has something for everyone.</p>
+<p class="mt-2">We welcome you to our lovely Bed & Breakfast, where you will enjoy a relaxing and memorable stay. You will appreciate the Manor's beauty and elegance, the delicious homemade breakfast, the quiet and peaceful environment, and the personal and attentive service. You will also experience the culture and attractions of Windsor, a lively and diverse city that has something for everyone.</p>
   </div>
 </div>
 <div class="gallery">
-  <h2 class="text-2xl text-center mt-10">Gallery</h2>
-  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 p-10">
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
-    <div class="w-32 h-32 bg-slate-400 rounded-lg"></div>
+  <h2 class="text-4xl text-center mb-10">Gallery</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-4 place-items-center gap-3">
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s01} alt="" className="object-contain rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s02} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s03} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s04} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s05} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s06} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s07} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s08} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s09} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s10} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s11} alt="" className="rounded-lg"/>
+    </div>
+    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
+    <img src={s12} alt="" className="rounded-lg"/>
+    </div>
     </div>
     {/* This is the footer section */}
     <div className="footer my-2">
