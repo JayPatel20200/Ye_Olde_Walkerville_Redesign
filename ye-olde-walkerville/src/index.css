@@ -82,3 +82,7 @@ p{
 .singleRoomFontSize{
     font-size: 44px;
 }
+
+.item{
+    width: 400px;
+}
