@@ -5,16 +5,16 @@ import addressIcon from "../assests/img/address-location-icon.png";
 const RoomDetailsTwo = () => {
   return (
     <div><div class="p-5 mt-36">
-    <div class="grid grid-flow-row-dense grid-cols-2 gap-4">
+    <div class="grid grid-flow-row-dense grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="slider col-auto rounded-xl p-1">
         <img src={RoomTwo}/>
       </div>
       <div class="content p-3">
         <h2 class="singleRoomFontSize">Corrina's Chamber</h2>
         <p>Room #2</p>
-        <p class="mt-7">Embark on a journey of unmatched comfort and sophistication by reserving Corrina's Chamber. This is not just accommodation; it's an invitation to a world where every detail is crafted for your pleasure. Unwind, rejuvenate, and make your stay truly memorable. 
-<br/>
-        Corrina's Chamber offers a combination of lavish features and relaxing amenities at a reasonable price, providing a seamless blend of value and luxury.
+        <p class="mt-7">Embark on a journey of unmatched comfort and sophistication by reserving Corrina's Chamber. This is not just accommodation; it's an invitation to a world where every detail is crafted for your pleasure. Unwind, rejuvenate, and make your stay truly memorable.
+        <br />
+         Book now and elevate your experience at a price that speaks to both luxury and affordability.
 </p>
         <div class="mt-10">
           <div class="price flex justify-between">
@@ -34,24 +34,27 @@ const RoomDetailsTwo = () => {
     <div id="Room Amenities" class="mt-10">
       <h2>Room Amenities</h2>
       <div class="mt-1 flex gap-3">
-        <span>King Size bed</span>
-        <span>Jacuzzi Tub with shower</span>
+        <span>Deluxe Queen Size Bed</span>
+        <span>Spa Bath</span>
+        <span>Private Bathroom</span>
         <span>Working Desk</span>
         <span>Sitting area</span>
         <span>Cable TV</span>
+        <span>Refrigerator</span>
+        <span>Air Conditioning </span>
       </div>
     </div>
     <div id="BNB features" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>BNB Features</h2>
       <div class="mt-1 flex gap-3">
         <span>Free Wifi</span>
-        <span>Onsite self-praking</span>
+        <span>Onsite self-parking</span>
         <span>24/7 Tea Kettle & Coffee Machine </span>
         <span>Irons</span>
       </div>
     </div>
     <div id="Booking Policies" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>Booking Policies</h2>
       <div class="mt-1 flex gap-3">
         <span>Check-in 4 PM Check-out 11 PM.</span>
         <span>No smoking</span>

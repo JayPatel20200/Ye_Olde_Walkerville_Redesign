@@ -57,34 +57,34 @@ export const RoomType = () => {
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
-          <p>king size bed 1</p>
+          <p>King size Bed</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 2</p>
+          <p>Spa Bath</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 3</p>
+          <p>Private Bathroom</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 4</p>
+          <p>Working Desk</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 5</p>
+          <p>Cable TV</p>
         </div>
       </div>
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $150</p>
+          <p>from $186</p>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $150</p>
+          <p>from $196</p>
         </div>
        <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -100,34 +100,34 @@ export const RoomType = () => {
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
-          <p>king size bed 1</p>
+          <p>Deluxe Queen Size Bed</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 2</p>
+          <p>Spa Bath</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 3</p>
+          <p>Private Bathroom</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 4</p>
+          <p>Working Desk</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 5</p>
+          <p>Cable TV</p>
         </div>
       </div>
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $150</p>
+          <p>from $148</p>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $150</p>
+          <p>from $158</p>
         </div>
        <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -141,36 +141,36 @@ export const RoomType = () => {
       <h2 class="roomTypeFontSize">Tyler's Chamber</h2>
       <p>Room #3</p>
       <div class="mt-3 grid grid-cols-2 gap-3">
-        <div>
+      <div>
           <img src="" alt="" />
-          <p>king size bed 1</p>
+          <p>Deluxe Queen Size Bed</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 2</p>
+          <p>Spa Bath</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 3</p>
+          <p>Private Bathroom</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 4</p>
+          <p>Working Desk</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 5</p>
+          <p>Cable TV</p>
         </div>
       </div>
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $150</p>
+          <p>from $148</p>
         </div>
           <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $150</p>
+          <p>from $158</p>
         </div>
       <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -186,34 +186,34 @@ export const RoomType = () => {
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
-          <p>king size bed 1</p>
+          <p>Double or Twin Bed</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 2</p>
+          <p>Bath</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 3</p>
+          <p>Private Bathroom</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 4</p>
+          <p>Working Desk</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 5</p>
+          <p>Cable TV</p>
         </div>
       </div>
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $150</p>
+          <p>from $136</p>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $150</p>
+          <p>from $146</p>
         </div>
        <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -229,34 +229,34 @@ export const RoomType = () => {
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
-          <p>king size bed 1</p>
+          <p>Queen Size Bed</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 2</p>
+          <p>Bath</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 3</p>
+          <p>Private Bathroom</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 4</p>
+          <p>Working Desk</p>
         </div>
         <div>
           <img src="" alt="" />
-          <p>king size bed 5</p>
+          <p>Cable TV</p>
         </div>
       </div>
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $150</p>
+          <p>from $134</p>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $150</p>
+          <p>from $144</p>
         </div>
        <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -285,7 +285,7 @@ Windsor, ON N8Y 3L8</p></div>
 </div>
 
 <div class="flex my-3 items-center flex-col bg-slate-100 p-10">
-  <div class="menu flex gap-2">
+  <div class="menu flex flex-wrap gap-2 p-10">
     <p>BOOK A ROOM</p>
     <p>WEDDING & EVENTS</p>
     <p>OUR STORY</p>
@@ -302,5 +302,3 @@ Windsor, ON N8Y 3L8</p></div>
 </div>  
   )
 }
-
-// export default RoomType

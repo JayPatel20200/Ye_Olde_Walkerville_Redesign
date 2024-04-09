@@ -24,7 +24,6 @@ import addressIcon from "../assests/img/address-location-icon.png";
 import specialPrice from "../assests/img/Special-price.png";
 import freeCanceled from "../assests/img/Free-Canceled.png";
 import quickSecure from "../assests/img/Quick&Secure.png"; 
-// import user_review from "../assests/img/user_review"
 import { Link } from 'react-router-dom';
 const posts = [
   {
@@ -32,15 +31,16 @@ const posts = [
     title: '"Wonderful hospitality – great food and friendly host and staff. A good place to stay."',
     href: '#',
     // description:
-      // 'Wonderful hospitality – great food and friendly host and staff. A good place to stay.',
-    // date: '2023',
+    //   'Wonderful hospitality – great food and friendly host and staff. A good place to stay.',
+    date: '2023',
     datetime: '2020-03-16',
-    // category: { title: 'Unknown', href: '#' },
+    category: { title: 'Unknown', href: '#' },
     author: {
       name: 'Dan & Joyce',
       role: 'Quebec',
       href: '#',
-        // 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   },
   {
@@ -48,16 +48,16 @@ const posts = [
     title: '"Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊"',
     href: '#',
     // description:
-      // 'Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊',
-    // date: '2023',
+    //   'Yet another fantastic experience & stay! Thank you Renee & Richard for always making it feel like I’m coming home to visit. 😊',
+    date: '2023',
     datetime: '2020-03-16',
-    // category: { title: 'Unknown', href: '#' },
+    category: { title: 'Unknown', href: '#' },
     author: {
       name: 'Talin A.',
-      role: '',
+      role: ' - ',
       href: '#',
-     
-        // 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   },
   {
@@ -65,16 +65,16 @@ const posts = [
     title: '"Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic."',
     href: '#',
     // description:
-    //  'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
-    // date: '2023',
+    //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
+    date: '2023',
     datetime: '2020-03-16',
-    // category: { title: 'Unknown', href: '#' },
+    category: { title: 'Unknown', href: '#' },
     author: {
       name: 'Mike & Cathy',
-      role: '',
+      role: '-',
       href: '#',
-      
-        // 'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      imageUrl:
+        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     },
   }
 ]
@@ -113,7 +113,7 @@ export const Home = () => {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 to="/room"
-                className="rounded-md bg-red-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                Book A Room
               </Link>
@@ -136,11 +136,11 @@ export const Home = () => {
       </div>
     </div>
     {/* This is the end of the Hero section */}
-    {/* This is the start of the Awards Section  --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
-    <div className="bg-white py-10 sm:py-10">
+    {/* This is the start of the Awards Section */}
+    <div className="bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <h2 className="text-center text-lg font-semibold leading-8 text-gray-900">
-              
+              Trusted by the world’s most innovative teams
             </h2>
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
@@ -168,8 +168,8 @@ export const Home = () => {
           </div>
         </div>
     {/* This is the end of the Awards Section */}
-    {/* This is the start of the About Section --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
-    <div className="overflow-hidden bg-white py-10 sm:py-10">
+    {/* This is the start of the About Section */}
+    <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
@@ -205,8 +205,8 @@ Bed & Breakfast</h1>
       </div>
     </div>
     {/* This is the end of the About Section */}
-    {/* This is the start of the Feature Section --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
-    <div className="bg-white py-10 sm:py-10">
+    {/* This is the start of the Feature Section */}
+    <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3 ">
           {stats.map((stat) => (
@@ -223,19 +223,19 @@ Bed & Breakfast</h1>
           <p className="text-base leading-7 text-white">
           Indulge in a nutrient-rich morning with our wholesome breakfast options.
           </p>
-          <h2 className="order-first text-3xl font-semibold tracking-normal text-red-400 sm:text-5xl">Morning delight</h2>
+          <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Morning delight</h2>
         </div>
         <div className="featureTwo mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
           Enjoy our warm hospitality and friendly service throughout your stay.
           </p>
-          <h2 className="order-first text-3xl font-semibold tracking-normal text-red-400 sm:text-5xl">Feel Like Home</h2>
+          <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Feel Like Home</h2>
         </div>
         <div className="featureThree mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
           Make your wedding or  special occasion extraordinary.
           </p>
-          <h2 className="order-first text-3xl font-semibold tracking-normal text-red-400 sm:text-5xl">Signature Celebrations</h2>
+          <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Signature Celebrations</h2>
         </div>
       </div>
       </div>
@@ -343,7 +343,7 @@ Bed & Breakfast</h1>
         </dl>
         <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Whether you're a business traveler looking for a comfortable and productive space or a couple seeking a romantic weekend escape, Samantha's Suite caters to all. The combination of sophistication, comfort, and thoughtful amenities ensures an exceptional stay.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-red-400 hover:bg-red-500 px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
         </div>
       </div>
     </div>
@@ -415,7 +415,7 @@ Bed & Breakfast</h1>
         </dl>
         <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Embark on a journey of unmatched comfort and sophistication by reserving Corrina's Chamber. This is not just accommodation; it's an invitation to a world where every detail is crafted for your pleasure. Unwind, rejuvenate, and make your stay truly memorable.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-red-400 hover:bg-red-500 px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
         </div>
       </div>
     </div>
@@ -487,21 +487,19 @@ Bed & Breakfast</h1>
         </dl>
         <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Escape to Tyler's Chamber, where affordability meets elegance. This is not merely a room; it's an invitation to an elevated experience where luxury is a promise, and comfort is non-negotiable.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-red-400 hover:bg-red-500 px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
         </div>
       </div>
     </div>
   </div>
     {/* This is the end of Room Section */}
-    {/* This is the start of Reviews Section --------------------- test change py from 24 to 20, sm:py-32 to 20 */}
-    <div className="bg-white py-20 sm:py-20">
+    {/* This is the start of Reviews Section */}
+    <div className="bg-white py-24 sm:py-32">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <div className="mx-auto max-w-full lg:mx-0 w-full">
         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Reviews</h2> 
       </div>
-      
-      <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"> 
-      {/* Note; deleted "border-t border-gray-200" */}
+      <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         {posts.map((post) => (
           <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
             <div className="flex items-center gap-x-4 text-xs">
@@ -542,8 +540,8 @@ Bed & Breakfast</h1>
     </div>
   </div>
     {/* This is the end of Reviews Section */}
-    {/* This is the start of Explore Sectino --------------------- test change py from 24 to 10, sm:py-32 to 10 */}
-    <div className="overflow-hidden bg-white py-10 sm:py-10">
+    {/* This is the start of Explore Sectino */}
+    <div className="overflow-hidden bg-white py-24 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <div className="lg:pr-8 lg:pt-4">
@@ -570,10 +568,9 @@ Bed & Breakfast</h1>
               <img
                 src={home_exploringWindsor}
                 alt="Product screenshot"
-                className="w-full max-w-2xl mx-auto rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:max-w-none md:-ml-4 lg:-ml-0"
-                // className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                // width={2432}
-                // height={1442}
+                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
+                width={2432}
+                height={1442}
               />
             </div>
           </div>

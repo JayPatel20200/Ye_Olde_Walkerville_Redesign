@@ -5,16 +5,18 @@ import addressIcon from "../assests/img/address-location-icon.png";
 const RoomDetailsFour = () => {
   return (
     <div><div class="p-5 mt-36">
-    <div class="grid grid-flow-row-dense grid-cols-2 gap-4">
+    <div class="grid grid-flow-row-dense grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="slider col-auto rounded-xl p-1">
         <img src={RoomFour}/>
       </div>
       <div class="content p-3">
         <h2 class="singleRoomFontSize">Bethany's Room</h2>
         <p>Room #4</p>
-        <p class="mt-7">Reserve Bethany's Room today and step into an environment where affordability meets elegance. This is not just accommodation; it's a promise of comfort and sophistication at a price that fits your budget. 
+        <p class="mt-7">
+        Revel in the blend of comfort and cost-effectiveness that sets this room apart.
+          Reserve Bethany's Room today and step into an environment where affordability meets elegance. This is not just accommodation; it's a promise of comfort and sophistication at a price that fits your budget. 
         <br/>
-        Looking for a long-term sanctuary? Bethany's Room extends an invitation for extended stays with special low weekly and monthly rates. Revel in the blend of comfort and cost-effectiveness that sets this room apart.
+Book now to Embrace the charm of Bethany's Room and make it your home away from home.
 </p>
         <div class="mt-10">
           <div class="price flex justify-between">
@@ -34,24 +36,26 @@ const RoomDetailsFour = () => {
     <div id="Room Amenities" class="mt-10">
       <h2>Room Amenities</h2>
       <div class="mt-1 flex gap-3">
-        <span>King Size bed</span>
-        <span>Jacuzzi Tub with shower</span>
+        <span>Double or Twin Bed</span>
+        <span>Bath</span>
+        <span>Private Bathroom</span>
         <span>Working Desk</span>
         <span>Sitting area</span>
         <span>Cable TV</span>
+        <span>Air conditioning</span>
       </div>
     </div>
     <div id="BNB features" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>BNB Features</h2>
       <div class="mt-1 flex gap-3">
         <span>Free Wifi</span>
-        <span>Onsite self-praking</span>
+        <span>Onsite self-parking</span>
         <span>24/7 Tea Kettle & Coffee Machine </span>
         <span>Irons</span>
       </div>
     </div>
     <div id="Booking Policies" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>Booking Policies</h2>
       <div class="mt-1 flex gap-3">
         <span>Check-in 4 PM Check-out 11 PM.</span>
         <span>No smoking</span>

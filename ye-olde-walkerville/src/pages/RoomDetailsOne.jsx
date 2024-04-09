@@ -8,7 +8,7 @@ import addressIcon from "../assests/img/address-location-icon.png";
 const RoomDetailsOne = () => {
   return (
     <div><div class="p-5 mt-36">
-    <div class="grid grid-flow-row-dense grid-cols-2 gap-4">
+    <div class="grid grid-flow-row-dense grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="slider col-auto rounded-xl p-1">
         <img src={RoomOne}/>
       </div>
@@ -17,8 +17,6 @@ const RoomDetailsOne = () => {
         <p>Room #1</p>
         <p class="mt-7">Whether you're a business traveler looking for a comfortable and productive space or a couple seeking a romantic weekend escape, Samantha's Suite caters to all. The combination of sophistication, comfort, and thoughtful amenities ensures an exceptional stay.
         <br/>
-Lavish, large LOFT with vaulted ceiling, cable TV, VCR, couch / sitting area, king size custom 7ft by 6ft bed, large working desk, Private washroom and Jacuzzi tub with shower. Samantha's Suite also offers a bar fridge and a CD player system with "mood disks".
-
 Elevate your getaway by reserving Samantha's Suite today - where luxury meets lifestyle. Your escape to indulgence begins here.
 </p>
         <div class="mt-10">
@@ -39,24 +37,27 @@ Elevate your getaway by reserving Samantha's Suite today - where luxury meets li
     <div id="Room Amenities" class="mt-10">
       <h2>Room Amenities</h2>
       <div class="mt-1 flex gap-3">
-        <span>King Size bed</span>
-        <span>Jacuzzi Tub with shower</span>
+        <span>King Size Bed</span>
+        <span>Spa bath</span>
+        <span>Private Bathroom</span>
         <span>Working Desk</span>
         <span>Sitting area</span>
         <span>Cable TV</span>
+        <span>Refrigerator</span>
+        <span>Air Conditioning </span>
       </div>
     </div>
     <div id="BNB features" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>BNB Features</h2>
       <div class="mt-1 flex gap-3">
         <span>Free Wifi</span>
-        <span>Onsite self-praking</span>
+        <span>Onsite self-parking</span>
         <span>24/7 Tea Kettle & Coffee Machine </span>
         <span>Irons</span>
       </div>
     </div>
     <div id="Booking Policies" class="mt-10">
-      <h2>Room Amenities</h2>
+      <h2>Booking Policies</h2>
       <div class="mt-1 flex gap-3">
         <span>Check-in 4 PM Check-out 11 PM.</span>
         <span>No smoking</span>
