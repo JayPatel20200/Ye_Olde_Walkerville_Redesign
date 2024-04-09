@@ -285,7 +285,7 @@ Windsor, ON N8Y 3L8</p></div>
 </div>
 
 <div class="flex my-3 items-center flex-col bg-slate-100 p-10">
-  <div class="menu flex flex-wrap gap-2 p-10">
+  <div class="menu flex flex-wrap gap-2 p-14">
     <p>BOOK A ROOM</p>
     <p>WEDDING & EVENTS</p>
     <p>OUR STORY</p>

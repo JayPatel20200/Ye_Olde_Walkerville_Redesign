@@ -15,6 +15,8 @@ import home_welcome from '../assests/img/home_welcome.jpg';
 import R1 from '../assests/Rooms/R1.jpeg';
 import R2 from '../assests/Rooms/R2.jpeg';
 import R3 from '../assests/Rooms/R3.jpeg';
+import R4 from '../assests/Rooms/R4.jpg';
+import R5 from '../assests/Rooms/R5.jpg';
 import home_exploringWindsor from '../assests/img/home_exploringWindsor.jpg';
 import quick_and_secure from "../assests/img/quick_and_secure.jpg";
 import free_cancel from "../assests/img/free_cancel.jpg";
@@ -385,9 +387,10 @@ Bed & Breakfast</h1>
             <span class="mx-2">Sitting Area</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Whether you're a business traveler looking for a comfortable and productive space or a couple seeking a romantic weekend escape, Samantha's Suite caters to all. The combination of sophistication, comfort, and thoughtful amenities ensures an exceptional stay.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Indulge in the epitome of opulence at Samantha's Suite, a lavish loft designed to elevate your stay to unparalleled heights. This expansive retreat boasts a vaulted ceiling, offering an airy and spacious ambiance that sets the stage for an unforgettable experience.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
         </div>
       </div>
     </div>
@@ -457,9 +460,11 @@ Bed & Breakfast</h1>
             <span class="mx-2">Sitting Area</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Embark on a journey of unmatched comfort and sophistication by reserving Corrina's Chamber. This is not just accommodation; it's an invitation to a world where every detail is crafted for your pleasure. Unwind, rejuvenate, and make your stay truly memorable.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Step into a realm of luxury with Corrina's Chamber, a generously sized haven that redefines sophistication. This well-appointed room offers an indulgent experience, combining exquisite details with modern comforts.
+</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
         </div>
       </div>
     </div>
@@ -529,20 +534,21 @@ Bed & Breakfast</h1>
             <span class="mx-2">Sitting Area</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Escape to Tyler's Chamber, where affordability meets elegance. This is not merely a room; it's an invitation to an elevated experience where luxury is a promise, and comfort is non-negotiable.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Tyler's Chamber, an expansive retreat meticulously designed for those who seek the perfect blend of comfort and sophistication. This well-appointed haven goes beyond the ordinary, offering a haven of tranquility with every detail crafted to enhance your stay.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
         </div>
       </div>
     </div>
     <div className="px-4 py-6 item">
       <div class="mx-auto grid max-w-4xl grid-cols-1">
         <div class="relative col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 p-3">
-          <h1 class="mt-1 text-lg font-semibold text-white">Corrina's Chamber</h1>
-          <p class="text-sm font-medium leading-4 text-white">Room #2</p>
+          <h1 class="mt-1 text-lg font-semibold text-white">Bethany's Room</h1>
+          <p class="text-sm font-medium leading-4 text-white">Room #4</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
-          <img src={R2} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
+          <img src={R4} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
@@ -601,20 +607,21 @@ Bed & Breakfast</h1>
             <span class="mx-2">Sitting Area</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Embark on a journey of unmatched comfort and sophistication by reserving Corrina's Chamber. This is not just accommodation; it's an invitation to a world where every detail is crafted for your pleasure. Unwind, rejuvenate, and make your stay truly memorable.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Bethany's Room, a capacious and meticulously designed retreat that seamlessly combines affordability with a touch of indulgence. This well-appointed haven surpasses expectations, providing a setting where comfort and sophistication converge seamlessly.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
         </div>
       </div>
     </div>
     <div className="px-4 py-6 item">
       <div class="mx-auto grid max-w-4xl grid-cols-1">
         <div class="relative col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 p-3">
-          <h1 class="mt-1 text-lg font-semibold text-white">Tyler's Chamber</h1>
-          <p class="text-sm font-medium leading-4 text-white">Room #3</p>
+          <h1 class="mt-1 text-lg font-semibold text-white">Deanna's Room</h1>
+          <p class="text-sm font-medium leading-4 text-white">Room #5</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
-          <img src={R3} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
+          <img src={R5} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
@@ -673,9 +680,10 @@ Bed & Breakfast</h1>
             <span class="mx-2">Sitting Area</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Escape to Tyler's Chamber, where affordability meets elegance. This is not merely a room; it's an invitation to an elevated experience where luxury is a promise, and comfort is non-negotiable.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Deanna's Room, an expansive and exquisitely designed haven that redefines the concept of affordable luxury. This well-appointed retreat goes beyond the ordinary, offering a sanctuary where comfort and sophistication converge effortlessly.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
         </div>
       </div>
     </div>
@@ -801,7 +809,7 @@ Windsor, ON N8Y 3L8</p></div>
 </div>
 
 <div class="flex my-3 items-center flex-col bg-slate-100 p-10">
-  <div class="menu flex gap-2">
+  <div class="menu flex flex-wrap gap-2 p-14">
     <p>BOOK A ROOM</p>
     <p>WEDDING & EVENTS</p>
     <p>OUR STORY</p>
