@@ -2,12 +2,13 @@ import React from 'react'
 import RoomFive from "../assests/Rooms/Room5/R5-1.jpg";
 import Logo from "../assests/img/Logo_YeOlde.png";
 import addressIcon from "../assests/img/address-location-icon.png";
+import RoomFiveSlider from '../components/RoomFiveSlider';
 const RoomDetailsFive = () => {
   return (
     <div><div class="p-5 mt-36">
     <div class="grid grid-flow-row-dense grid-cols-1 sm:grid-cols-2 gap-4">
       <div class="slider col-auto rounded-xl p-1">
-        <img src={RoomFive}/>
+        <RoomFiveSlider/>
       </div>
       <div class="content p-3">
         <h2 class="singleRoomFontSize">Deanna's Room</h2>
