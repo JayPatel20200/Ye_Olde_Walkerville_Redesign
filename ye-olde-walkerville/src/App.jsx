@@ -11,6 +11,7 @@ import RoomDetailsTwo from "./pages/RoomDetailsTwo";
 import RoomDetailsThree from "./pages/RoomDetailsThree";
 import RoomDetailsFour from "./pages/RoomDetailsFour";
 import RoomDetailsFive from "./pages/RoomDetailsFive";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>

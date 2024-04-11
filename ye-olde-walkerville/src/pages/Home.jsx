@@ -293,7 +293,7 @@ Bed & Breakfast</h1>
             <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
             Unlock Exclusive Benefits:<br />Book directly through our website
             </h2>
-            <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 place-items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 place-items-center gap-x-4 gap-y-10 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
                 className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
                 src={specialPrice}
