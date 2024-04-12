@@ -40,7 +40,7 @@ export default function Nav() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <Link key={item.name} to={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+              <Link key={item.name} to={item.href} className="text-sm font-semibold leading-6 text-gray-900 no-underline">
                 {item.name}
               </Link>
             ))}

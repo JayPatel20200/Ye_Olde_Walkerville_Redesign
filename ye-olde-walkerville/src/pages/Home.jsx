@@ -166,7 +166,7 @@ export const Home = () => {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 to="/room"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 no-underline"
               >
                Book a Room
               </Link>
@@ -237,7 +237,7 @@ Bed & Breakfast</h1>
               and we create a charming and elegant ambiance in our Bed & Breakfast facility. 
               Don’t wait, book your room today!  
               </p>
-          
+              <Link to="/story" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
             </div>
           </div>
           <img
@@ -393,7 +393,7 @@ Bed & Breakfast</h1>
         <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Indulge in the epitome of opulence at Samantha's Suite, a lavish loft designed to elevate your stay to unparalleled heights. This expansive retreat boasts a vaulted ceiling, offering an airy and spacious ambiance that sets the stage for an unforgettable experience.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
-          <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
+          <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
         </div>
       </div>
     </div>
@@ -467,7 +467,7 @@ Bed & Breakfast</h1>
 </p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
-          <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
+          <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
         </div>
       </div>
     </div>
@@ -540,7 +540,7 @@ Bed & Breakfast</h1>
         <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Tyler's Chamber, an expansive retreat meticulously designed for those who seek the perfect blend of comfort and sophistication. This well-appointed haven goes beyond the ordinary, offering a haven of tranquility with every detail crafted to enhance your stay.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
-          <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
+          <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
         </div>
       </div>
     </div>
@@ -613,7 +613,7 @@ Bed & Breakfast</h1>
         <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Bethany's Room, a capacious and meticulously designed retreat that seamlessly combines affordability with a touch of indulgence. This well-appointed haven surpasses expectations, providing a setting where comfort and sophistication converge seamlessly.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
-          <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
+          <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
         </div>
       </div>
     </div>
@@ -686,7 +686,7 @@ Bed & Breakfast</h1>
         <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Deanna's Room, an expansive and exquisitely designed haven that redefines the concept of affordable luxury. This well-appointed retreat goes beyond the ordinary, offering a sanctuary where comfort and sophistication converge effortlessly.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
-          <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">Check Availability</button></Link>
+          <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
         </div>
       </div>
     </div>
@@ -761,7 +761,7 @@ Bed & Breakfast</h1>
                   Whatever you are looking for, we are here to help you discover the best of Windsor. Click here to view
                   a list of helpful links to attractions in and around the Windsor, Ontario area.
                   </p>
-              
+                  <Link to="/explore" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
                 </div>
               </div>
               <img

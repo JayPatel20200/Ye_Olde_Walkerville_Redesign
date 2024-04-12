@@ -23,7 +23,7 @@ export const Story = () => {
     </h2>
 </div>
 <div className="flex justify-center content-center flex-wrap sm:flex-nowrap p-10">
-  <div className="w-full h-auto">
+  <div className="">
     <img src={StoryHero} alt="" className='rounded-lg'/>
   </div>
   <div class="p-4 px-10
