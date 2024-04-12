@@ -293,6 +293,9 @@ Bed & Breakfast</h1>
             <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
             Unlock Exclusive Benefits:<br />Book directly through our website
             </h2>
+            <span className="flex justify-center">
+    <Link to="/room" className="text-center mt-4 text-slate-950 text-xl">View All Rooms</Link>
+    </span>
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 place-items-center gap-x-4 gap-y-10 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <img
                 className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
@@ -319,9 +322,7 @@ Bed & Breakfast</h1>
           </div>
         </div>
     {/* This is the end of Aminities Section */}
-    <span className="flex justify-center">
-    <Link to="/room" className="text-center"><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View All Rooms</button></Link>
-    </span>
+    
     {/* This is the start of Room Section */}
     <div id="continer" class="flex sm:flex-row flex-wrap flex-col content-center justify-center px-10">
     <div className="px-4 py-6 item">
