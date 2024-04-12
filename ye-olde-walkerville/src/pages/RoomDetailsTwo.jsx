@@ -3,6 +3,7 @@ import RoomTwo from "../assests/Rooms/Room2/R2-1.jpeg";
 import Logo from "../assests/img/Logo_YeOlde.png";
 import addressIcon from "../assests/img/address-location-icon.png";
 import RoomTwoSlider from '../components/RoomTwoSlider';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const RoomDetailsTwo = () => {
   return (
     <div><div class="p-5 mt-36">

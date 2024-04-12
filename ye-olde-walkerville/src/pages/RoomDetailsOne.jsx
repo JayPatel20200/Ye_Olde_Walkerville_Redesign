@@ -6,6 +6,7 @@ import quickSecure from "../assests/img/Quick&Secure.png";
 import Logo from "../assests/img/Logo_YeOlde.png";
 import addressIcon from "../assests/img/address-location-icon.png";
 import RoomOneSlider from '../components/RoomOneSlider';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const RoomDetailsOne = () => {
   return (
     <div><div class="p-5 mt-36">

@@ -3,6 +3,7 @@ import RoomFour from "../assests/Rooms/Room4/R4-1.jpg";
 import Logo from "../assests/img/Logo_YeOlde.png";
 import addressIcon from "../assests/img/address-location-icon.png";
 import RoomFourSlider from '../components/RoomFourSlider';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const RoomDetailsFour = () => {
   return (
     <div><div class="p-5 mt-36">
