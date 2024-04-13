@@ -86,7 +86,7 @@ export const RoomType = () => {
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $196</p>
+          <h2 className='text-red-400 '>from $196</h2>
         </div>
        <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -98,7 +98,7 @@ export const RoomType = () => {
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
       <h2 class="roomTypeFontSize">Corrina's Chamber</h2>
-      <p>Room #2</p>
+      <h2>Room #2</h2>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
@@ -124,12 +124,12 @@ export const RoomType = () => {
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $148</p>
+          <h2 className='text-red-400'>from $148</h2>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $158</p>
+          <h2 className='text-red-400'>from $158</h2>
         </div>
        <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -141,7 +141,7 @@ export const RoomType = () => {
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
       <h2 class="roomTypeFontSize">Tyler's Chamber</h2>
-      <p>Room #3</p>
+      <h2>Room #3</h2>
       <div class="mt-3 grid grid-cols-2 gap-3">
       <div>
           <img src="" alt="" />
@@ -167,12 +167,12 @@ export const RoomType = () => {
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $148</p>
+          <h2 className='text-red-400 '>from $148</h2>
         </div>
           <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $158</p>
+          <h2 className='text-red-400 '>from $158</h2>
         </div>
       <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -184,7 +184,7 @@ export const RoomType = () => {
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
       <h2 class="roomTypeFontSize">Bethany's Room</h2>
-      <p>Room #4</p>
+      <h2>Room #4</h2>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
@@ -210,12 +210,12 @@ export const RoomType = () => {
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $136</p>
+          <h2 className='text-red-400'>from $136</h2>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $146</p>
+          <h2 className='text-red-400'>from $146</h2>
         </div>
        <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
@@ -227,7 +227,7 @@ export const RoomType = () => {
     </div>
     <div class="content flex flex-col content-center justify-center p-3">
       <h2 class="roomTypeFontSize">Deanna's Room</h2>
-      <p>Room #5</p>
+      <h2>Room #5</h2>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
@@ -253,12 +253,12 @@ export const RoomType = () => {
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $134</p>
+          <h2 className='text-red-400'>from $134</h2>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <p>from $144</p>
+          <h2 className='text-red-400'>from $144</h2>
         </div>
        <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
