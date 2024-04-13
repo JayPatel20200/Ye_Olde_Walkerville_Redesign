@@ -55,7 +55,7 @@ export const RoomType = () => {
     </div>
     <div class="content flex flex-col content-center justify-center p-3 rounded-lg">
       <h2 class="roomTypeFontSize">Samantha's Suite</h2>
-      <p>Room #1</p>
+      <h2>Room #1</h2>
       <div class="mt-3 grid grid-cols-2 gap-3">
         <div>
           <img src="" alt="" />
@@ -81,7 +81,7 @@ export const RoomType = () => {
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <p>from $186</p>
+          <h2 className='text-red-400 '>from $186</h2>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">

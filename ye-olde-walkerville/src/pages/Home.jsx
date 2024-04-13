@@ -192,9 +192,7 @@ export const Home = () => {
     {/* This is the start of the Awards Section */}
     <div className="bg-white py-10 sm:py-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <h2 className="text-center text-3xl font-semibold leading-8 text-gray-900">
-              Trusted by the world’s most innovative teams
-            </h2>
+            
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-1 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-2">
               <img
                 className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
@@ -266,10 +264,10 @@ Bed & Breakfast</h1>
         </dl> */}
       <div className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
         <div className="featureOne mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
-          <p className="text-base leading-7 text-white">
+          <p className="text-base leading-7 text-white ">
           Indulge in a nutrient-rich morning with our wholesome breakfast options.
           </p>
-          <h2 className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">Morning delight</h2>
+          <h2 className="order-first text-3xl font-semibold tracking-normal text-white sm:text-5xl">Morning delight</h2>
         </div>
         <div className="featureTwo mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
@@ -328,8 +326,8 @@ Bed & Breakfast</h1>
     <div className="px-4 py-6 item">
       <div class="mx-auto grid max-w-4xl grid-cols-1">
         <div class="relative col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 p-3">
-          <h1 class="mt-1 text-lg font-semibold text-white">Samanth's Chamber</h1>
-          <p class="text-sm font-medium leading-4 text-white">Room #1</p>
+          <h1 class="mt-1 text-3xl font-semibold text-white">Samanth's Chamber</h1>
+          <p class="text-xl font-medium leading-4 text-white">Room #1</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
           <img src={R1} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
@@ -762,7 +760,7 @@ Bed & Breakfast</h1>
                   Whatever you are looking for, we are here to help you discover the best of Windsor. Click here to view
                   a list of helpful links to attractions in and around the Windsor, Ontario area.
                   </p>
-                  <Link to="/explore" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">View Details</button></Link>
+                  <Link to="/explore" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 py-2 px-3 text-white">View Details</button></Link>
                 </div>
               </div>
               <img
