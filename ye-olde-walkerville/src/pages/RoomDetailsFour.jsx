@@ -2,6 +2,9 @@ import React from 'react'
 import RoomFour from "../assests/Rooms/Room4/R4-1.jpg";
 import Logo from "../assests/img/Logo_YeOlde.png";
 import addressIcon from "../assests/img/address-location-icon.png";
+import specialPrice from "../assests/img/Special-price.png";
+import freeCanceled from "../assests/img/Free-Canceled.png";
+import quickSecure from "../assests/img/Quick&Secure.png";
 import RoomFourSlider from '../components/RoomFourSlider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const RoomDetailsFour = () => {
@@ -37,7 +40,7 @@ Book now to Embrace the charm of Bethany's Room and make it your home away from 
   
     <div id="Room Amenities" class="mt-10">
       <h2>Room Amenities</h2>
-      <div class="mt-1 flex gap-3">
+      <div class="mt-1 flex gap-3 px-20">
         <span>Double or Twin Bed</span>
         <span>Bath</span>
         <span>Private Bathroom</span>
@@ -49,7 +52,7 @@ Book now to Embrace the charm of Bethany's Room and make it your home away from 
     </div>
     <div id="BNB features" class="mt-10">
       <h2>BNB Features</h2>
-      <div class="mt-1 flex gap-3">
+      <div class="mt-1 flex gap-3 px-20">
         <span>Free Wifi</span>
         <span>Onsite self-parking</span>
         <span>24/7 Tea Kettle & Coffee Machine </span>
@@ -58,7 +61,7 @@ Book now to Embrace the charm of Bethany's Room and make it your home away from 
     </div>
     <div id="Booking Policies" class="mt-10">
       <h2>Booking Policies</h2>
-      <div class="mt-1 flex gap-3">
+      <div class="mt-1 flex gap-3 px-20">
         <span>Check-in 4 PM Check-out 11 PM.</span>
         <span>No smoking</span>
         <span>No pets</span>
@@ -66,13 +69,41 @@ Book now to Embrace the charm of Bethany's Room and make it your home away from 
     </div>
   
     <div id="forThe"></div>
-    <div class="border-b border-gray-900/10 pb-12 lg:px-40">
-      <h2 class="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
-      <p class="mt-1 text-sm leading-6 text-gray-600">Use a permanent address where you can receive mail.</p>
+    <div class="border-b border-gray-900/10 pb-12 my-12 py-14 lg:px-40 bg-slate-400 rounded-lg">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <h2 className="text-center text-4xl font-semibold leading-8 text-gray-900">
+            Unlock Exclusive Benefits:<br />Book directly through our website
+            </h2>
+            <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <img
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={specialPrice}
+                alt="Transistor"
+                width={474}
+                height={144}
+              />
+              <img
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={freeCanceled}
+                alt="Reform"
+                width={474}
+                height={144}
+              />
+              <img
+                className="col-span-2 max-h-16 w-full object-contain lg:col-span-1"
+                src={quickSecure}
+                alt="Tuple"
+                width={474}
+                height={144}
+              /> 
+            </div>
+          </div>
+      <h2 class="text-2xl font-semibold leading-7 text-gray-900 text-center mt-10">Room Reservation Form</h2>
+      <p class="mt-4 text-base leading-6 text-gray-600">Please complete the room reservation form. Once your request is processed, we will contact you via phone or email to confirm your reservation. A credit card will be required at that time to secure your booking.</p>
   
       <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
         <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+          <label for="first-name" class="block text-lg font-medium leading-6 text-gray-900">First name</label>
           <div class="mt-2">
             <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
@@ -111,11 +142,11 @@ Book now to Embrace the charm of Bethany's Room and make it your home away from 
         </div>
   
         <div class="col-span-full">
-          <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Country</label>
+          <label for="BreakfastOption" class="block text-sm font-medium leading-6 text-gray-900">Breakfast Option</label>
           <div class="mt-2">
             <select id="price" name="price" autocomplete="room-price" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
-              <option>Room Only - from $150</option>
-              <option>Room with Breakfast - from $160</option>
+              <option>Room Only - from $136</option>
+              <option>Room with Breakfast - from $146</option>
             </select>
           </div>
         </div>
@@ -151,8 +182,9 @@ Book now to Embrace the charm of Bethany's Room and make it your home away from 
         </div>
       </div>
       <div class="mt-6 flex items-center justify-end gap-x-6">
-      <button type="button" class="text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-400">Cancel</button>
+     
       <button type="submit" class="rounded-md bg-red-400 hover:bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
+      <button type="button" class="text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-400">Cancel</button>
     </div>
     </div>
   </div>

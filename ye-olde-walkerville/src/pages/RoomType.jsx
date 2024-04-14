@@ -81,12 +81,12 @@ export const RoomType = () => {
       <div class="mt-10">
         <div class="price flex justify-between">
           <h2>Room only</h2>
-          <h2 className='text-red-400 '>from $186</h2>
+          <h2 className='text-red-400'>from $186</h2>
         </div>
         <div className='line-between'></div>
         <div class="price flex justify-between">
           <h2>Room with breakfast</h2>
-          <h2 className='text-red-400 '>from $196</h2>
+          <h2 className='text-red-400'>from $196</h2>
         </div>
        <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
       </div>
