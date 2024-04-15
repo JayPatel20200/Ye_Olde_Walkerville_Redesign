@@ -2,18 +2,8 @@ import React from 'react'
 import StoryHero from "../assests/img/Story_00.jpg";
 import Logo from "../assests/img/Logo_YeOlde.png";
 import addressIcon from "../assests/img/address-location-icon.png";
-import s01 from "../assests/img/Square/Story_01.jpeg";
-import s02 from "../assests/img/Square/Story_02.jpeg";
-import s03 from "../assests/img/Square/Story_03.jpeg";
-import s04 from "../assests/img/Square/Story_04.jpeg";
-import s05 from "../assests/img/Square/Story_05.jpg";
-import s06 from "../assests/img/Square/Story_06.jpg";
-import s07 from "../assests/img/Square/Story_07.jpg";
-import s08 from "../assests/img/Square/Story_08.jpg";
-import s09 from "../assests/img/Square/Story_09.jpg";
-import s10 from "../assests/img/Square/Story_10.jpeg";
-import s11 from "../assests/img/Square/Story_11.jpeg";
-import s12 from "../assests/img/Square/Story_12.jpg";
+import StorySlider from '../components/StorySlider';
+import 'bootstrap/dist/css/bootstrap.min.css';
 export const Story = () => {
   return (
     <>
@@ -37,43 +27,9 @@ export const Story = () => {
 </div>
 <div class="gallery">
   <h2 class="text-4xl text-center mb-10">Gallery</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-4 place-items-center gap-3">
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s01} alt="" className="object-contain rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s02} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s03} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s04} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s05} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s06} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s07} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s08} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s09} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s10} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s11} alt="" className="rounded-lg"/>
-    </div>
-    <div class="w-50 h-50 sm:w-56 sm:h-56 sm:p-0 px-20 py-10 rounded-lg">
-    <img src={s12} alt="" className="rounded-lg"/>
-    </div>
+  <div class="flex justify-center">
+
+    <StorySlider />
     </div>
     {/* This is the footer section */}
     <div className="footer my-2">
