@@ -149,7 +149,9 @@ const RoomDetailsThree = () => {
       <h2 class="text-2xl font-semibold leading-7 text-gray-900 text-center mt-10">Room Reservation Form</h2>
       <p class="mt-4 text-base leading-6 text-gray-600">Please complete the room reservation form. Once your request is processed, we will contact you via phone or email to confirm your reservation. A credit card will be required at that time to secure your booking.</p>
   
+      <form action="https://api.web3forms.com/submit" method="POST">
       <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+      <input type="hidden" name="access_key" value="aa0962c5-5a44-4bd3-bb08-15cfbb2899a9" />
         <div class="sm:col-span-3">
           <label for="first-name" class="block text-lg font-medium leading-6 text-gray-900">First name</label>
           <div class="mt-2">
@@ -157,83 +159,84 @@ const RoomDetailsThree = () => {
           </div>
         </div>
         <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+          <label for="last-name" class="block text-lg font-medium leading-6 text-gray-900">Last name</label>
           <div class="mt-2">
-            <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+            <input type="text" name="last-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
         <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Mobile Phone</label>
+          <label for="Mobile-phone" class="block text-lg font-medium leading-6 text-gray-900">Mobile Phone</label>
           <div class="mt-2">
-            <input type="tel" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+            <input type="tel" name="Mobile-phone" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
   
         <div class="sm:col-span-3">
-          <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+          <label for="email" class="block text-lg font-medium leading-6 text-gray-900">Email address</label>
           <div class="mt-2">
-            <input type="email" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+            <input type="email" name="email" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
   
         <div class="col-span-full">
-          <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900"> Address</label>
+          <label for="street-address" class="block text-lg font-medium leading-6 text-gray-900"> Address</label>
           <div class="mt-2">
             <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
         <div class="col-span-full">
-          <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Room selected</label>
+          <label for="selected-room" class="block text-lg font-medium leading-6 text-gray-900">Room selected</label>
           <div class="mt-2">
-            <input type="text" name="street-address" id="street-address" autocomplete="street-address" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="" value="Tyler's Chamber : Room #3" />
+            <input type="text" name="selected-room" id="street-address" autocomplete="street-address" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" placeholder="" value="Tyler's Chamber : Room #3" />
           </div>
         </div>
   
         <div class="col-span-full">
-          <label for="BreakfastOption" class="block text-sm font-medium leading-6 text-gray-900">Breakfast Option</label>
+          <label for="BreakfastOption" class="block text-lg font-medium leading-6 text-gray-900">Breakfast Option</label>
           <div class="mt-2">
-            <select id="price" name="price" autocomplete="room-price" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            <select id="price" name="BreakfastOption" autocomplete="room-price" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
               <option>Room Only - from $148</option>
               <option>Room with Breakfast - from $158</option>
             </select>
           </div>
         </div>
          <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Number of Guests</label>
+          <label for="number-of-guest" class="block text-lg font-medium leading-6 text-gray-900">Number of Guests</label>
           <div class="mt-2">
-            <input type="number" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+            <input type="number" name="number-of-guest" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
          <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Number of Nights</label>
+          <label for="number-of-nights" class="block text-lg font-medium leading-6 text-gray-900">Number of Nights</label>
           <div class="mt-2">
-            <input type="number" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+            <input type="number" name="number-of-nights" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
          <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Check-in-date</label>
+          <label for="check-in-date" class="block text-lg font-medium leading-6 text-gray-900">Check-in-date</label>
           <div class="mt-2">
-            <input type="date" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+            <input type="date" name="check-in-date" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
          <div class="sm:col-span-3">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Check-out-date</label>
+          <label for="check-out-date" class="block text-lg font-medium leading-6 text-gray-900">Check-out-date</label>
           <div class="mt-2">
-            <input type="date" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+            <input type="date" name="check-out-date" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
          <div class="col-span-full">
-          <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">Special request</label>
+          <label for="special-request" class="block text-lg font-medium leading-6 text-gray-900">Special request</label>
           <div class="mt-2">
-            <textarea type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+            <textarea type="text" name="special-request" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 p-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
           </div>
         </div>
-      </div>
       <div class="mt-6 flex items-center justify-end gap-x-6">
      
       <button type="submit" class="rounded-md bg-red-400 hover:bg-red-500 px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Submit</button>
       <button type="button" class="text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-400">Cancel</button>
     </div>
+      </div>
+      </form>
     </div>
   </div>
   {/* This is the footer section */}
