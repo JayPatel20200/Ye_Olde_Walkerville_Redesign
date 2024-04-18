@@ -16,6 +16,7 @@
     padding: 20px 10px;
     border-radius: 10px;
 }
+
 .featureOne{
     background-image: url("./assests/img/home_01breakfast.jpg");
     background-color: rgba(255, 255, 255, 0.5);
@@ -88,4 +89,56 @@ p{
     border: solid 1px #333;
     border-radius: 10px;
     margin: 10px 8px;
+}
+
+
+
+/************
+* Container for the navigation-list
+************/
+
+.nav-links {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    list-style-type: none; /* Removes default list styling */
+
+  }
+
+
+.nav-links {
+    font-family: "Alice", serif;
+    gap: 2rem;
+}
+
+  
+  /* Navigation links */
+  .nav-links li {
+    margin: 0 15px; /* Adds spacing between links */
+  }
+  
+  .nav-links a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000; /* Sets the text color */
+    padding: 10px; /* Adds padding around links */
+    transition: color 0.3s ease; /* Adds transition effect */
+  }
+  
+  /* Hover effect */
+  .nav-links a:hover {
+    color: rgb(248 113 113);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(248 113 113);
+  }
+
+
+#none-underline a {
+    color: #000;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+#none-underline a:hover {
+    color: rgb(239, 166, 166); 
 }
