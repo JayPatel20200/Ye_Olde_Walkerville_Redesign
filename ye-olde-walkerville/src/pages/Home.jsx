@@ -236,7 +236,7 @@ Bed & Breakfast</h1>
               Don’t wait, book your room today!  
               </p>
               <span className="flex justify-center lg:justify-start">
-              <Link to="/story" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white py-2">View Details</button></Link>
+              <Link to="/story" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white py-2">View Gallery</button></Link>
               </span>
             </div>
           </div>
