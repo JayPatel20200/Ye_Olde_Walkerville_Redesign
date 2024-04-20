@@ -81,7 +81,7 @@ const posts = [
   },
   {
     id: 4,
-    title: '"Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic."',
+    title: '"Such a cute B&B. The location was prefect, prices were great, and decor was beautiful. This was put first stay out of the US, and it was so nice and special. Thank you for everything.',
     href: '#',
     // description:
     //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
@@ -89,7 +89,7 @@ const posts = [
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Mike & Cathy',
+      name: '😇',
       role: '-',
       href: '#',
       imageUrl:
@@ -98,7 +98,7 @@ const posts = [
   },
   {
     id: 5,
-    title: '"Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic."',
+    title: '"Thank You for everything. You have no idea how good make me stay here with you, I am greatfull. I wish you all the best."',
     href: '#',
     // description:
     //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
@@ -106,7 +106,7 @@ const posts = [
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Mike & Cathy',
+      name: 'Isabel',
       role: '-',
       href: '#',
       imageUrl:
@@ -115,7 +115,7 @@ const posts = [
   },
   {
     id: 6,
-    title: '"Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic."',
+    title: '"Thank you so much for making us feel like we were home. The Breakfast was Fabulous."',
     href: '#',
     // description:
     //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
@@ -123,7 +123,7 @@ const posts = [
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Mike & Cathy',
+      name: 'Apul & Bay',
       role: '-',
       href: '#',
       imageUrl:
@@ -236,7 +236,7 @@ Bed & Breakfast</h1>
               Don’t wait, book your room today!  
               </p>
               <span className="flex justify-center lg:justify-start">
-              <Link to="/story" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white py-2">View Gallery</button></Link>
+              <Link to="/story" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white">View Gallery</button></Link>
               </span>
             </div>
           </div>
@@ -370,7 +370,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Jacuzzi tub with Shower</span>
+            <span class="mx-2">Spa Bath</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -418,7 +418,7 @@ Bed & Breakfast</h1>
 </svg>
               </defs>
             </svg>
-            <span class="mx-2">King size bed</span>
+            <span class="mx-2">Deluxe Queen Size Bed</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -440,7 +440,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Jacuzzi tub with Shower</span>
+            <span class="mx-2">Spa Bath</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -489,7 +489,7 @@ Bed & Breakfast</h1>
 </svg>
               </defs>
             </svg>
-            <span class="mx-2">King size bed</span>
+            <span class="mx-2">Deluxe Queen size bed</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -511,7 +511,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Jacuzzi tub with Shower</span>
+            <span class="mx-2">Spa Bath</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -559,7 +559,7 @@ Bed & Breakfast</h1>
 </svg>
               </defs>
             </svg>
-            <span class="mx-2">King size bed</span>
+            <span class="mx-2">Double or Twin Bed</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -581,7 +581,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Jacuzzi tub with Shower</span>
+            <span class="mx-2">Spa Bath</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -632,7 +632,7 @@ Bed & Breakfast</h1>
                 />
               </defs>
             </svg>
-            <span class="mx-2">King size bed</span>
+            <span class="mx-2">Queen Size Bed</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -654,7 +654,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Jacuzzi tub with Shower</span>
+            <span class="mx-2">Spa Bath</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">

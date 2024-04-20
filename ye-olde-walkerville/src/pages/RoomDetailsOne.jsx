@@ -39,7 +39,7 @@ Elevate your getaway by reserving Samantha's Suite today - where luxury meets li
   
     <div id="Room Amenities" class="mt-10">
       <h2>Room Amenities</h2>
-      <div class="mt-1 flex gap-3 flex-wrap px-10 items-star">
+      <div class="mt-1 flex gap-3 flex-wrap px-10 items-start">
         <span className='flex gap-2'>
         <svg width="40px" height="40px" viewBox="0 0 273 189" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M40.875 188.417H27.25L18.3937 161.5H0V93.8719C0 86.4698 2.66823 80.1892 8.00469 75.0302C13.3411 69.8712 19.7562 67.2917 27.25 67.2917V26.9167C27.25 19.5146 29.9182 13.178 35.2547 7.90677C40.5911 2.63559 47.0062 0 54.5 0H218C225.494 0 231.909 2.63559 237.245 7.90677C242.582 13.178 245.25 19.5146 245.25 26.9167V67.2917C252.744 67.2917 259.159 69.9273 264.495 75.1984C269.832 80.4696 272.5 86.8063 272.5 94.2083V161.5H254.106L245.25 188.417H231.625L222.769 161.5H49.7312L40.875 188.417ZM149.875 67.2917H218V26.9167H149.875V67.2917ZM54.5 67.2917H122.625V26.9167H54.5V67.2917ZM27.25 134.583H245.25V94.2083H27.25V134.583Z" fill="black"/>

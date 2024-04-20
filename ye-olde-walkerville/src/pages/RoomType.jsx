@@ -89,7 +89,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <h2 className='text-red-400'>from $196</h2>
         </div>
-       <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white">View Details</button></Link>
       </div>
     </div>
   </div>
@@ -132,7 +132,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <h2 className='text-red-400'>from $158</h2>
         </div>
-       <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white">View Details</button></Link>
       </div>
     </div>
   </div>
@@ -175,7 +175,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <h2 className='text-red-400 '>from $158</h2>
         </div>
-      <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
+      <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white">View Details</button></Link>
       </div>
     </div>
   </div>
@@ -218,7 +218,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <h2 className='text-red-400'>from $146</h2>
         </div>
-       <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white">View Details</button></Link>
       </div>
     </div>
   </div>
@@ -261,7 +261,7 @@ export const RoomType = () => {
           <h2>Room with breakfast</h2>
           <h2 className='text-red-400'>from $144</h2>
         </div>
-       <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-2 text-white">view more</button></Link>
+       <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white">View Details</button></Link>
       </div>
     </div>
   </div>
