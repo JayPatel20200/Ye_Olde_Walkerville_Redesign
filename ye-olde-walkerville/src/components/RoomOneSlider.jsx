@@ -10,22 +10,22 @@ function RoomOneSlider() {
   return (
     <Carousel>
       <Carousel.Item>
-        <img src={RoomOne} />
+        <img src={RoomOne} className="d-block w-100" alt="Room 1" style={{ maxHeight: "500px", objectFit: "cover" }} />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={RoomOneTwo} />
+        <img src={RoomOneTwo} className="d-block w-100" alt="Room 1" style={{ maxHeight: "500px", objectFit: "cover" }}  />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={RoomOneThree} />
+        <img src={RoomOneThree} className="d-block w-100" alt="Room 1" style={{ maxHeight: "500px", objectFit: "cover" }}  />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={RoomOneFour} />
+        <img src={RoomOneFour} className="d-block w-100" alt="Room 1" style={{ maxHeight: "500px", objectFit: "cover" }}  />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={RoomOneFive} />
+        <img src={RoomOneFive} className="d-block w-100" alt="Room 1" style={{ maxHeight: "500px", objectFit: "cover" }} />
       </Carousel.Item>
       <Carousel.Item>
-        <img src={RoomOneSix} />
+        <img src={RoomOneSix} className="d-block w-100" alt="Room 1" style={{ maxHeight: "500px", objectFit: "cover" }} />
       </Carousel.Item>
     </Carousel>
   );
