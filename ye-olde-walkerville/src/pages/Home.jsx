@@ -241,12 +241,13 @@ Bed & Breakfast</h1>
             </div>
           </div>
           <img
-            src={home_welcome}
-            alt="Product screenshot"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            width={2432}
-            height={1442}
+              src={home_welcome}
+              alt="Product screenshot"
+              className="w-120 h-120 max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-228 md:-ml-4 lg:-ml-0"
+              width={600}
+              height={600}
           />
+
         </div>
       </div>
     </div>
@@ -723,11 +724,11 @@ Bed & Breakfast</h1>
                 </div>
               </div>
               <img
-                src={home_exploringWindsor}
-                alt="Product screenshot"
-                className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                width={2432}
-                height={1442}
+                  src={home_exploringWindsor}
+                  alt="Product screenshot"
+                  className="w-100 h-100 max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-228 md:-ml-4 lg:-ml-0"
+                  width={500}
+                  height={500}
               />
             </div>
           </div>
