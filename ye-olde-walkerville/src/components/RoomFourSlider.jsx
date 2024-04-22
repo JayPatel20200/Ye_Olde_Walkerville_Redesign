@@ -10,22 +10,22 @@ const RoomFourSlider = () => {
   return (
     <Carousel>
     <Carousel.Item>
-      <img src={RoomFourOne} />
+      <img src={RoomFourOne} className="d-block w-100" alt="Room 4" style={{ maxHeight: "500px", objectFit: "cover" }} />
     </Carousel.Item>
     <Carousel.Item>
-      <img src={RoomFourTwo} />
+      <img src={RoomFourTwo} className="d-block w-100" alt="Room 4" style={{ maxHeight: "500px", objectFit: "cover" }} />
     </Carousel.Item>
     <Carousel.Item>
-      <img src={RoomFourThree} />
+      <img src={RoomFourThree} className="d-block w-100" alt="Room 4" style={{ maxHeight: "500px", objectFit: "cover" }} />
     </Carousel.Item>
     <Carousel.Item>
-      <img src={RoomFourFour} />
+      <img src={RoomFourFour} className="d-block w-100" alt="Room 4" style={{ maxHeight: "500px", objectFit: "contain" }} />
     </Carousel.Item>
     <Carousel.Item>
-      <img src={RoomFourFive} />
+      <img src={RoomFourFive} className="d-block w-100" alt="Room 4" style={{ maxHeight: "500px", objectFit: "cover" }} />
     </Carousel.Item>
     <Carousel.Item>
-      <img src={RoomFourSix} />
+      <img src={RoomFourSix} className="d-block w-100" alt="Room 4" style={{ maxHeight: "500px", objectFit: "contain" }} />
     </Carousel.Item>
   </Carousel>
   )

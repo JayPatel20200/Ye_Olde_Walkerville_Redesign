@@ -6,7 +6,7 @@ import RoomFourThree from "../assests/Rooms/Room5/R5-3.jpg";
 import RoomFourFour from "../assests/Rooms/Room5/R5-4.jpg";
 import RoomFourFive from "../assests/Rooms/Room5/R5-5.jpg";
 import RoomFourSix from "../assests/Rooms/Room5/R5-6.jpg";
-const RoomFiveSlider = () => {
+const RoomThreeSlider = () => {
   return (
     <Carousel>
     <Carousel.Item>
@@ -31,4 +31,4 @@ const RoomFiveSlider = () => {
   )
 }
 
-export default RoomFiveSlider
+export default RoomThreeSlider
