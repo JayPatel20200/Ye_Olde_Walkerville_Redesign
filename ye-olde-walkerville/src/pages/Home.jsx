@@ -21,7 +21,7 @@ import home_exploringWindsor from '../assests/img/home_exploringWindsor.jpg';
 import quick_and_secure from "../assests/img/quick_and_secure.jpg";
 import free_cancel from "../assests/img/free_cancel.jpg";
 import tourismWindsorEssex from "../assests/img/tourismWindsorEssex.png";
-import Logo from "../assests/img/Logo_YeOlde.png";
+import Logo from "../assests/img/Logo.png";
 import addressIcon from "../assests/img/address-location-icon.png";
 import specialPrice from "../assests/img/Special-price.png";
 import freeCanceled from "../assests/img/Free-Canceled.png";
@@ -81,7 +81,7 @@ const posts = [
   },
   {
     id: 4,
-    title: '"Such a cute B&B. The location was prefect, prices were great, and decor was beautiful. This was put first stay out of the US, and it was so nice and special. Thank you for everything.',
+    title: '"Such a cute B & B. The location was perfect, prices were great, and décor was beautiful. This was our first stay outside of the US. And it was so nice and special.',
     href: '#',
     // description:
     //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
@@ -89,7 +89,7 @@ const posts = [
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Jackson & Maria',
+      name: 'Anonymous',
       role: '-',
       href: '#',
       imageUrl:
@@ -98,7 +98,7 @@ const posts = [
   },
   {
     id: 5,
-    title: '"Thank You for everything. You have no idea how good make me stay here with you, I am greatfull. I wish you all the best."',
+    title: '"Splendid accomodations! Love the house 😊 and cheery service."',
     href: '#',
     // description:
     //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
@@ -106,7 +106,7 @@ const posts = [
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Isabel',
+      name: 'Jon & Carol',
       role: '-',
       href: '#',
       imageUrl:
@@ -115,7 +115,7 @@ const posts = [
   },
   {
     id: 6,
-    title: '"Thank you so much for making us feel like we were home. The Breakfast was Fabulous."',
+    title: '"Had the absolute best time here and the best breakfast I have had in a long time. The conversation at the table with a varied range of people was a sure bonus."',
     href: '#',
     // description:
     //   'Wow what a real pleasant surprise in getting to stay at this very well-preserved home. Our stay in the suite at the top was very comfortable and the breakfast was fantastic.',
@@ -123,7 +123,7 @@ const posts = [
     datetime: '2020-03-16',
     category: { title: 'Unknown', href: '#' },
     author: {
-      name: 'Apul & Bay',
+      name: 'Anonymous',
       role: '-',
       href: '#',
       imageUrl:
@@ -166,7 +166,7 @@ export const Home = () => {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 to="/room"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 no-underline"
+                className="rounded-md bg-red-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 no-underline"
               >
                Book a Room
               </Link>
@@ -229,14 +229,14 @@ Bed & Breakfast</h1>
               
               
 
-              <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">At <strong>Ye Olde Walkerville Bed & Breakfast</strong>, we uphold the highest 
+              <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">At Ye Olde Walkerville Bed & Breakfast, we uphold the highest 
               standards of cleanliness, comfort, and quality in our facilities
               and equipment. We serve delicious and nutritious food and drinks,
-              and we create a charming and elegant ambiance in our Bed & Breakfast facility. 
-              Don’t wait, book your room today!  
+              and we create a charming and elegant ambiance in our Bed & Breakfast facility.  
+               <strong> Don’t wait, book your room today! </strong> 
               </p>
               <span className="flex justify-center lg:justify-start">
-              <Link to="/story" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white">View Gallery</button></Link>
+              <Link to="/story" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 py-2 text-white"><strong>View Gallery</strong></button></Link>
               </span>
             </div>
           </div>
@@ -270,7 +270,7 @@ Bed & Breakfast</h1>
           <p className="text-base leading-7 text-white ">
           Indulge in a nutrient-rich morning with our wholesome breakfast options.
           </p>
-          <h2 className="order-first text-3xl font-semibold tracking-normal text-white sm:text-5xl">Morning delight</h2>
+          <h2 className="order-first text-3xl font-semibold tracking-normal text-white sm:text-5xl">Morning Delight</h2>
         </div>
         <div className="featureTwo mx-auto flex max-w-xs flex-col gap-y-4 bg-neutral-300 p-10 rounded-lg">
           <p className="text-base leading-7 text-white">
@@ -329,7 +329,7 @@ Bed & Breakfast</h1>
     <div className="px-4 py-6 item">
       <div class="mx-auto grid max-w-4xl grid-cols-1">
         <div class="relative col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 p-3">
-          <h1 class="mt-1 text-3xl font-semibold text-white">Samanth's Chamber</h1>
+          <h1 class="mt-1 text-3xl font-semibold text-white">Samantha's Suite</h1>
           <p class="text-xl font-medium leading-4 text-white">Room #1</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
@@ -337,16 +337,19 @@ Bed & Breakfast</h1>
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
-          <dd class="flex items-center">
+
+
+          {/* <dd class="flex items-center">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               <rect width="30" height="30" fill="url(#pattern0)" />
               <defs>
                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                   <use xlinkHref="#image0_711_61" transform="scale(0.00195312)" />
                 </pattern>
+                
                 <svg width="273" height="189" viewBox="0 0 273 189" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M40.875 188.417H27.25L18.3937 161.5H0V93.8719C0 86.4698 2.66823 80.1892 8.00469 75.0302C13.3411 69.8712 19.7562 67.2917 27.25 67.2917V26.9167C27.25 19.5146 29.9182 13.178 35.2547 7.90677C40.5911 2.63559 47.0062 0 54.5 0H218C225.494 0 231.909 2.63559 237.245 7.90677C242.582 13.178 245.25 19.5146 245.25 26.9167V67.2917C252.744 67.2917 259.159 69.9273 264.495 75.1984C269.832 80.4696 272.5 86.8063 272.5 94.2083V161.5H254.106L245.25 188.417H231.625L222.769 161.5H49.7312L40.875 188.417ZM149.875 67.2917H218V26.9167H149.875V67.2917ZM54.5 67.2917H122.625V26.9167H54.5V67.2917ZM27.25 134.583H245.25V94.2083H27.25V134.583Z" fill="black"/>
-</svg>
+                  <path d="M40.875 188.417H27.25L18.3937 161.5H0V93.8719C0 86.4698 2.66823 80.1892 8.00469 75.0302C13.3411 69.8712 19.7562 67.2917 27.25 67.2917V26.9167C27.25 19.5146 29.9182 13.178 35.2547 7.90677C40.5911 2.63559 47.0062 0 54.5 0H218C225.494 0 231.909 2.63559 237.245 7.90677C242.582 13.178 245.25 19.5146 245.25 26.9167V67.2917C252.744 67.2917 259.159 69.9273 264.495 75.1984C269.832 80.4696 272.5 86.8063 272.5 94.2083V161.5H254.106L245.25 188.417H231.625L222.769 161.5H49.7312L40.875 188.417ZM149.875 67.2917H218V26.9167H149.875V67.2917ZM54.5 67.2917H122.625V26.9167H54.5V67.2917ZM27.25 134.583H245.25V94.2083H27.25V134.583Z" fill="black"/>
+                </svg>
               </defs>
             </svg>
             <span class="mx-2">King size bed</span>
@@ -356,9 +359,26 @@ Bed & Breakfast</h1>
             <svg width="30" height="30" viewBox="0 0 276 164" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd" d="M218.163 136.951C225.463 136.951 231.37 138.207 231.37 139.754C231.37 141.302 225.463 142.558 218.163 142.558C210.863 142.558 204.956 141.302 204.956 139.754C204.956 138.207 210.863 136.951 218.163 136.951ZM56.332 33.0377V159.335C56.332 160.636 55.793 161.802 54.9619 162.654C54.1084 163.507 52.9404 164.022 51.6377 164.022H29.3564C28.0762 164.022 26.9082 163.507 26.0547 162.654C25.2012 161.802 24.6846 160.636 24.6846 159.357V33.0377H6.64844C4.80664 33.0377 3.14453 32.2976 1.9541 31.0864C0.741211 29.8753 0 28.2155 0 26.3988V6.63895C0 4.79978 0.741211 3.14004 1.9541 1.95131C3.16699 0.762582 4.80664 0 6.64844 0H269.352C271.193 0 272.855 0.740153 274.046 1.95131C275.236 3.16247 276 4.82221 276 6.63895V26.3988C276 28.238 275.259 29.8977 274.046 31.0864C272.833 32.2976 271.171 33.0377 269.352 33.0377H268.925V159.335C268.925 160.613 268.386 161.78 267.555 162.632L267.532 162.654C266.679 163.507 265.511 164.022 264.23 164.022H173.354C172.051 164.022 170.883 163.507 170.029 162.654C169.872 162.497 169.737 162.34 169.603 162.161C168.996 161.376 168.637 160.389 168.637 159.335V33.0377H56.332ZM176.408 68.7221H261.176V33.0377H176.408V68.7221ZM261.176 76.4601H176.408V112.817H261.176V76.4601ZM261.176 120.555H176.408V156.284H261.176V120.555ZM268.251 7.73796H7.74902V25.2998H268.251V7.73796ZM48.583 33.0377H32.3887V156.262H48.583V33.0377ZM218.163 47.7062C225.463 47.7062 231.37 48.895 231.37 50.3753C231.37 51.8556 225.463 53.0443 218.163 53.0443C210.863 53.0443 204.956 51.8556 204.956 50.3753C204.956 48.895 210.863 47.7062 218.163 47.7062ZM218.163 92.25C225.463 92.25 231.37 93.506 231.37 95.0536C231.37 96.6012 225.463 97.8572 218.163 97.8572C210.863 97.8572 204.956 96.6012 204.956 95.0536C204.956 93.506 210.863 92.25 218.163 92.25Z" fill="black" />
             </svg>
-  
             <span class="mx-2">Working Desk</span>
-          </dd>
+          </dd> */}
+
+            {/* Used the icons sets of Room #4 */}
+
+            <dd class="flex items-center">
+                      <svg width="30px" height="30px" viewBox="0 0 223 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.1573 2.30785e-05H192.838C197.921 2.30785e-05 202.547 2.09179 205.887 5.44824C209.232 8.80907 211.314 13.4608 211.314 18.5634V103.836C212.847 104.886 214.267 106.054 215.552 107.341L215.84 107.66C220.265 112.242 223 118.185 223 125.274V195.077C223 197.794 220.805 200 218.1 200H209.502C207.198 200 205.265 198.398 204.742 196.241C201.645 187.362 198.592 182.246 194.533 179.529C190.391 176.763 184.585 176.072 176.14 176.08L39.5781 176.282C33.5981 176.146 29.7522 177.84 27.0126 180.907C23.881 184.412 21.712 189.913 19.4951 196.617C18.8243 198.674 16.9123 199.978 14.8696 199.978L4.8999 200C2.19516 200 0 197.794 0 195.077V122.946C0 116.307 2.60893 110.794 6.79453 106.584L7.11684 106.291C8.49316 104.952 10.035 103.757 11.7031 102.711L11.6814 18.3796C11.6814 13.2814 13.7676 8.68654 17.1213 5.36072C20.5944 1.91867 25.2789 -0.00769089 30.1573 2.30785e-05ZM10.0786 143.667L9.79545 143.658V190.158H11.3896C13.637 183.809 16.1022 178.452 19.739 174.374C24.3993 169.153 30.5623 166.278 39.7654 166.484L176.14 166.278C186.488 166.269 193.853 167.284 199.925 171.345C205.386 174.999 209.337 180.807 212.908 190.158H213.205V143.658L212.917 143.667H10.0786ZM9.79545 133.834L10.0786 133.825H212.917L213.205 133.834V125.274C213.205 120.959 211.545 117.336 208.867 114.531L208.623 114.303C206.48 112.15 203.736 110.457 200.648 109.275C195.081 108.08 189.646 106.991 184.323 106.002C178.317 105.061 172.494 104.221 166.823 103.481C166.124 103.605 165.406 103.574 164.719 103.389L162.524 102.934C143.744 100.624 126.522 99.4508 109.47 99.4377C99.0129 99.4289 88.5815 99.8578 77.8496 100.724C58.9513 102.619 39.3081 106.015 17.6353 110.846C17.4306 110.89 17.2215 110.925 17.0212 110.942C15.8975 111.638 14.8609 112.426 13.9506 113.301L13.7241 113.546C11.3024 115.975 9.79545 119.148 9.79545 122.946V133.834ZM23.9943 98.068C33.7941 96.3132 43.1148 94.8384 52.1263 93.6306L52.1132 73.9295C52.1132 67.3216 54.8049 61.3045 59.1342 56.9591L59.4565 56.6659C63.7641 52.4867 69.6091 49.9092 76.0247 49.9092H146.975C153.556 49.9092 159.536 52.6136 163.861 56.9635C168.191 61.3133 170.887 67.326 170.887 73.9295V93.7794C175.665 94.5146 180.521 95.3329 185.469 96.2431C189.128 96.8164 192.847 97.4247 196.645 98.068C198.304 98.3524 199.933 98.7331 201.519 99.2101V18.5634C201.519 16.1784 200.534 13.9947 198.962 12.4106C197.39 10.8308 195.216 9.84183 192.838 9.84183H30.1573C27.7313 9.84183 25.5361 10.8002 23.9681 12.3581C22.4307 13.8809 21.4812 16.0077 21.4812 18.3796V98.6106C22.3087 98.4049 23.1493 98.2211 23.9943 98.068ZM114.052 89.0314C127.093 89.0926 139.832 89.8103 151.13 91.2019C154.419 91.5476 157.742 91.9458 161.087 92.3834V73.9295C161.087 70.0436 159.493 66.4946 156.932 63.9214C154.375 61.3527 150.847 59.751 146.975 59.751H76.0247C72.2572 59.751 68.8208 61.252 66.2815 63.6807L66.0594 63.9214C63.5027 66.4902 61.913 70.0392 61.913 73.9295V92.3747C77.9193 90.0772 96.2689 88.9438 114.052 89.0314Z" fill="black"/>
+            </svg>
+                        <span class="mx-2">King Size Bed</span>
+                      </dd>
+                      <dt class="sr-only">Location</dt>
+                      <dd class="mx-3 flex items-center">
+                        <svg width="30" height="30" viewBox="0 0 276 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M218.163 136.951C225.463 136.951 231.37 138.207 231.37 139.754C231.37 141.302 225.463 142.558 218.163 142.558C210.863 142.558 204.956 141.302 204.956 139.754C204.956 138.207 210.863 136.951 218.163 136.951ZM56.332 33.0377V159.335C56.332 160.636 55.793 161.802 54.9619 162.654C54.1084 163.507 52.9404 164.022 51.6377 164.022H29.3564C28.0762 164.022 26.9082 163.507 26.0547 162.654C25.2012 161.802 24.6846 160.636 24.6846 159.357V33.0377H6.64844C4.80664 33.0377 3.14453 32.2976 1.9541 31.0864C0.741211 29.8753 0 28.2155 0 26.3988V6.63895C0 4.79978 0.741211 3.14004 1.9541 1.95131C3.16699 0.762582 4.80664 0 6.64844 0H269.352C271.193 0 272.855 0.740153 274.046 1.95131C275.236 3.16247 276 4.82221 276 6.63895V26.3988C276 28.238 275.259 29.8977 274.046 31.0864C272.833 32.2976 271.171 33.0377 269.352 33.0377H268.925V159.335C268.925 160.613 268.386 161.78 267.555 162.632L267.532 162.654C266.679 163.507 265.511 164.022 264.23 164.022H173.354C172.051 164.022 170.883 163.507 170.029 162.654C169.872 162.497 169.737 162.34 169.603 162.161C168.996 161.376 168.637 160.389 168.637 159.335V33.0377H56.332ZM176.408 68.7221H261.176V33.0377H176.408V68.7221ZM261.176 76.4601H176.408V112.817H261.176V76.4601ZM261.176 120.555H176.408V156.284H261.176V120.555ZM268.251 7.73796H7.74902V25.2998H268.251V7.73796ZM48.583 33.0377H32.3887V156.262H48.583V33.0377ZM218.163 47.7062C225.463 47.7062 231.37 48.895 231.37 50.3753C231.37 51.8556 225.463 53.0443 218.163 53.0443C210.863 53.0443 204.956 51.8556 204.956 50.3753C204.956 48.895 210.863 47.7062 218.163 47.7062ZM218.163 92.25C225.463 92.25 231.37 93.506 231.37 95.0536C231.37 96.6012 225.463 97.8572 218.163 97.8572C210.863 97.8572 204.956 96.6012 204.956 95.0536C204.956 93.506 210.863 92.25 218.163 92.25Z" fill="black" />
+                        </svg>
+              
+                        <span class="mx-2">Working Area</span>
+                      </dd>
+
           <dt class="sr-only">Reviews</dt>
           <dd class="flex items-center">
             <svg width="30" height="30" viewBox="0 0 292 217" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -371,7 +391,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Spa Bath</span>
+            <span class="mx-2">Jacuzzi Tub with Shower</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -389,10 +409,24 @@ Bed & Breakfast</h1>
             <span class="mx-2">Sitting Area</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Indulge in the epitome of opulence at Samantha's Suite, a lavish loft designed to elevate your stay to unparalleled heights. This expansive retreat boasts a vaulted ceiling, offering an airy and spacious ambiance that sets the stage for an unforgettable experience.</p>
+        
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Samantha's, Lavish, large loft features vaulted ceiling, sitting area, king size bed, working desk, and jacuzzi tub with shower. This room includes a sofa couch that can be converted into a queen-size bed. </p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
+
+          <div class="price flex justify-between">
+              <p>Room only</p>
+              <p className='text-red-400'><strong>$158.10 (+tax)</strong></p>
+            </div>
+            <div className='border-top border-secondary'></div>
+            <div class="price flex justify-between pt-2">
+              <p>Room with breakfast</p>
+              <p className='text-red-400'><strong>$186 (+tax)</strong></p>
+            </div>
+
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <span className="flex justify-center lg:justify-start">
           <Link to="/roomone" ><button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white py-2">View Details</button></Link>
+          </span>
         </div>
       </div>
     </div>
@@ -400,14 +434,17 @@ Bed & Breakfast</h1>
       <div class="mx-auto grid max-w-4xl grid-cols-1">
         <div class="relative col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 p-3">
           <h1 class="mt-1 text-3xl font-semibold text-white">Corrina's Chamber</h1>
-          <p class="text-lx font-medium leading-4 text-white">Room #2</p>
+          <p class="text-xl font-medium leading-4 text-white">Room #2</p>
         </div>
         <div class="col-start-1 col-end-3 row-start-1 grid gap-4">
           <img src={R2} alt="" class="h-60 w-full rounded-lg object-cover" loading="lazy" />
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
-          <dd class="flex items-center">
+         
+         
+         
+          {/* <dd class="flex items-center">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               <rect width="30" height="30" fill="url(#pattern0)" />
               <defs>
@@ -415,8 +452,8 @@ Bed & Breakfast</h1>
                   <use xlinkHref="#image0_711_61" transform="scale(0.00195312)" />
                 </pattern>
                 <svg width="273" height="189" viewBox="0 0 273 189" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M40.875 188.417H27.25L18.3937 161.5H0V93.8719C0 86.4698 2.66823 80.1892 8.00469 75.0302C13.3411 69.8712 19.7562 67.2917 27.25 67.2917V26.9167C27.25 19.5146 29.9182 13.178 35.2547 7.90677C40.5911 2.63559 47.0062 0 54.5 0H218C225.494 0 231.909 2.63559 237.245 7.90677C242.582 13.178 245.25 19.5146 245.25 26.9167V67.2917C252.744 67.2917 259.159 69.9273 264.495 75.1984C269.832 80.4696 272.5 86.8063 272.5 94.2083V161.5H254.106L245.25 188.417H231.625L222.769 161.5H49.7312L40.875 188.417ZM149.875 67.2917H218V26.9167H149.875V67.2917ZM54.5 67.2917H122.625V26.9167H54.5V67.2917ZM27.25 134.583H245.25V94.2083H27.25V134.583Z" fill="black"/>
-</svg>
+          <path d="M40.875 188.417H27.25L18.3937 161.5H0V93.8719C0 86.4698 2.66823 80.1892 8.00469 75.0302C13.3411 69.8712 19.7562 67.2917 27.25 67.2917V26.9167C27.25 19.5146 29.9182 13.178 35.2547 7.90677C40.5911 2.63559 47.0062 0 54.5 0H218C225.494 0 231.909 2.63559 237.245 7.90677C242.582 13.178 245.25 19.5146 245.25 26.9167V67.2917C252.744 67.2917 259.159 69.9273 264.495 75.1984C269.832 80.4696 272.5 86.8063 272.5 94.2083V161.5H254.106L245.25 188.417H231.625L222.769 161.5H49.7312L40.875 188.417ZM149.875 67.2917H218V26.9167H149.875V67.2917ZM54.5 67.2917H122.625V26.9167H54.5V67.2917ZM27.25 134.583H245.25V94.2083H27.25V134.583Z" fill="black"/>
+          </svg>
               </defs>
             </svg>
             <span class="mx-2">Deluxe Queen Size Bed</span>
@@ -428,7 +465,28 @@ Bed & Breakfast</h1>
             </svg>
   
             <span class="mx-2">Working Desk</span>
-          </dd>
+          </dd> */}
+
+          {/* Used the icons sets of Room #4 */}
+
+          <dd class="flex items-center">
+                      <svg width="30px" height="30px" viewBox="0 0 223 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.1573 2.30785e-05H192.838C197.921 2.30785e-05 202.547 2.09179 205.887 5.44824C209.232 8.80907 211.314 13.4608 211.314 18.5634V103.836C212.847 104.886 214.267 106.054 215.552 107.341L215.84 107.66C220.265 112.242 223 118.185 223 125.274V195.077C223 197.794 220.805 200 218.1 200H209.502C207.198 200 205.265 198.398 204.742 196.241C201.645 187.362 198.592 182.246 194.533 179.529C190.391 176.763 184.585 176.072 176.14 176.08L39.5781 176.282C33.5981 176.146 29.7522 177.84 27.0126 180.907C23.881 184.412 21.712 189.913 19.4951 196.617C18.8243 198.674 16.9123 199.978 14.8696 199.978L4.8999 200C2.19516 200 0 197.794 0 195.077V122.946C0 116.307 2.60893 110.794 6.79453 106.584L7.11684 106.291C8.49316 104.952 10.035 103.757 11.7031 102.711L11.6814 18.3796C11.6814 13.2814 13.7676 8.68654 17.1213 5.36072C20.5944 1.91867 25.2789 -0.00769089 30.1573 2.30785e-05ZM10.0786 143.667L9.79545 143.658V190.158H11.3896C13.637 183.809 16.1022 178.452 19.739 174.374C24.3993 169.153 30.5623 166.278 39.7654 166.484L176.14 166.278C186.488 166.269 193.853 167.284 199.925 171.345C205.386 174.999 209.337 180.807 212.908 190.158H213.205V143.658L212.917 143.667H10.0786ZM9.79545 133.834L10.0786 133.825H212.917L213.205 133.834V125.274C213.205 120.959 211.545 117.336 208.867 114.531L208.623 114.303C206.48 112.15 203.736 110.457 200.648 109.275C195.081 108.08 189.646 106.991 184.323 106.002C178.317 105.061 172.494 104.221 166.823 103.481C166.124 103.605 165.406 103.574 164.719 103.389L162.524 102.934C143.744 100.624 126.522 99.4508 109.47 99.4377C99.0129 99.4289 88.5815 99.8578 77.8496 100.724C58.9513 102.619 39.3081 106.015 17.6353 110.846C17.4306 110.89 17.2215 110.925 17.0212 110.942C15.8975 111.638 14.8609 112.426 13.9506 113.301L13.7241 113.546C11.3024 115.975 9.79545 119.148 9.79545 122.946V133.834ZM23.9943 98.068C33.7941 96.3132 43.1148 94.8384 52.1263 93.6306L52.1132 73.9295C52.1132 67.3216 54.8049 61.3045 59.1342 56.9591L59.4565 56.6659C63.7641 52.4867 69.6091 49.9092 76.0247 49.9092H146.975C153.556 49.9092 159.536 52.6136 163.861 56.9635C168.191 61.3133 170.887 67.326 170.887 73.9295V93.7794C175.665 94.5146 180.521 95.3329 185.469 96.2431C189.128 96.8164 192.847 97.4247 196.645 98.068C198.304 98.3524 199.933 98.7331 201.519 99.2101V18.5634C201.519 16.1784 200.534 13.9947 198.962 12.4106C197.39 10.8308 195.216 9.84183 192.838 9.84183H30.1573C27.7313 9.84183 25.5361 10.8002 23.9681 12.3581C22.4307 13.8809 21.4812 16.0077 21.4812 18.3796V98.6106C22.3087 98.4049 23.1493 98.2211 23.9943 98.068ZM114.052 89.0314C127.093 89.0926 139.832 89.8103 151.13 91.2019C154.419 91.5476 157.742 91.9458 161.087 92.3834V73.9295C161.087 70.0436 159.493 66.4946 156.932 63.9214C154.375 61.3527 150.847 59.751 146.975 59.751H76.0247C72.2572 59.751 68.8208 61.252 66.2815 63.6807L66.0594 63.9214C63.5027 66.4902 61.913 70.0392 61.913 73.9295V92.3747C77.9193 90.0772 96.2689 88.9438 114.052 89.0314Z" fill="black"/>
+            </svg>
+                 <span class="mx-2">Deluxe Queen Size Bed</span>
+           </dd>
+                      <dt class="sr-only">Location</dt>
+                      <dd class="mx-3 flex items-center">
+                        <svg width="30" height="30" viewBox="0 0 276 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M218.163 136.951C225.463 136.951 231.37 138.207 231.37 139.754C231.37 141.302 225.463 142.558 218.163 142.558C210.863 142.558 204.956 141.302 204.956 139.754C204.956 138.207 210.863 136.951 218.163 136.951ZM56.332 33.0377V159.335C56.332 160.636 55.793 161.802 54.9619 162.654C54.1084 163.507 52.9404 164.022 51.6377 164.022H29.3564C28.0762 164.022 26.9082 163.507 26.0547 162.654C25.2012 161.802 24.6846 160.636 24.6846 159.357V33.0377H6.64844C4.80664 33.0377 3.14453 32.2976 1.9541 31.0864C0.741211 29.8753 0 28.2155 0 26.3988V6.63895C0 4.79978 0.741211 3.14004 1.9541 1.95131C3.16699 0.762582 4.80664 0 6.64844 0H269.352C271.193 0 272.855 0.740153 274.046 1.95131C275.236 3.16247 276 4.82221 276 6.63895V26.3988C276 28.238 275.259 29.8977 274.046 31.0864C272.833 32.2976 271.171 33.0377 269.352 33.0377H268.925V159.335C268.925 160.613 268.386 161.78 267.555 162.632L267.532 162.654C266.679 163.507 265.511 164.022 264.23 164.022H173.354C172.051 164.022 170.883 163.507 170.029 162.654C169.872 162.497 169.737 162.34 169.603 162.161C168.996 161.376 168.637 160.389 168.637 159.335V33.0377H56.332ZM176.408 68.7221H261.176V33.0377H176.408V68.7221ZM261.176 76.4601H176.408V112.817H261.176V76.4601ZM261.176 120.555H176.408V156.284H261.176V120.555ZM268.251 7.73796H7.74902V25.2998H268.251V7.73796ZM48.583 33.0377H32.3887V156.262H48.583V33.0377ZM218.163 47.7062C225.463 47.7062 231.37 48.895 231.37 50.3753C231.37 51.8556 225.463 53.0443 218.163 53.0443C210.863 53.0443 204.956 51.8556 204.956 50.3753C204.956 48.895 210.863 47.7062 218.163 47.7062ZM218.163 92.25C225.463 92.25 231.37 93.506 231.37 95.0536C231.37 96.6012 225.463 97.8572 218.163 97.8572C210.863 97.8572 204.956 96.6012 204.956 95.0536C204.956 93.506 210.863 92.25 218.163 92.25Z" fill="black" />
+                        </svg>
+              
+                        <span class="mx-2">Working Desk</span>
+                      </dd>
+
+
+
+
           <dt class="sr-only">Reviews</dt>
           <dd class="flex items-center">
             <svg width="30" height="30" viewBox="0 0 292 217" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -441,7 +499,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Spa Bath</span>
+            <span class="mx-2">Jacuzzi Tub with Shower</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -456,14 +514,27 @@ Bed & Breakfast</h1>
               </defs>
             </svg>
   
-            <span class="mx-2">Sitting Area</span>
+            <span class="mx-2">Single Chair</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Step into a realm of luxury with Corrina's Chamber, a generously sized haven that redefines sophistication. This well-appointed room offers an indulgent experience, combining exquisite details with modern comforts.
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">A deluxe large, well appointed room, Corrina's chamber features a cable TV, queen size bed, private 4-piece bath with jacuzzi tub and shower.
 </p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
+
+          <div class="price flex justify-between">
+              <p>Room only</p>
+              <p className='text-red-400'><strong>$125.80 (+tax)</strong></p>
+            </div>
+            <div className='border-top border-secondary'></div>
+            <div class="price flex justify-between pt-2">
+              <p>Room with breakfast</p>
+              <p className='text-red-400'><strong>$148 (+tax)</strong></p>
+            </div>
+
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <span className="flex justify-center lg:justify-start">
           <Link to="/roomtwo"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white  py-2">View Details</button></Link>
+          </span>
         </div>
       </div>
     </div>
@@ -478,7 +549,9 @@ Bed & Breakfast</h1>
         </div>
         <dl class="row-start-2 mt-4 grid grid-cols-2 text-xs font-medium">
           <dt class="sr-only">Reviews</dt>
-          <dd class="flex items-center">
+
+
+          {/* <dd class="flex items-center">
             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               <rect width="30" height="30" fill="url(#pattern0)" />
               <defs>
@@ -492,6 +565,7 @@ Bed & Breakfast</h1>
             </svg>
             <span class="mx-2">Deluxe Queen size bed</span>
           </dd>
+          
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
             <svg width="30" height="30" viewBox="0 0 276 164" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -499,7 +573,29 @@ Bed & Breakfast</h1>
             </svg>
   
             <span class="mx-2">Working Desk</span>
-          </dd>
+          </dd> */}
+
+
+          {/* Used the icons sets of Room #4 */}
+
+          <dd class="flex items-center">
+                      <svg width="30px" height="30px" viewBox="0 0 223 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30.1573 2.30785e-05H192.838C197.921 2.30785e-05 202.547 2.09179 205.887 5.44824C209.232 8.80907 211.314 13.4608 211.314 18.5634V103.836C212.847 104.886 214.267 106.054 215.552 107.341L215.84 107.66C220.265 112.242 223 118.185 223 125.274V195.077C223 197.794 220.805 200 218.1 200H209.502C207.198 200 205.265 198.398 204.742 196.241C201.645 187.362 198.592 182.246 194.533 179.529C190.391 176.763 184.585 176.072 176.14 176.08L39.5781 176.282C33.5981 176.146 29.7522 177.84 27.0126 180.907C23.881 184.412 21.712 189.913 19.4951 196.617C18.8243 198.674 16.9123 199.978 14.8696 199.978L4.8999 200C2.19516 200 0 197.794 0 195.077V122.946C0 116.307 2.60893 110.794 6.79453 106.584L7.11684 106.291C8.49316 104.952 10.035 103.757 11.7031 102.711L11.6814 18.3796C11.6814 13.2814 13.7676 8.68654 17.1213 5.36072C20.5944 1.91867 25.2789 -0.00769089 30.1573 2.30785e-05ZM10.0786 143.667L9.79545 143.658V190.158H11.3896C13.637 183.809 16.1022 178.452 19.739 174.374C24.3993 169.153 30.5623 166.278 39.7654 166.484L176.14 166.278C186.488 166.269 193.853 167.284 199.925 171.345C205.386 174.999 209.337 180.807 212.908 190.158H213.205V143.658L212.917 143.667H10.0786ZM9.79545 133.834L10.0786 133.825H212.917L213.205 133.834V125.274C213.205 120.959 211.545 117.336 208.867 114.531L208.623 114.303C206.48 112.15 203.736 110.457 200.648 109.275C195.081 108.08 189.646 106.991 184.323 106.002C178.317 105.061 172.494 104.221 166.823 103.481C166.124 103.605 165.406 103.574 164.719 103.389L162.524 102.934C143.744 100.624 126.522 99.4508 109.47 99.4377C99.0129 99.4289 88.5815 99.8578 77.8496 100.724C58.9513 102.619 39.3081 106.015 17.6353 110.846C17.4306 110.89 17.2215 110.925 17.0212 110.942C15.8975 111.638 14.8609 112.426 13.9506 113.301L13.7241 113.546C11.3024 115.975 9.79545 119.148 9.79545 122.946V133.834ZM23.9943 98.068C33.7941 96.3132 43.1148 94.8384 52.1263 93.6306L52.1132 73.9295C52.1132 67.3216 54.8049 61.3045 59.1342 56.9591L59.4565 56.6659C63.7641 52.4867 69.6091 49.9092 76.0247 49.9092H146.975C153.556 49.9092 159.536 52.6136 163.861 56.9635C168.191 61.3133 170.887 67.326 170.887 73.9295V93.7794C175.665 94.5146 180.521 95.3329 185.469 96.2431C189.128 96.8164 192.847 97.4247 196.645 98.068C198.304 98.3524 199.933 98.7331 201.519 99.2101V18.5634C201.519 16.1784 200.534 13.9947 198.962 12.4106C197.39 10.8308 195.216 9.84183 192.838 9.84183H30.1573C27.7313 9.84183 25.5361 10.8002 23.9681 12.3581C22.4307 13.8809 21.4812 16.0077 21.4812 18.3796V98.6106C22.3087 98.4049 23.1493 98.2211 23.9943 98.068ZM114.052 89.0314C127.093 89.0926 139.832 89.8103 151.13 91.2019C154.419 91.5476 157.742 91.9458 161.087 92.3834V73.9295C161.087 70.0436 159.493 66.4946 156.932 63.9214C154.375 61.3527 150.847 59.751 146.975 59.751H76.0247C72.2572 59.751 68.8208 61.252 66.2815 63.6807L66.0594 63.9214C63.5027 66.4902 61.913 70.0392 61.913 73.9295V92.3747C77.9193 90.0772 96.2689 88.9438 114.052 89.0314Z" fill="black"/>
+            </svg>
+                 <span class="mx-2">Deluxe Queen Size Bed</span>
+           </dd>
+                      <dt class="sr-only">Location</dt>
+                      <dd class="mx-3 flex items-center">
+                        <svg width="30" height="30" viewBox="0 0 276 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M218.163 136.951C225.463 136.951 231.37 138.207 231.37 139.754C231.37 141.302 225.463 142.558 218.163 142.558C210.863 142.558 204.956 141.302 204.956 139.754C204.956 138.207 210.863 136.951 218.163 136.951ZM56.332 33.0377V159.335C56.332 160.636 55.793 161.802 54.9619 162.654C54.1084 163.507 52.9404 164.022 51.6377 164.022H29.3564C28.0762 164.022 26.9082 163.507 26.0547 162.654C25.2012 161.802 24.6846 160.636 24.6846 159.357V33.0377H6.64844C4.80664 33.0377 3.14453 32.2976 1.9541 31.0864C0.741211 29.8753 0 28.2155 0 26.3988V6.63895C0 4.79978 0.741211 3.14004 1.9541 1.95131C3.16699 0.762582 4.80664 0 6.64844 0H269.352C271.193 0 272.855 0.740153 274.046 1.95131C275.236 3.16247 276 4.82221 276 6.63895V26.3988C276 28.238 275.259 29.8977 274.046 31.0864C272.833 32.2976 271.171 33.0377 269.352 33.0377H268.925V159.335C268.925 160.613 268.386 161.78 267.555 162.632L267.532 162.654C266.679 163.507 265.511 164.022 264.23 164.022H173.354C172.051 164.022 170.883 163.507 170.029 162.654C169.872 162.497 169.737 162.34 169.603 162.161C168.996 161.376 168.637 160.389 168.637 159.335V33.0377H56.332ZM176.408 68.7221H261.176V33.0377H176.408V68.7221ZM261.176 76.4601H176.408V112.817H261.176V76.4601ZM261.176 120.555H176.408V156.284H261.176V120.555ZM268.251 7.73796H7.74902V25.2998H268.251V7.73796ZM48.583 33.0377H32.3887V156.262H48.583V33.0377ZM218.163 47.7062C225.463 47.7062 231.37 48.895 231.37 50.3753C231.37 51.8556 225.463 53.0443 218.163 53.0443C210.863 53.0443 204.956 51.8556 204.956 50.3753C204.956 48.895 210.863 47.7062 218.163 47.7062ZM218.163 92.25C225.463 92.25 231.37 93.506 231.37 95.0536C231.37 96.6012 225.463 97.8572 218.163 97.8572C210.863 97.8572 204.956 96.6012 204.956 95.0536C204.956 93.506 210.863 92.25 218.163 92.25Z" fill="black" />
+                        </svg>
+              
+                        <span class="mx-2">Working Desk</span>
+                      </dd>
+
+
+
+          
           <dt class="sr-only">Reviews</dt>
           <dd class="flex items-center">
             <svg width="30" height="30" viewBox="0 0 292 217" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -512,7 +608,7 @@ Bed & Breakfast</h1>
                 </clipPath>
               </defs>
             </svg>
-            <span class="mx-2">Spa Bath</span>
+            <span class="mx-2">Jacuzzi Tub with Shower</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -527,13 +623,28 @@ Bed & Breakfast</h1>
               </defs>
             </svg>
   
-            <span class="mx-2">Sitting Area</span>
+            <span class="mx-2">Single Chair</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Tyler's Chamber, an expansive retreat meticulously designed for those who seek the perfect blend of comfort and sophistication. This well-appointed haven goes beyond the ordinary, offering a haven of tranquility with every detail crafted to enhance your stay.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Another deluxe large, well appointed room, Tyler's chamber features a cable TV, queen size bed, private 4-piece bath with jacuzzi tub and shower.
+</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
+
+          <div class="price flex justify-between">
+              <p>Room only</p>
+              <p className='text-red-400'><strong>$125.80 (+tax)</strong></p>
+            </div>
+            <div className='border-top border-secondary'></div>
+            <div class="price flex justify-between pt-2">
+              <p>Room with breakfast</p>
+              <p className='text-red-400'><strong>$148 (+tax)</strong></p>
+            </div>
+
+
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <span className="flex justify-center lg:justify-start">
           <Link to="/roomthree">  <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white  py-2">View Details</button></Link>
+          </span>        
         </div>
       </div>
     </div>
@@ -552,7 +663,7 @@ Bed & Breakfast</h1>
           <svg width="30px" height="30px" viewBox="0 0 223 200" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M30.1573 2.30785e-05H192.838C197.921 2.30785e-05 202.547 2.09179 205.887 5.44824C209.232 8.80907 211.314 13.4608 211.314 18.5634V103.836C212.847 104.886 214.267 106.054 215.552 107.341L215.84 107.66C220.265 112.242 223 118.185 223 125.274V195.077C223 197.794 220.805 200 218.1 200H209.502C207.198 200 205.265 198.398 204.742 196.241C201.645 187.362 198.592 182.246 194.533 179.529C190.391 176.763 184.585 176.072 176.14 176.08L39.5781 176.282C33.5981 176.146 29.7522 177.84 27.0126 180.907C23.881 184.412 21.712 189.913 19.4951 196.617C18.8243 198.674 16.9123 199.978 14.8696 199.978L4.8999 200C2.19516 200 0 197.794 0 195.077V122.946C0 116.307 2.60893 110.794 6.79453 106.584L7.11684 106.291C8.49316 104.952 10.035 103.757 11.7031 102.711L11.6814 18.3796C11.6814 13.2814 13.7676 8.68654 17.1213 5.36072C20.5944 1.91867 25.2789 -0.00769089 30.1573 2.30785e-05ZM10.0786 143.667L9.79545 143.658V190.158H11.3896C13.637 183.809 16.1022 178.452 19.739 174.374C24.3993 169.153 30.5623 166.278 39.7654 166.484L176.14 166.278C186.488 166.269 193.853 167.284 199.925 171.345C205.386 174.999 209.337 180.807 212.908 190.158H213.205V143.658L212.917 143.667H10.0786ZM9.79545 133.834L10.0786 133.825H212.917L213.205 133.834V125.274C213.205 120.959 211.545 117.336 208.867 114.531L208.623 114.303C206.48 112.15 203.736 110.457 200.648 109.275C195.081 108.08 189.646 106.991 184.323 106.002C178.317 105.061 172.494 104.221 166.823 103.481C166.124 103.605 165.406 103.574 164.719 103.389L162.524 102.934C143.744 100.624 126.522 99.4508 109.47 99.4377C99.0129 99.4289 88.5815 99.8578 77.8496 100.724C58.9513 102.619 39.3081 106.015 17.6353 110.846C17.4306 110.89 17.2215 110.925 17.0212 110.942C15.8975 111.638 14.8609 112.426 13.9506 113.301L13.7241 113.546C11.3024 115.975 9.79545 119.148 9.79545 122.946V133.834ZM23.9943 98.068C33.7941 96.3132 43.1148 94.8384 52.1263 93.6306L52.1132 73.9295C52.1132 67.3216 54.8049 61.3045 59.1342 56.9591L59.4565 56.6659C63.7641 52.4867 69.6091 49.9092 76.0247 49.9092H146.975C153.556 49.9092 159.536 52.6136 163.861 56.9635C168.191 61.3133 170.887 67.326 170.887 73.9295V93.7794C175.665 94.5146 180.521 95.3329 185.469 96.2431C189.128 96.8164 192.847 97.4247 196.645 98.068C198.304 98.3524 199.933 98.7331 201.519 99.2101V18.5634C201.519 16.1784 200.534 13.9947 198.962 12.4106C197.39 10.8308 195.216 9.84183 192.838 9.84183H30.1573C27.7313 9.84183 25.5361 10.8002 23.9681 12.3581C22.4307 13.8809 21.4812 16.0077 21.4812 18.3796V98.6106C22.3087 98.4049 23.1493 98.2211 23.9943 98.068ZM114.052 89.0314C127.093 89.0926 139.832 89.8103 151.13 91.2019C154.419 91.5476 157.742 91.9458 161.087 92.3834V73.9295C161.087 70.0436 159.493 66.4946 156.932 63.9214C154.375 61.3527 150.847 59.751 146.975 59.751H76.0247C72.2572 59.751 68.8208 61.252 66.2815 63.6807L66.0594 63.9214C63.5027 66.4902 61.913 70.0392 61.913 73.9295V92.3747C77.9193 90.0772 96.2689 88.9438 114.052 89.0314Z" fill="black"/>
 </svg>
-            <span class="mx-2">Double or Twin Bed</span>
+            <span class="mx-2">Double/Twin Bed</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -567,7 +678,7 @@ Bed & Breakfast</h1>
           <svg width="30px" height="30px" viewBox="0 0 257 178" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M135.109 116.604L135.402 116.185C137.033 113.856 140.254 113.29 142.555 114.926L182.167 142.719C184.489 144.355 185.053 147.564 183.422 149.893L183.129 150.312C181.498 152.64 178.277 153.207 175.976 151.571L136.364 123.778C134.042 122.163 133.478 118.932 135.109 116.604ZM0 72.3453V177.979H30.5355V73.6877C38.1694 36.2251 59.6906 26.0099 88.5111 30.1841C75.523 52.8588 77.2171 75.9111 95.6012 99.4249C93.2587 103.263 93.4469 107.417 96.0404 111.864L101.792 118.513C104.093 120.862 106.958 121.051 110.639 118.072L198.711 28.8626C201.095 25.9889 200.614 23.4928 197.832 21.3113C191.6 13.6342 190.805 12.3128 179.678 14.2006C154.999 -1.90879 131.47 -4.78246 109.321 7.99175C53.7508 -14.9137 6.42082 13.865 0 72.3453ZM184.928 73.6667L185.221 73.2472C186.852 70.9189 190.052 70.3526 192.374 71.9887L231.986 99.8025C234.308 101.439 234.872 104.669 233.241 106.976L232.948 107.396C231.317 109.724 228.117 110.29 225.795 108.654L186.204 80.8404C183.882 79.2043 183.317 75.9741 184.928 73.6667ZM207.746 50.6773L208.039 50.2578C209.67 47.9295 212.891 47.3632 215.191 48.9993L254.804 76.8131C257.125 78.4492 257.69 81.6795 256.059 83.9868L255.766 84.4063C254.135 86.7346 250.914 87.301 248.613 85.6649L209.001 57.851C206.7 56.2149 206.115 52.9847 207.746 50.6773ZM162.256 95.901L162.549 95.4815C164.181 93.1532 167.401 92.5868 169.702 94.2229L209.314 122.037C211.636 123.673 212.201 126.882 210.59 129.21L210.297 129.63C208.666 131.958 205.445 132.525 203.145 130.889L163.511 103.075C161.211 101.439 160.646 98.2293 162.256 95.901Z" fill="black"/>
 </svg>
-            <span class="mx-2">Bath</span>
+            <span class="mx-2">Shower</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -582,13 +693,27 @@ Bed & Breakfast</h1>
               </defs>
             </svg>
   
-            <span class="mx-2">Sitting Area</span>
+            <span class="mx-2">Single Chair</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Bethany's Room, a capacious and meticulously designed retreat that seamlessly combines affordability with a touch of indulgence. This well-appointed haven surpasses expectations, providing a setting where comfort and sophistication converge seamlessly.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Perfect for your business trip, Bethany’s contains two twin XL beds that, when put together, form a king bed. The room has a private bath with a shower.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
+
+          <div class="price flex justify-between">
+              <p>Room only</p>
+              <p className='text-red-400'><strong>$115.60 (+tax)</strong></p>
+            </div>
+            <div className='border-top border-secondary'></div>
+            <div class="price flex justify-between pt-2">
+              <p>Room with breakfast</p>
+              <p className='text-red-400'><strong>$136 (+tax)</strong></p>
+            </div>
+
+
           {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
+          <span className="flex justify-center lg:justify-start">
           <Link to="/roomfour"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white  py-2">View Details</button></Link>
+          </span>
         </div>
       </div>
     </div>
@@ -622,7 +747,7 @@ Bed & Breakfast</h1>
           <svg width="30px" height="30px" viewBox="0 0 257 178" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M135.109 116.604L135.402 116.185C137.033 113.856 140.254 113.29 142.555 114.926L182.167 142.719C184.489 144.355 185.053 147.564 183.422 149.893L183.129 150.312C181.498 152.64 178.277 153.207 175.976 151.571L136.364 123.778C134.042 122.163 133.478 118.932 135.109 116.604ZM0 72.3453V177.979H30.5355V73.6877C38.1694 36.2251 59.6906 26.0099 88.5111 30.1841C75.523 52.8588 77.2171 75.9111 95.6012 99.4249C93.2587 103.263 93.4469 107.417 96.0404 111.864L101.792 118.513C104.093 120.862 106.958 121.051 110.639 118.072L198.711 28.8626C201.095 25.9889 200.614 23.4928 197.832 21.3113C191.6 13.6342 190.805 12.3128 179.678 14.2006C154.999 -1.90879 131.47 -4.78246 109.321 7.99175C53.7508 -14.9137 6.42082 13.865 0 72.3453ZM184.928 73.6667L185.221 73.2472C186.852 70.9189 190.052 70.3526 192.374 71.9887L231.986 99.8025C234.308 101.439 234.872 104.669 233.241 106.976L232.948 107.396C231.317 109.724 228.117 110.29 225.795 108.654L186.204 80.8404C183.882 79.2043 183.317 75.9741 184.928 73.6667ZM207.746 50.6773L208.039 50.2578C209.67 47.9295 212.891 47.3632 215.191 48.9993L254.804 76.8131C257.125 78.4492 257.69 81.6795 256.059 83.9868L255.766 84.4063C254.135 86.7346 250.914 87.301 248.613 85.6649L209.001 57.851C206.7 56.2149 206.115 52.9847 207.746 50.6773ZM162.256 95.901L162.549 95.4815C164.181 93.1532 167.401 92.5868 169.702 94.2229L209.314 122.037C211.636 123.673 212.201 126.882 210.59 129.21L210.297 129.63C208.666 131.958 205.445 132.525 203.145 130.889L163.511 103.075C161.211 101.439 160.646 98.2293 162.256 95.901Z" fill="black"/>
 </svg>
-            <span class="mx-2">Bath</span>
+            <span class="mx-2">Shower</span>
           </dd>
           <dt class="sr-only">Location</dt>
           <dd class="mx-3 flex items-center">
@@ -637,17 +762,33 @@ Bed & Breakfast</h1>
               </defs>
             </svg>
   
-            <span class="mx-2">Sitting Area</span>
+            <span class="mx-2">Single Chair</span>
           </dd>
         </dl>
-        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">Welcome to Deanna's Room, an expansive and exquisitely designed haven that redefines the concept of affordable luxury. This well-appointed retreat goes beyond the ordinary, offering a sanctuary where comfort and sophistication converge effortlessly.</p>
+        <p class="col-start-1 mt-4 text-sm leading-6 dark:text-slate-400">The standard queen room, Deanna’s, is well-appointed and features cable TV, a queen-size bed, and a private bath with a shower.</p>
         <div class="col-start-1 row-start-3 mt-4 self-center">
-          {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button> */}
-          <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white  py-2">View Details</button></Link>
+
+          <div class="price flex justify-between">
+              <p>Room only</p>
+              <p className='text-red-400'><strong>$113.90 (+tax)</strong></p>
+            </div>
+            <div className='border-top border-secondary'></div>
+            <div class="price flex justify-between pt-2">
+              <p>Room with breakfast</p>
+              <p className='text-red-400'><strong>$134 (+tax)</strong></p>
+            </div>
+
+
+          {/* <button type="button" class="rounded-lg bg-black px-3 py-2 text-sm font-medium leading-6 text-white">Check Availability</button>
+          <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white py-2"><strong>View Details</strong></button></Link>
+         */}
+          <span className="flex justify-center lg:justify-start">
+          <Link to="/roomfive"> <button class="mt-3 rounded-lg bg-red-400 hover:bg-red-500 p-1 px-3 text-white py-2">View Details</button></Link>
+          </span>
         </div>
       </div>
     </div>
-  </div>
+  </div> 
     {/* This is the end of Room Section */}
     {/* This is the start of Reviews Section */}
     <div className="bg-white py-20 sm:py-20">
@@ -706,7 +847,7 @@ Bed & Breakfast</h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
                   If you love history and architecture, you will be amazed by the Walker mansion, Willistead Manor, 
                   which is just a block away from our B&B. This stunning park and venue hosts many special events throughout
-                  the year. You can also admire the other grand homes in the neighborhood as you stroll around the “Olde Walkerville”.
+                  the year. You can also admire the other grand homes in the neighborhood as you stroll around the <strong>“Ye Olde Walkerville”</strong>.
                   </p>
 
                   <p className="mt-6 text-lg leading-8 text-gray-600 mb-6">
@@ -761,7 +902,7 @@ Bed & Breakfast</h1>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M185.352 195.066C175.122 206.307 163.198 216.392 149.792 224.545C148.145 225.747 145.911 225.912 144.077 224.734C124.297 212.127 107.669 196.975 94.6165 180.527C76.601 157.882 65.2414 132.762 61.3608 108.585C57.4096 84.0543 61.1021 60.4663 73.2848 41.2848C78.0827 33.697 84.2211 26.7927 91.7001 20.8309C108.892 7.09279 128.531 -0.141489 148.075 -0.000102747C166.913 0.141284 185.493 7.18705 201.557 21.8677C207.201 27.0047 211.952 32.8959 215.833 39.2818C228.933 60.8904 231.755 88.4608 225.993 116.408C220.325 144.002 206.214 172.067 185.352 194.996V195.066ZM59.5498 175.649C64.2065 175.649 67.9931 179.443 67.9931 184.109C67.9931 188.775 64.2065 192.569 59.5498 192.569H43.6981L22.8133 260.128H265.575L242.903 192.569H229.803C225.146 192.569 221.36 188.775 221.36 184.109C221.36 179.443 225.146 175.649 229.803 175.649H254.968L288.977 277H0L31.3272 175.649H59.5498ZM144.359 43.6177C167.596 43.6177 186.411 62.4928 186.411 85.7273C186.411 109.009 167.572 127.861 144.359 127.861C121.122 127.861 102.331 109.009 102.331 85.7273C102.284 62.4692 121.122 43.6177 144.359 43.6177Z" fill="black"/>
 </svg>
 
-      <p>1104 Monmouth Rd,Windsor, ON N8Y 3L8</p>
+      <p>1104 Monmouth Rd., Windsor, ON N8Y 3L8</p>
     </div>
     <div class="first-line flex gap-2">
     <svg width="30px" height="30px" viewBox="0 0 212 205" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -769,12 +910,24 @@ Bed & Breakfast</h1>
 </svg>
       <p>(519) 254-1507</p>
     </div>
-    <div class="first-line flex gap-2">
+    
+    {/* <div class="first-line flex gap-2">
     <svg width="30px" height="30px" viewBox="0 0 265 277" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M229.995 69.5713L175.34 12.9403V12.3767H27.9456V103.703L104.88 172.688L105.218 173.004L131.185 196.269L236.043 104.515V81.9705L230.107 69.5938L229.995 69.5713ZM144.022 64.1156L144.225 63.1913L145.484 57.6229H160.839L152.003 99.4197C151.846 100.164 151.689 100.84 151.576 101.449C151.36 102.504 151.225 103.574 151.172 104.65C151.132 105.411 151.363 106.162 151.824 106.769C152.029 106.997 152.278 107.181 152.556 107.309C152.835 107.437 153.136 107.506 153.442 107.513C155.533 107.513 158.254 106.138 161.559 103.41C165.159 100.264 168.101 96.4327 170.214 92.1379C172.445 87.7222 173.695 82.874 173.877 77.9274C174.06 72.9807 173.171 68.0532 171.271 63.4843C169.513 59.4028 166.907 55.7443 163.627 52.7533C160.019 49.583 155.814 47.1685 151.262 45.6519C145.891 43.8662 140.26 42.9974 134.602 43.0819C128.716 43.0294 122.857 43.8731 117.223 45.5843C112.223 47.1342 107.54 49.5699 103.397 52.7759C99.3502 55.9041 95.9517 59.7943 93.3919 64.2283C90.9753 68.3359 89.1582 72.7695 87.9961 77.3941C86.746 82.2081 86.1188 87.1634 86.1301 92.1379C86.0263 98.4687 87.3723 104.739 90.0645 110.466C92.6962 116.005 96.669 120.795 101.62 124.399C107.095 128.35 113.351 131.079 119.966 132.402C127.96 133.994 136.154 134.313 144.247 133.349C150.542 132.75 156.695 131.113 162.458 128.502C167.405 126.151 171.738 122.678 175.115 118.357H187.503C185.534 122.533 182.873 126.344 179.634 129.629C176.289 132.951 172.452 135.734 168.258 137.88C163.638 140.212 158.733 141.925 153.667 142.975C147.87 144.183 141.961 144.765 136.041 144.711C127.322 144.838 118.64 143.567 110.321 140.946C103.198 138.742 96.6228 135.046 91.0312 130.102C85.8491 125.445 81.7966 119.662 79.183 113.194C76.4589 106.294 75.1071 98.9269 75.2036 91.5067C75.1121 83.5231 76.5153 75.5931 79.3404 68.1284C81.96 61.0294 86.0637 54.5745 91.3761 49.1969C96.6886 43.8194 103.087 39.6436 110.141 36.9499C118.019 33.8675 126.416 32.3366 134.872 32.441C141.751 32.3655 148.594 33.4633 155.106 35.6874C160.942 37.7008 166.299 40.9014 170.844 45.0883C175.194 49.0954 178.623 54.0032 180.893 59.4715C183.226 65.2567 184.395 71.4473 184.333 77.6871C184.334 82.9094 183.39 88.0884 181.545 92.9721C179.716 97.9295 177.004 102.513 173.542 106.499C170.137 110.437 165.978 113.65 161.311 115.945C156.589 118.295 151.385 119.507 146.113 119.484C143.575 119.624 141.048 119.063 138.806 117.861C137.915 117.283 137.151 116.529 136.559 115.645C135.968 114.762 135.562 113.767 135.367 112.721C134.503 113.532 133.586 114.285 132.624 114.975C131.86 115.533 131.064 116.045 130.241 116.508C128.22 117.662 126.026 118.477 123.743 118.92C119.466 119.803 115.024 119.371 110.996 117.68C106.906 115.963 103.461 112.997 101.148 109.204C98.4917 104.742 97.1726 99.6082 97.3488 94.4149C97.3687 88.1937 98.702 82.0471 101.261 76.3796C103.745 70.6778 107.609 65.6876 112.502 61.8612C117.158 58.1498 122.944 56.1525 128.892 56.2026C131.822 56.0268 134.748 56.6256 137.375 57.9391C140.003 59.2525 142.241 61.2346 143.865 63.6872L144.135 64.1156H144.022ZM112.232 94.3022C111.986 98.1027 113.006 101.877 115.132 105.033C116.009 106.22 117.156 107.18 118.478 107.831C119.8 108.482 121.259 108.806 122.731 108.776C124.562 108.75 126.367 108.335 128.026 107.558C129.685 106.781 131.16 105.659 132.354 104.267C133.175 103.404 133.927 102.476 134.602 101.494C135.088 100.819 135.538 100.119 135.951 99.3972C137.073 97.4433 137.978 95.3719 138.649 93.2201C140.049 89.1082 140.808 84.8041 140.897 80.4601V80.3023C140.899 79.4288 140.854 78.5558 140.762 77.6871C140.654 76.6948 140.459 75.714 140.178 74.7564C139.703 73.1794 138.94 71.7042 137.93 70.4054C137.025 69.2232 135.854 68.2729 134.512 67.6325C133.099 66.9941 131.565 66.6711 130.016 66.6856C128.29 66.7023 126.585 67.0661 125.001 67.7554C123.418 68.4447 121.989 69.4454 120.798 70.6985C117.934 73.5645 115.792 77.0729 114.548 80.9335C113.07 85.1809 112.31 89.646 112.3 94.1444L112.232 94.3022ZM248.273 93.716C249.769 92.3567 251.718 91.6087 253.736 91.6194C255.374 91.639 256.976 92.1067 258.368 92.9721C259.437 93.616 260.394 94.4308 261.2 95.3843C263.497 98.0728 264.834 101.452 265 104.988V264.24C264.985 267.621 263.645 270.86 261.268 273.258C258.882 275.649 255.648 276.995 252.275 277H12.7251C9.35364 276.985 6.12339 275.641 3.73211 273.258C2.54617 272.077 1.60566 270.672 0.965038 269.124C0.324416 267.576 -0.00358532 265.916 2.95569e-05 264.24V104.988C0.168614 101.396 1.53873 97.9651 3.88948 95.249C4.71846 94.3624 5.67292 93.6028 6.72226 92.9946C8.07968 92.1683 9.63108 91.7172 11.2187 91.6871C12.8112 91.6612 14.3757 92.1083 15.7152 92.9721V6.1771C15.715 4.55433 16.3517 2.99668 17.4876 1.84081C18.6235 0.684933 20.1673 0.02369 21.7855 0L177.364 0C178.268 0.000796693 179.161 0.203524 179.978 0.593468C180.794 0.983412 181.514 1.55079 182.085 2.25442L246.497 68.9626C247.619 70.1043 248.249 71.6427 248.251 73.246V75.0269C248.251 75.2749 248.251 75.5229 248.251 75.7934C248.251 76.064 248.251 76.2894 248.251 76.5374V93.7386L248.273 93.716ZM127.048 209.074L100.923 185.674L12.3204 263.541V264.24C12.2817 264.334 12.2817 264.439 12.3204 264.533C12.4156 264.563 12.5175 264.563 12.6127 264.533H252.252C252.348 264.563 252.45 264.563 252.545 264.533C252.583 264.439 252.583 264.334 252.545 264.24V263.767L162.862 184.862L135.209 209.12C134.087 210.116 132.639 210.667 131.14 210.667C129.64 210.667 128.193 210.116 127.071 209.12L127.048 209.074ZM91.6832 177.513L12.3204 106.296V247.152L91.6832 177.4V177.513ZM252.657 247.535V106.228L172.193 176.724L252.657 247.422V247.535Z" fill="black"/>
-</svg>
+    <path d="M229.995 69.5713L175.34 12.9403V12.3767H27.9456V103.703L104.88 172.688L105.218 173.004L131.185 196.269L236.043 104.515V81.9705L230.107 69.5938L229.995 69.5713ZM144.022 64.1156L144.225 63.1913L145.484 57.6229H160.839L152.003 99.4197C151.846 100.164 151.689 100.84 151.576 101.449C151.36 102.504 151.225 103.574 151.172 104.65C151.132 105.411 151.363 106.162 151.824 106.769C152.029 106.997 152.278 107.181 152.556 107.309C152.835 107.437 153.136 107.506 153.442 107.513C155.533 107.513 158.254 106.138 161.559 103.41C165.159 100.264 168.101 96.4327 170.214 92.1379C172.445 87.7222 173.695 82.874 173.877 77.9274C174.06 72.9807 173.171 68.0532 171.271 63.4843C169.513 59.4028 166.907 55.7443 163.627 52.7533C160.019 49.583 155.814 47.1685 151.262 45.6519C145.891 43.8662 140.26 42.9974 134.602 43.0819C128.716 43.0294 122.857 43.8731 117.223 45.5843C112.223 47.1342 107.54 49.5699 103.397 52.7759C99.3502 55.9041 95.9517 59.7943 93.3919 64.2283C90.9753 68.3359 89.1582 72.7695 87.9961 77.3941C86.746 82.2081 86.1188 87.1634 86.1301 92.1379C86.0263 98.4687 87.3723 104.739 90.0645 110.466C92.6962 116.005 96.669 120.795 101.62 124.399C107.095 128.35 113.351 131.079 119.966 132.402C127.96 133.994 136.154 134.313 144.247 133.349C150.542 132.75 156.695 131.113 162.458 128.502C167.405 126.151 171.738 122.678 175.115 118.357H187.503C185.534 122.533 182.873 126.344 179.634 129.629C176.289 132.951 172.452 135.734 168.258 137.88C163.638 140.212 158.733 141.925 153.667 142.975C147.87 144.183 141.961 144.765 136.041 144.711C127.322 144.838 118.64 143.567 110.321 140.946C103.198 138.742 96.6228 135.046 91.0312 130.102C85.8491 125.445 81.7966 119.662 79.183 113.194C76.4589 106.294 75.1071 98.9269 75.2036 91.5067C75.1121 83.5231 76.5153 75.5931 79.3404 68.1284C81.96 61.0294 86.0637 54.5745 91.3761 49.1969C96.6886 43.8194 103.087 39.6436 110.141 36.9499C118.019 33.8675 126.416 32.3366 134.872 32.441C141.751 32.3655 148.594 33.4633 155.106 35.6874C160.942 37.7008 166.299 40.9014 170.844 45.0883C175.194 49.0954 178.623 54.0032 180.893 59.4715C183.226 65.2567 184.395 71.4473 184.333 77.6871C184.334 82.9094 183.39 88.0884 181.545 92.9721C179.716 97.9295 177.004 102.513 173.542 106.499C170.137 110.437 165.978 113.65 161.311 115.945C156.589 118.295 151.385 119.507 146.113 119.484C143.575 119.624 141.048 119.063 138.806 117.861C137.915 117.283 137.151 116.529 136.559 115.645C135.968 114.762 135.562 113.767 135.367 112.721C134.503 113.532 133.586 114.285 132.624 114.975C131.86 115.533 131.064 116.045 130.241 116.508C128.22 117.662 126.026 118.477 123.743 118.92C119.466 119.803 115.024 119.371 110.996 117.68C106.906 115.963 103.461 112.997 101.148 109.204C98.4917 104.742 97.1726 99.6082 97.3488 94.4149C97.3687 88.1937 98.702 82.0471 101.261 76.3796C103.745 70.6778 107.609 65.6876 112.502 61.8612C117.158 58.1498 122.944 56.1525 128.892 56.2026C131.822 56.0268 134.748 56.6256 137.375 57.9391C140.003 59.2525 142.241 61.2346 143.865 63.6872L144.135 64.1156H144.022ZM112.232 94.3022C111.986 98.1027 113.006 101.877 115.132 105.033C116.009 106.22 117.156 107.18 118.478 107.831C119.8 108.482 121.259 108.806 122.731 108.776C124.562 108.75 126.367 108.335 128.026 107.558C129.685 106.781 131.16 105.659 132.354 104.267C133.175 103.404 133.927 102.476 134.602 101.494C135.088 100.819 135.538 100.119 135.951 99.3972C137.073 97.4433 137.978 95.3719 138.649 93.2201C140.049 89.1082 140.808 84.8041 140.897 80.4601V80.3023C140.899 79.4288 140.854 78.5558 140.762 77.6871C140.654 76.6948 140.459 75.714 140.178 74.7564C139.703 73.1794 138.94 71.7042 137.93 70.4054C137.025 69.2232 135.854 68.2729 134.512 67.6325C133.099 66.9941 131.565 66.6711 130.016 66.6856C128.29 66.7023 126.585 67.0661 125.001 67.7554C123.418 68.4447 121.989 69.4454 120.798 70.6985C117.934 73.5645 115.792 77.0729 114.548 80.9335C113.07 85.1809 112.31 89.646 112.3 94.1444L112.232 94.3022ZM248.273 93.716C249.769 92.3567 251.718 91.6087 253.736 91.6194C255.374 91.639 256.976 92.1067 258.368 92.9721C259.437 93.616 260.394 94.4308 261.2 95.3843C263.497 98.0728 264.834 101.452 265 104.988V264.24C264.985 267.621 263.645 270.86 261.268 273.258C258.882 275.649 255.648 276.995 252.275 277H12.7251C9.35364 276.985 6.12339 275.641 3.73211 273.258C2.54617 272.077 1.60566 270.672 0.965038 269.124C0.324416 267.576 -0.00358532 265.916 2.95569e-05 264.24V104.988C0.168614 101.396 1.53873 97.9651 3.88948 95.249C4.71846 94.3624 5.67292 93.6028 6.72226 92.9946C8.07968 92.1683 9.63108 91.7172 11.2187 91.6871C12.8112 91.6612 14.3757 92.1083 15.7152 92.9721V6.1771C15.715 4.55433 16.3517 2.99668 17.4876 1.84081C18.6235 0.684933 20.1673 0.02369 21.7855 0L177.364 0C178.268 0.000796693 179.161 0.203524 179.978 0.593468C180.794 0.983412 181.514 1.55079 182.085 2.25442L246.497 68.9626C247.619 70.1043 248.249 71.6427 248.251 73.246V75.0269C248.251 75.2749 248.251 75.5229 248.251 75.7934C248.251 76.064 248.251 76.2894 248.251 76.5374V93.7386L248.273 93.716ZM127.048 209.074L100.923 185.674L12.3204 263.541V264.24C12.2817 264.334 12.2817 264.439 12.3204 264.533C12.4156 264.563 12.5175 264.563 12.6127 264.533H252.252C252.348 264.563 252.45 264.563 252.545 264.533C252.583 264.439 252.583 264.334 252.545 264.24V263.767L162.862 184.862L135.209 209.12C134.087 210.116 132.639 210.667 131.14 210.667C129.64 210.667 128.193 210.116 127.071 209.12L127.048 209.074ZM91.6832 177.513L12.3204 106.296V247.152L91.6832 177.4V177.513ZM252.657 247.535V106.228L172.193 176.724L252.657 247.422V247.535Z" fill="black"/>
+    </svg>
       <p>yeolde@walkervillebb.com</p>
-    </div>
+
+    </div> */}
+
+      <div class="first-line flex gap-2">
+          <svg width="30px" height="30px" viewBox="0 0 265 277" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M229.995 69.5713L175.34 12.9403V12.3767H27.9456V103.703L104.88 172.688L105.218 173.004L131.185 196.269L236.043 104.515V81.9705L230.107 69.5938L229.995 69.5713ZM144.022 64.1156L144.225 63.1913L145.484 57.6229H160.839L152.003 99.4197C151.846 100.164 151.689 100.84 151.576 101.449C151.36 102.504 151.225 103.574 151.172 104.65C151.132 105.411 151.363 106.162 151.824 106.769C152.029 106.997 152.278 107.181 152.556 107.309C152.835 107.437 153.136 107.506 153.442 107.513C155.533 107.513 158.254 106.138 161.559 103.41C165.159 100.264 168.101 96.4327 170.214 92.1379C172.445 87.7222 173.695 82.874 173.877 77.9274C174.06 72.9807 173.171 68.0532 171.271 63.4843C169.513 59.4028 166.907 55.7443 163.627 52.7533C160.019 49.583 155.814 47.1685 151.262 45.6519C145.891 43.8662 140.26 42.9974 134.602 43.0819C128.716 43.0294 122.857 43.8731 117.223 45.5843C112.223 47.1342 107.54 49.5699 103.397 52.7759C99.3502 55.9041 95.9517 59.7943 93.3919 64.2283C90.9753 68.3359 89.1582 72.7695 87.9961 77.3941C86.746 82.2081 86.1188 87.1634 86.1301 92.1379C86.0263 98.4687 87.3723 104.739 90.0645 110.466C92.6962 116.005 96.669 120.795 101.62 124.399C107.095 128.35 113.351 131.079 119.966 132.402C127.96 133.994 136.154 134.313 144.247 133.349C150.542 132.75 156.695 131.113 162.458 128.502C167.405 126.151 171.738 122.678 175.115 118.357H187.503C185.534 122.533 182.873 126.344 179.634 129.629C176.289 132.951 172.452 135.734 168.258 137.88C163.638 140.212 158.733 141.925 153.667 142.975C147.87 144.183 141.961 144.765 136.041 144.711C127.322 144.838 118.64 143.567 110.321 140.946C103.198 138.742 96.6228 135.046 91.0312 130.102C85.8491 125.445 81.7966 119.662 79.183 113.194C76.4589 106.294 75.1071 98.9269 75.2036 91.5067C75.1121 83.5231 76.5153 75.5931 79.3404 68.1284C81.96 61.0294 86.0637 54.5745 91.3761 49.1969C96.6886 43.8194 103.087 39.6436 110.141 36.9499C118.019 33.8675 126.416 32.3366 134.872 32.441C141.751 32.3655 148.594 33.4633 155.106 35.6874C160.942 37.7008 166.299 40.9014 170.844 45.0883C175.194 49.0954 178.623 54.0032 180.893 59.4715C183.226 65.2567 184.395 71.4473 184.333 77.6871C184.334 82.9094 183.39 88.0884 181.545 92.9721C179.716 97.9295 177.004 102.513 173.542 106.499C170.137 110.437 165.978 113.65 161.311 115.945C156.589 118.295 151.385 119.507 146.113 119.484C143.575 119.624 141.048 119.063 138.806 117.861C137.915 117.283 137.151 116.529 136.559 115.645C135.968 114.762 135.562 113.767 135.367 112.721C134.503 113.532 133.586 114.285 132.624 114.975C131.86 115.533 131.064 116.045 130.241 116.508C128.22 117.662 126.026 118.477 123.743 118.92C119.466 119.803 115.024 119.371 110.996 117.68C106.906 115.963 103.461 112.997 101.148 109.204C98.4917 104.742 97.1726 99.6082 97.3488 94.4149C97.3687 88.1937 98.702 82.0471 101.261 76.3796C103.745 70.6778 107.609 65.6876 112.502 61.8612C117.158 58.1498 122.944 56.1525 128.892 56.2026C131.822 56.0268 134.748 56.6256 137.375 57.9391C140.003 59.2525 142.241 61.2346 143.865 63.6872L144.135 64.1156H144.022ZM112.232 94.3022C111.986 98.1027 113.006 101.877 115.132 105.033C116.009 106.22 117.156 107.18 118.478 107.831C119.8 108.482 121.259 108.806 122.731 108.776C124.562 108.75 126.367 108.335 128.026 107.558C129.685 106.781 131.16 105.659 132.354 104.267C133.175 103.404 133.927 102.476 134.602 101.494C135.088 100.819 135.538 100.119 135.951 99.3972C137.073 97.4433 137.978 95.3719 138.649 93.2201C140.049 89.1082 140.808 84.8041 140.897 80.4601V80.3023C140.899 79.4288 140.854 78.5558 140.762 77.6871C140.654 76.6948 140.459 75.714 140.178 74.7564C139.703 73.1794 138.94 71.7042 137.93 70.4054C137.025 69.2232 135.854 68.2729 134.512 67.6325C133.099 66.9941 131.565 66.6711 130.016 66.6856C128.29 66.7023 126.585 67.0661 125.001 67.7554C123.418 68.4447 121.989 69.4454 120.798 70.6985C117.934 73.5645 115.792 77.0729 114.548 80.9335C113.07 85.1809 112.31 89.646 112.3 94.1444L112.232 94.3022ZM248.273 93.716C249.769 92.3567 251.718 91.6087 253.736 91.6194C255.374 91.639 256.976 92.1067 258.368 92.9721C259.437 93.616 260.394 94.4308 261.2 95.3843C263.497 98.0728 264.834 101.452 265 104.988V264.24C264.985 267.621 263.645 270.86 261.268 273.258C258.882 275.649 255.648 276.995 252.275 277H12.7251C9.35364 276.985 6.12339 275.641 3.73211 273.258C2.54617 272.077 1.60566 270.672 0.965038 269.124C0.324416 267.576 -0.00358532 265.916 2.95569e-05 264.24V104.988C0.168614 101.396 1.53873 97.9651 3.88948 95.249C4.71846 94.3624 5.67292 93.6028 6.72226 92.9946C8.07968 92.1683 9.63108 91.7172 11.2187 91.6871C12.8112 91.6612 14.3757 92.1083 15.7152 92.9721V6.1771C15.715 4.55433 16.3517 2.99668 17.4876 1.84081C18.6235 0.684933 20.1673 0.02369 21.7855 0L177.364 0C178.268 0.000796693 179.161 0.203524 179.978 0.593468C180.794 0.983412 181.514 1.55079 182.085 2.25442L246.497 68.9626C247.619 70.1043 248.249 71.6427 248.251 73.246V75.0269C248.251 75.2749 248.251 75.5229 248.251 75.7934C248.251 76.064 248.251 76.2894 248.251 76.5374V93.7386L248.273 93.716ZM127.048 209.074L100.923 185.674L12.3204 263.541V264.24C12.2817 264.334 12.2817 264.439 12.3204 264.533C12.4156 264.563 12.5175 264.563 12.6127 264.533H252.252C252.348 264.563 252.45 264.563 252.545 264.533C252.583 264.439 252.583 264.334 252.545 264.24V263.767L162.862 184.862L135.209 209.12C134.087 210.116 132.639 210.667 131.14 210.667C129.64 210.667 128.193 210.116 127.071 209.12L127.048 209.074ZM91.6832 177.513L12.3204 106.296V247.152L91.6832 177.4V177.513ZM252.657 247.535V106.228L172.193 176.724L252.657 247.422V247.535Z" fill="black"/>
+          </svg>
+          <a href="mailto:yeolde@walkervillebb.com">
+              yeolde@walkervillebb.com
+          </a>
+      </div>
+
   </div>
 </div>
 

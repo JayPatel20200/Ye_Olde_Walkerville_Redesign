@@ -20,7 +20,7 @@ export const Wedding = () => {
               <div className="p-10 m-auto mx-auto max-w-7xl" >
                 {/* <p className="mt-2 text-2xl">“Escape to the past” at Ye Olde Walkerville Bed & Breakfast</p> */}
                 
-                <p className="mt-2">For a unique and intimate wedding or special event, choose Ye Olde Walkerville B & B. 
+                <p className="mt-2">For a unique and intimate wedding or special event, choose Ye Olde Walkerville Bed & Breakfast. 
                 This 100 year-old Victorian Manor can accommodate up to 20 guests in a cozy and elegant setting. 
                 You can enjoy the exclusive use of the rear gazebo or the exquisite dining room, followed by a gourmet
                 buffet dinner and a warm guest reception.</p>
@@ -44,12 +44,15 @@ export const Wedding = () => {
     
     
     
-    <div className="form px-5 lg:p-20 bg-slate-400 rounded-lg mx-auto max-w-7xl my-10">
+    <div className="form px-5 lg:p-20 bg-slate-300 rounded-lg mx-auto max-w-7xl my-10">
     
       <div class="flex justify-center flex-col content-center px-12 text-center">
-        <h2 class="text-2xl/[29px] mb-2 pt-10">Wedding & Events Enquiry Form</h2>
-        <p>Please fill out the enquiry form. We will get back to you by phone or email as soon as possible. </p>
+      <h2 class="text-4xl font-semibold leading-7 text-gray-900 text-center mt-10">Wedding & Events Enquiry Form</h2>
+      <p class="mt-4 text-base leading-6 text-black">
+      Please fill out the enquiry form. We will get back to you within 12 hours via phone or email. 
+              </p>
       </div>
+      
               <form action="https://api.web3forms.com/submit" method="POST" className="p-5 lg:px-24">
                 <div className="mt-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                   <div className="col-span-full text-lg font-medium">
@@ -71,6 +74,22 @@ export const Wedding = () => {
                   {/* <p className="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p> */}
                 </div>
     
+                <br/><br/>
+
+      <div class="alert alert-danger col-md-12 col-xs-4 text-xs text-dark" role="alert">
+      <div className='flex gap-2'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-info-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+              <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+          </svg>
+          <p><strong>Please read carefully before you submit the form!</strong></p>
+      </div>
+            <li> We will get back to you within <strong>12 hours via phone or email</strong>.</li> 
+            <li> A credit card will be required at that time to secure your booking.</li>
+        
+      </div>
+
+
                 <div class="mt-6 flex items-center justify-end gap-x-6">
                 <button type="submit" className="rounded-md bg-red-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">Submit</button>
                 <button type="button" class="text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-400">Cancel</button>

@@ -64,7 +64,7 @@ h1, h2, nav, .font{
   font-weight: 400;
   font-style: normal;
 }
-p{
+p, li{
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -114,6 +114,7 @@ p{
   /* Navigation links */
   .nav-links li {
     margin: 0 15px; /* Adds spacing between links */
+    font-family: "Alice", serif;
   }
   
   .nav-links a {
@@ -141,4 +142,12 @@ p{
 
 #none-underline a:hover {
     color: rgb(239, 166, 166); 
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column; /* Align links vertically */
+        align-items: center; /* Center horizontally */
+    }
 }
