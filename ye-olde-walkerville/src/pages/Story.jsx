@@ -15,7 +15,7 @@ export const Story = () => {
     </div>
 <div className="flex justify-center content-center flex-wrap sm:flex-nowrap p-10">
   
-<div class="gallery">
+<div class="gallery" id="gallery">
   <h2 class="text-4xl text-center mb-10">Gallery</h2>
 <div class="flex justify-center">
 

@@ -46,7 +46,7 @@ const Footer = () => {
 <div class="menu flex flex-wrap gap-5 p-14">
 <p><Link to="/room">BOOK A ROOM</Link></p>
 <p><Link to="/wedding">WEDDING & EVENTS</Link></p>
-<p><Link to="/story">OUR STORY</Link></p>
+<p><Link to="/story#gallery">OUR STORY</Link></p>
 <p><Link to="/explore">EXPLORING WINDSOR</Link></p>
 <p><Link to="/contact">CONTACT</Link></p>
 </div>
