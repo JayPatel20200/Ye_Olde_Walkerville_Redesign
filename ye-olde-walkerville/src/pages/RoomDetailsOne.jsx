@@ -198,7 +198,7 @@ Sitting Area</span>
         </p>
   <form action="https://api.web3forms.com/submit" method="POST" className="p-5">
       <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-      <input type="hidden" name="access_key" value="4eb4630d-a053-46-ae-ad39-d5ba3fa25031" />
+      <input type="hidden" name="access_key" value="4eb4630d-a053-46ae-ad39-d5ba3fa25031" />
         <div class="sm:col-span-3">
           <label for="first-name" class="block text-lg font-medium leading-6 text-gray-900">First Name</label>
           <div class="mt-2">

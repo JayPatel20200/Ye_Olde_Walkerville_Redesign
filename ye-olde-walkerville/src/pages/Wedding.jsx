@@ -56,7 +56,7 @@ export const Wedding = () => {
               <form action="https://api.web3forms.com/submit" method="POST" className="p-5 lg:px-24">
                 <div className="mt-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                   <div className="col-span-full text-lg font-medium">
-                  <input type="hidden" name="access_key" value="aa0962c5-5a44-4bd3-bb08-15cfbb2899a9" />
+                  <input type="hidden" name="access_key" value="4eb4630d-a053-46ae-ad39-d5ba3fa25031" />
                     <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900 my-2">First Name</label>
                     <input type="text" name="first-name" id="first-name" autoComplete="given-name" className="block w-full rounded-md border py-2 text-gray-900 shadow-sm focus:ring-2 focus:ring-indigo-600 sm:text-sm px-3" />
                     <label htmlFor="last-name" className="block text-sm font-medium leading-6 text-gray-900 my-2">Last Name</label>
